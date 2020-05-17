@@ -11,13 +11,16 @@ x = 1280 - o_vsfelixsr.x;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 45C9DFB5
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "o_vsfelixsr.state"
 /// @DnDArgument : "expr_1" "-o_vsfelixsr.facing"
+/// @DnDArgument : "expr_2" "o_vsfelixsr.vsp"
 /// @DnDArgument : "var" "state"
 /// @DnDArgument : "var_1" "facing"
+/// @DnDArgument : "var_2" "vsp"
 state = o_vsfelixsr.state;
 facing = -o_vsfelixsr.facing;
+vsp = o_vsfelixsr.vsp;
 
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
@@ -26,6 +29,21 @@ facing = -o_vsfelixsr.facing;
 var l3B7B27E7_0 = state;
 switch(l3B7B27E7_0)
 {
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 0B7885C0
+	/// @DnDParent : 3B7B27E7
+	/// @DnDArgument : "const" "ps.WALK"
+	case ps.WALK:
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 5022970B
+		/// @DnDParent : 0B7885C0
+		/// @DnDArgument : "script" "anim"
+		/// @DnDSaveInfo : "script" "87c2e2e0-dd28-4f14-8f86-d2b2790f9eee"
+		script_execute(anim);
+		break;
+
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
 	/// @DnDHash : 048A5DF6
@@ -45,8 +63,8 @@ switch(l3B7B27E7_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A59E6CD
 	/// @DnDParent : 3B7B27E7
-	/// @DnDArgument : "const" "ps.WALK"
-	case ps.WALK:
+	/// @DnDArgument : "const" "ps.CLIMB"
+	case ps.CLIMB:
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 6DF5C3C3

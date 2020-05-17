@@ -64,6 +64,21 @@ switch(l3D12DFFC_0)
 		/// @DnDArgument : "value" "spr_climb"
 		/// @DnDArgument : "instvar" "10"
 		sprite_index = spr_climb;
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 58F067EA
+		/// @DnDParent : 21FE3E61
+		/// @DnDArgument : "var" "vsp"
+		if(vsp == 0)
+		{
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 3DCAF1D9
+			/// @DnDParent : 58F067EA
+			/// @DnDArgument : "instvar" "11"
+			image_index = 0;
+		}
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case

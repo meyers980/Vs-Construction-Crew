@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "270fcf56-28f2-45c9-96b4-460da7154097",
+            "Value": {
+                "id": "39da8474-1380-40f9-be2a-f70bb3c18e42",
+                "resourcePath": "scripts\\check_ground\\check_ground.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
             "Value": {
                 "id": "16093d8b-8c7a-4a42-9273-f907342baba8",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "8b554021-7f1e-4bea-975c-2d8194dd3de3",
+            "Value": {
+                "id": "12d0ae48-f32d-45ba-b557-eb1637e503e1",
+                "resourcePath": "sprites\\s_vsfelixshadow_climb\\s_vsfelixshadow_climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "956d67b5-dfe6-40b2-98f2-59d46c3dddcb",
             "Value": {
                 "id": "90bbb5bb-b8e9-4a91-85db-4b9c58883e57",
@@ -375,6 +391,14 @@
             }
         },
         {
+            "Key": "e960941e-9b3f-4512-8e67-5e229d145b40",
+            "Value": {
+                "id": "0ce0d14a-a6b9-4d82-a29d-8fc833855673",
+                "resourcePath": "sprites\\s_vsfelixsr_climb\\s_vsfelixsr_climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eec16b18-ce81-4da2-be75-66c523d98b8e",
             "Value": {
                 "id": "24fe2ec3-62f6-4f07-905b-7fe5c1ba9a10",
@@ -414,6 +438,7 @@
         "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
         "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
         "bde851bb-a417-49b9-8e75-9c9237588fc8",
+        "270fcf56-28f2-45c9-96b4-460da7154097",
         "d17af614-748d-4646-812e-89750a5099ba"
     ],
     "tutorial": ""

@@ -80,8 +80,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "spr_air",
+            "value": "s_vsfelixshadow_climb",
+            "varName": "spr_climb",
             "varType": 0
         },
         {
