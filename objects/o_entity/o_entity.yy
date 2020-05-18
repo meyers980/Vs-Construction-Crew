@@ -218,6 +218,20 @@
             "value": "room_speed * 0.1",
             "varName": "immune_time",
             "varType": 0
+        },
+        {
+            "id": "6d7a183a-e1f7-4d1b-a6b5-3c14ead251ee",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.3",
+            "varName": "personal_gravity",
+            "varType": 0
         }
     ],
     "solid": false,

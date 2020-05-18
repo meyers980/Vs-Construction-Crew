@@ -3,12 +3,12 @@
 /// @DnDHash : 31E361A0
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "hsp*drag"
-/// @DnDArgument : "expr_1" "global.grav"
+/// @DnDArgument : "expr_1" "personal_gravity"
 /// @DnDArgument : "expr_relative_1" "1"
 /// @DnDArgument : "var" "hsp"
 /// @DnDArgument : "var_1" "vsp"
 hsp = hsp*drag;
-vsp += global.grav;
+vsp += personal_gravity;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
