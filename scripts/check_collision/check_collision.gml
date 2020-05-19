@@ -136,7 +136,7 @@ if ((l616CB852_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 441A911F
+			/// @DnDHash : 52299E02
 			/// @DnDParent : 6A022317
 			/// @DnDArgument : "expr" "true"
 			/// @DnDArgument : "var" "collide"
@@ -144,7 +144,7 @@ if ((l616CB852_0 > 0))
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 5EF46FFC
+			/// @DnDHash : 30425851
 			/// @DnDParent : 6A022317
 			/// @DnDArgument : "var" "vsp"
 			vsp = 0;
