@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "5011644c-089e-4c55-80ca-858f663ef16e",
+            "Value": {
+                "id": "c871a4eb-618b-4de2-a479-0d12a8b76e45",
+                "resourcePath": "sprites\\s_vsfelixshadow_build\\s_vsfelixshadow_build.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
             "Value": {
                 "id": "0461f22d-3006-4c64-a15b-b92e2ec39f88",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "7a4fa32a-eb9e-40e4-8e8b-008ad8e885a9",
+            "Value": {
+                "id": "51d331d1-f004-46e5-a07c-99ffbef4a79e",
+                "resourcePath": "sprites\\s_vsfelixsr_build\\s_vsfelixsr_build.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "812ce2b3-b789-4692-96e0-039a4088b0ad",
             "Value": {
                 "id": "b1249915-7244-4bc4-8e71-420e8067f963",
@@ -276,6 +292,14 @@
                 "id": "6e0f3c47-ea9c-4836-85ec-db8108b64345",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ad04d172-149c-4547-8a79-3e1d36229457",
+            "Value": {
+                "id": "c11f7e74-b64d-48c3-828f-82d00818b8bf",
+                "resourcePath": "scripts\\check_groundclimb\\check_groundclimb.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -448,6 +472,7 @@
         "bde851bb-a417-49b9-8e75-9c9237588fc8",
         "b910ccc3-0806-4ee5-8eb3-cf820877760c",
         "270fcf56-28f2-45c9-96b4-460da7154097",
+        "ad04d172-149c-4547-8a79-3e1d36229457",
         "d17af614-748d-4646-812e-89750a5099ba"
     ],
     "tutorial": ""

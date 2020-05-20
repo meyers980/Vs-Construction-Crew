@@ -85,6 +85,20 @@
             "varType": 0
         },
         {
+            "id": "ef8e29a0-fdbf-48f2-9447-c2ccd180c84f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_vsfelixshadow_build",
+            "varName": "spr_build",
+            "varType": 0
+        },
+        {
             "id": "2c6e5027-9583-4418-89ae-08e3cbfd5880",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

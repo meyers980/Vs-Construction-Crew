@@ -55,8 +55,8 @@ switch(l3D12DFFC_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 21FE3E61
 	/// @DnDParent : 3D12DFFC
-	/// @DnDArgument : "const" "ps.CLIMB"
-	case ps.CLIMB:
+	/// @DnDArgument : "const" "ps.CLIMBUP"
+	case ps.CLIMBUP:
 		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 		/// @DnDVersion : 1
 		/// @DnDHash : 0DA84A90
@@ -79,6 +79,51 @@ switch(l3D12DFFC_0)
 			/// @DnDArgument : "instvar" "11"
 			image_index = 0;
 		}
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 22D0F78B
+	/// @DnDParent : 3D12DFFC
+	/// @DnDArgument : "const" "ps.CLIMBDOWN"
+	case ps.CLIMBDOWN:
+		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 365A5B8B
+		/// @DnDParent : 22D0F78B
+		/// @DnDArgument : "value" "spr_climb"
+		/// @DnDArgument : "instvar" "10"
+		sprite_index = spr_climb;
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5AC1CE20
+		/// @DnDParent : 22D0F78B
+		/// @DnDArgument : "var" "vsp"
+		if(vsp == 0)
+		{
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 40E8A77C
+			/// @DnDParent : 5AC1CE20
+			/// @DnDArgument : "instvar" "11"
+			image_index = 0;
+		}
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 04824773
+	/// @DnDParent : 3D12DFFC
+	/// @DnDArgument : "const" "ps.BUILD"
+	case ps.BUILD:
+		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 32599914
+		/// @DnDParent : 04824773
+		/// @DnDArgument : "value" "spr_build"
+		/// @DnDArgument : "instvar" "10"
+		sprite_index = spr_build;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
