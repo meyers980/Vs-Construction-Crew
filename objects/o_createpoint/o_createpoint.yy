@@ -1,8 +1,8 @@
 {
-    "id": "eec16b18-ce81-4da2-be75-66c523d98b8e",
+    "id": "cc856849-a255-4167-b590-e7c99730c810",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_semisolid",
+    "name": "o_createpoint",
     "eventList": [
         
     ],
