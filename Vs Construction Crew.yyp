@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "3a70c7ba-7021-441d-8013-5b2890e55e4f",
+            "Value": {
+                "id": "b4a028bd-bcc8-482e-b9d2-ed020eed1844",
+                "resourcePath": "scripts\\get_climbinput\\get_climbinput.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3ed30be6-3826-4450-8bca-dab7a517d6b3",
             "Value": {
                 "id": "bd945928-c94b-40be-a47a-1f41ab7621cd",
@@ -467,6 +475,7 @@
         "87c2e2e0-dd28-4f14-8f86-d2b2790f9eee",
         "6bdf7b36-c5cd-4653-a82c-26a75ae66e35",
         "460f66a2-bf89-4795-b5e3-6effe6f42c73",
+        "3a70c7ba-7021-441d-8013-5b2890e55e4f",
         "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
         "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
         "bde851bb-a417-49b9-8e75-9c9237588fc8",
