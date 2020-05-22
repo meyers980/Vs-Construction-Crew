@@ -155,7 +155,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_vsfelixsr_climb",
+            "value": "s_vsfelixjr_climb",
             "varName": "spr_climb",
             "varType": 0
         },

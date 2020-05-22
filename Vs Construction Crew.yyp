@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "cb2c3648-7bf0-4ae1-ba34-c5b0067b2f6d",
+            "Value": {
+                "id": "300263b6-fd19-4c40-9c48-5ee6a4aaaf18",
+                "resourcePath": "sprites\\s_vsfelixjr_climb\\s_vsfelixjr_climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc856849-a255-4167-b590-e7c99730c810",
             "Value": {
                 "id": "0824b139-d482-4f50-8970-5de4eba2dc88",
