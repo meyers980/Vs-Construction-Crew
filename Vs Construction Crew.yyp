@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "287dd416-aad0-4528-9f06-073c20ab4077",
+            "Value": {
+                "id": "5b6bb245-ff22-484e-a449-d33bb67ed254",
+                "resourcePath": "sprites\\s_dynamite_move\\s_dynamite_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
             "Value": {
                 "id": "16093d8b-8c7a-4a42-9273-f907342baba8",

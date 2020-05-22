@@ -13,6 +13,36 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+        },
+        {
+            "id": "22e3fd73-1281-426b-9bb8-cb8ba454c266",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 79,
+            "eventtype": 5,
+            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+        },
+        {
+            "id": "81b40ffe-3421-4c64-bbf9-4e7a5b106f45",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 73,
+            "eventtype": 5,
+            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+        },
+        {
+            "id": "45ed0775-bda6-4b42-be68-6a85d154f8bd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -44,6 +74,20 @@
             "resourceFilter": 1023,
             "value": "s_dynamite_idle",
             "varName": "spr_idle",
+            "varType": 0
+        },
+        {
+            "id": "cf9923ce-3eaa-4aee-9da0-9e926d1a981e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_dynamite_move",
+            "varName": "spr_walk",
             "varType": 0
         }
     ],
