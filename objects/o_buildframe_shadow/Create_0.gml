@@ -1,13 +1,6 @@
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 7052E9D0
-/// @DnDArgument : "script" "create_duplicate"
-/// @DnDSaveInfo : "script" "63c113fd-04f1-40c4-8fc4-da40844d8b9d"
-script_execute(create_duplicate);
-
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1
-/// @DnDHash : 54DD7CDE
+/// @DnDHash : 43E806C0
 /// @DnDArgument : "x1" "-5"
 /// @DnDArgument : "x1_relative" "1"
 /// @DnDArgument : "y1" "20"
@@ -19,19 +12,19 @@ script_execute(create_duplicate);
 /// @DnDArgument : "obj" "o_ladder"
 /// @DnDArgument : "shape" "1"
 /// @DnDSaveInfo : "obj" "dfd14274-9fed-4ff6-a013-7d61290f4552"
-var l54DD7CDE_0 = collision_rectangle(x + -5, y + 20, x + 5, y + 40, o_ladder, true, 1);
-if((l54DD7CDE_0))
+var l43E806C0_0 = collision_rectangle(x + -5, y + 20, x + 5, y + 40, o_ladder, true, 1);
+if((l43E806C0_0))
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 6F3FA023
-	/// @DnDParent : 54DD7CDE
+	/// @DnDHash : 0B7CF08D
+	/// @DnDParent : 43E806C0
 	instance_destroy();
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 6A9DEF59
-	/// @DnDParent : 54DD7CDE
+	/// @DnDHash : 248991D2
+	/// @DnDParent : 43E806C0
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "o_drywall"

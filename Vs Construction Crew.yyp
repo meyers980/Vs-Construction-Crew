@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0ff3f5f5-c3f9-4a29-afc7-b17dee8399b5",
+            "Value": {
+                "id": "f108e1bc-f1d5-4487-a0f4-826baf33e256",
+                "resourcePath": "objects\\o_buildframe_shadow\\o_buildframe_shadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16473759-4ea8-4b38-ae67-d252b8211c08",
             "Value": {
                 "id": "da7ad6f8-39d9-4c4e-9d6f-a4930b413281",
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "63c113fd-04f1-40c4-8fc4-da40844d8b9d",
+            "Value": {
+                "id": "8aab768c-d80b-44ad-ba4b-d49471f53a1b",
+                "resourcePath": "scripts\\create_duplicate\\create_duplicate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "66890345-b04d-4df9-baf3-a7dc78b2184f",
             "Value": {
                 "id": "82bd43e9-4a4e-4503-b430-ac9770318c63",
@@ -252,6 +268,14 @@
                 "id": "51d331d1-f004-46e5-a07c-99ffbef4a79e",
                 "resourcePath": "sprites\\s_vsfelixsr_build\\s_vsfelixsr_build.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7e2affb0-f06a-4dbd-8969-88222628e1fd",
+            "Value": {
+                "id": "b0528203-c981-4a3a-a560-2e6b08188df9",
+                "resourcePath": "objects\\o_ladder_shadow\\o_ladder_shadow.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -324,6 +348,14 @@
                 "id": "6e0f3c47-ea9c-4836-85ec-db8108b64345",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ad074cf7-6294-4952-ae41-4f1d70e1a22e",
+            "Value": {
+                "id": "6251a4c8-0212-4607-abcc-a21d069df772",
+                "resourcePath": "objects\\o_vsfelixjr\\o_vsfelixjr.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -431,6 +463,14 @@
             }
         },
         {
+            "Key": "dadb83a9-8b0e-4ccf-911d-8044b0e33d88",
+            "Value": {
+                "id": "78fa79df-e85f-4f46-90a3-1b342aa2bd2d",
+                "resourcePath": "scripts\\get_input2\\get_input2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dcd897d0-51fa-4e19-8f7a-3c3badc61884",
             "Value": {
                 "id": "921d5562-8729-4985-b92b-0d42f1d21183",
@@ -515,13 +555,15 @@
         "87c2e2e0-dd28-4f14-8f86-d2b2790f9eee",
         "6bdf7b36-c5cd-4653-a82c-26a75ae66e35",
         "460f66a2-bf89-4795-b5e3-6effe6f42c73",
+        "dadb83a9-8b0e-4ccf-911d-8044b0e33d88",
         "3a70c7ba-7021-441d-8013-5b2890e55e4f",
         "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
         "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
         "bde851bb-a417-49b9-8e75-9c9237588fc8",
         "b910ccc3-0806-4ee5-8eb3-cf820877760c",
         "270fcf56-28f2-45c9-96b4-460da7154097",
-        "d17af614-748d-4646-812e-89750a5099ba"
+        "d17af614-748d-4646-812e-89750a5099ba",
+        "63c113fd-04f1-40c4-8fc4-da40844d8b9d"
     ],
     "tutorial": ""
 }

@@ -1,10 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 7052E9D0
-/// @DnDArgument : "script" "create_duplicate"
-/// @DnDSaveInfo : "script" "63c113fd-04f1-40c4-8fc4-da40844d8b9d"
-script_execute(create_duplicate);
-
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1
 /// @DnDHash : 54DD7CDE

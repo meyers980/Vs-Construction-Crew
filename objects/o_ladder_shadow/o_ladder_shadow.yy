@@ -1,23 +1,23 @@
 {
-    "id": "16473759-4ea8-4b38-ae67-d252b8211c08",
+    "id": "7e2affb0-f06a-4dbd-8969-88222628e1fd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_buildframe",
+    "name": "o_ladder_shadow",
     "eventList": [
         {
-            "id": "7190a0e9-8c1e-40a8-9175-2c7ea786fa1b",
+            "id": "bcf3ffc6-058b-46df-877c-3b8ad8a005b0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "16473759-4ea8-4b38-ae67-d252b8211c08"
+            "m_owner": "7e2affb0-f06a-4dbd-8969-88222628e1fd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "dfd14274-9fed-4ff6-a013-7d61290f4552",
+    "parentObjectId": "daa5d9c0-6527-4185-b774-4729dbeb769a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d6e798e4-fa02-486c-a2b6-0264b154e4b3",
+    "spriteId": "40083704-accf-4683-91fa-8b0fcc215ad5",
     "visible": true
 }
