@@ -55,7 +55,7 @@
             "m_owner": "ad074cf7-6294-4952-ae41-4f1d70e1a22e"
         }
     ],
-    "maskSpriteId": "b7363b86-5203-4825-8121-5b65f496dcbd",
+    "maskSpriteId": "c5153d17-dafc-459d-8531-38a97f97dd2b",
     "overriddenProperties": [
         
     ],
@@ -113,7 +113,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_vsfelixsr_idle",
+            "value": "s_vsfelixjr_idle",
             "varName": "spr_idle",
             "varType": 0
         },
@@ -127,7 +127,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_vsfelixsr_move",
+            "value": "s_vsfelixjr_move",
             "varName": "spr_walk",
             "varType": 0
         },
@@ -169,12 +169,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_vsfelixsr_build",
+            "value": "s_vsfelixjr_build",
             "varName": "spr_build",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "b7363b86-5203-4825-8121-5b65f496dcbd",
+    "spriteId": "c5153d17-dafc-459d-8531-38a97f97dd2b",
     "visible": true
 }
