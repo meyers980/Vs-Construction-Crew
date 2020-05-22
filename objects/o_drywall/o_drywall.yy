@@ -1,23 +1,23 @@
 {
-    "id": "dfd14274-9fed-4ff6-a013-7d61290f4552",
+    "id": "4cb37350-5f56-41cc-b0bd-0fa7f1a51fc0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_ladder",
+    "name": "o_drywall",
     "eventList": [
         {
-            "id": "42e685f8-aad8-4999-9682-17f5209df0a9",
+            "id": "b1a90d89-1db9-4d17-93ce-b5007f625baa",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "16473759-4ea8-4b38-ae67-d252b8211c08",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "dfd14274-9fed-4ff6-a013-7d61290f4552"
+            "eventtype": 4,
+            "m_owner": "4cb37350-5f56-41cc-b0bd-0fa7f1a51fc0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "daa5d9c0-6527-4185-b774-4729dbeb769a",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "40083704-accf-4683-91fa-8b0fcc215ad5",
+    "spriteId": "04cb94b7-4d8e-417b-9aa5-45c9e7122e06",
     "visible": true
 }

@@ -15,10 +15,10 @@ if ((l6A0C11FC_0 > 0))
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos" "-80"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "o_ladder"
+	/// @DnDArgument : "objectid" "o_buildframe"
 	/// @DnDArgument : "layer" ""Materials_Back""
-	/// @DnDSaveInfo : "objectid" "dfd14274-9fed-4ff6-a013-7d61290f4552"
-	instance_create_layer(x + 0, y + -80, "Materials_Back", o_ladder);
+	/// @DnDSaveInfo : "objectid" "16473759-4ea8-4b38-ae67-d252b8211c08"
+	instance_create_layer(x + 0, y + -80, "Materials_Back", o_buildframe);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

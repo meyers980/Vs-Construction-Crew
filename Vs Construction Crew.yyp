@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "04cb94b7-4d8e-417b-9aa5-45c9e7122e06",
+            "Value": {
+                "id": "f8cfa592-ebdf-4b3e-97ed-4c81b20b2344",
+                "resourcePath": "sprites\\s_drywall\\s_drywall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09aabd12-8bba-4192-8355-52b60210e9c8",
             "Value": {
                 "id": "a89a1b72-d791-4afb-b39c-88bff240e976",
                 "resourcePath": "views\\09aabd12-8bba-4192-8355-52b60210e9c8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "16473759-4ea8-4b38-ae67-d252b8211c08",
+            "Value": {
+                "id": "da7ad6f8-39d9-4c4e-9d6f-a4930b413281",
+                "resourcePath": "objects\\o_buildframe\\o_buildframe.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -123,6 +139,14 @@
             "Value": {
                 "id": "8d4cbc6b-a4ea-49a8-93a2-7d5643ca400f",
                 "resourcePath": "objects\\o_game\\o_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4cb37350-5f56-41cc-b0bd-0fa7f1a51fc0",
+            "Value": {
+                "id": "5df1c0df-4be2-471b-b600-fc2e109400e5",
+                "resourcePath": "objects\\o_drywall\\o_drywall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -351,6 +375,14 @@
             }
         },
         {
+            "Key": "c64d8f77-f36b-4662-a426-61483c945dbf",
+            "Value": {
+                "id": "e6253fe1-6478-4f93-b805-343180015f75",
+                "resourcePath": "objects\\o_wrap\\o_wrap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc856849-a255-4167-b590-e7c99730c810",
             "Value": {
                 "id": "0824b139-d482-4f50-8970-5de4eba2dc88",
@@ -380,6 +412,14 @@
                 "id": "99f03b3c-dd21-4a7c-ab8f-b5113b45c987",
                 "resourcePath": "scripts\\check_semicollision\\check_semicollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d6e798e4-fa02-486c-a2b6-0264b154e4b3",
+            "Value": {
+                "id": "6a01341f-9e7e-4db9-ab55-48705e1ede8a",
+                "resourcePath": "sprites\\s_buildframe\\s_buildframe.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
