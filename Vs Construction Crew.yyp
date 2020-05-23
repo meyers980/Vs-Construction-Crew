@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "359c0a20-ec72-4d8b-98f6-26d99654aa8a",
+            "Value": {
+                "id": "7c4dfa69-9125-4c8d-b5dd-d624330d55e5",
+                "resourcePath": "sprites\\s_vsfelixsr_buildfacing\\s_vsfelixsr_buildfacing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3679991c-00a7-463f-a448-b89ecbe74277",
             "Value": {
                 "id": "afa4aaa3-6e88-4cd8-b766-9b82cae1d187",
@@ -151,14 +159,6 @@
             }
         },
         {
-            "Key": "42928e41-37b4-44a5-a510-b3e9fd669049",
-            "Value": {
-                "id": "fb658e77-a995-4e96-bb2e-6bf2f8303e07",
-                "resourcePath": "sprites\\s_vsfelixshadow_idle\\s_vsfelixshadow_idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "460f66a2-bf89-4795-b5e3-6effe6f42c73",
             "Value": {
                 "id": "760905fb-1b85-4961-b444-4814b8ed007d",
@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "5011644c-089e-4c55-80ca-858f663ef16e",
-            "Value": {
-                "id": "c871a4eb-618b-4de2-a479-0d12a8b76e45",
-                "resourcePath": "sprites\\s_vsfelixshadow_build\\s_vsfelixshadow_build.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
             "Value": {
                 "id": "0461f22d-3006-4c64-a15b-b92e2ec39f88",
@@ -207,6 +199,14 @@
             }
         },
         {
+            "Key": "5a2f9e64-151f-45fc-89eb-58b06a0fec6f",
+            "Value": {
+                "id": "7280ed3d-99e7-4806-b292-9c2710dd09d2",
+                "resourcePath": "sprites\\s_vsfelixjr_climbfacing\\s_vsfelixjr_climbfacing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a620df9-e99b-40e9-94ca-3dd5f6a17698",
             "Value": {
                 "id": "6df0d78d-1ce4-4f21-99e0-5ec242cfaff3",
@@ -218,7 +218,7 @@
             "Key": "5b74a28f-9f5a-4dd3-a0cc-8ad3f666a759",
             "Value": {
                 "id": "af4e14b2-82d9-4d63-aa22-05d6b5ee8509",
-                "resourcePath": "objects\\o_vsfelixshadow\\o_vsfelixshadow.yy",
+                "resourcePath": "objects\\o_vsfelixsrhadow\\o_vsfelixsrhadow.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -335,18 +335,18 @@
             }
         },
         {
-            "Key": "8b554021-7f1e-4bea-975c-2d8194dd3de3",
-            "Value": {
-                "id": "12d0ae48-f32d-45ba-b557-eb1637e503e1",
-                "resourcePath": "sprites\\s_vsfelixshadow_climb\\s_vsfelixshadow_climb.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8d784bf0-7bcc-4e73-8c00-760eaa01eefb",
             "Value": {
                 "id": "2b7b01a3-1535-4997-a477-b040c7aad17e",
                 "resourcePath": "sprites\\s_vsfelixjr_build\\s_vsfelixjr_build.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "902bb1fa-a327-4b2e-9438-7c0d8d80dd5c",
+            "Value": {
+                "id": "4dd88bc1-20ed-4369-bd57-8d44d9b5b2b4",
+                "resourcePath": "sprites\\s_vsfelixjr_buildfacing\\s_vsfelixjr_buildfacing.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -356,14 +356,6 @@
                 "id": "90bbb5bb-b8e9-4a91-85db-4b9c58883e57",
                 "resourcePath": "objects\\o_vsfelixsr\\o_vsfelixsr.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "97f935a1-868c-418d-ac8c-dbcf74496139",
-            "Value": {
-                "id": "052e5dd2-bb0f-4bab-a640-264c4ca8c66e",
-                "resourcePath": "sprites\\s_vsfelixshadow_move\\s_vsfelixshadow_move.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -604,6 +596,22 @@
                 "id": "d277c060-0718-48a5-91af-b9ad3646101b",
                 "resourcePath": "views\\f4bb2f1a-b0cd-4b42-b808-d586f94eade5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f8d711d8-7d05-454e-b94b-4e50b7fe944b",
+            "Value": {
+                "id": "1bfe379c-219b-4069-8b85-4f04200c7339",
+                "resourcePath": "objects\\o_vsfelixjrshadow\\o_vsfelixjrshadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fc9ed6df-9264-46c6-9d2d-93b24529ebb5",
+            "Value": {
+                "id": "d4687fb2-0435-4c7e-b5e8-3ed53f6bdb4b",
+                "resourcePath": "sprites\\s_vsfelixsr_climbfacing\\s_vsfelixsr_climbfacing.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
