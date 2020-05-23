@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1651dc63-aa38-472e-960d-d5e9bf84f97d",
+            "Value": {
+                "id": "a35e0673-c8d5-4d07-87ca-d211ebf80303",
+                "resourcePath": "sprites\\s_excavator_move\\s_excavator_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1730201b-c677-4613-8c72-fd2840649fc9",
             "Value": {
                 "id": "24ded5e5-c525-4857-887a-615d39b320fb",
@@ -92,6 +100,14 @@
                 "id": "5b6bb245-ff22-484e-a449-d33bb67ed254",
                 "resourcePath": "sprites\\s_dynamite_move\\s_dynamite_move.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf",
+            "Value": {
+                "id": "7767ffd4-fc89-49e3-b191-0b235b7655f3",
+                "resourcePath": "objects\\o_excavator\\o_excavator.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "7ca8e451-200a-4bc6-954c-c401993dda68",
+            "Value": {
+                "id": "851f49ae-379f-41da-9cfd-e240d4a49212",
+                "resourcePath": "sprites\\s_excavator_idle\\s_excavator_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e2affb0-f06a-4dbd-8969-88222628e1fd",
             "Value": {
                 "id": "b0528203-c981-4a3a-a560-2e6b08188df9",
@@ -316,6 +340,14 @@
                 "id": "7839c2fc-1023-4e43-ac5c-5a6b4cb9aed7",
                 "resourcePath": "views\\82e234b8-5e4f-4d7b-b446-50820e38c3d3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8368138a-f9f5-438c-bb8d-9bb16b9f76ad",
+            "Value": {
+                "id": "a0a59cfa-4944-4672-8e40-9231f91870bf",
+                "resourcePath": "scripts\\get_excavator_input\\get_excavator_input.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -620,6 +652,7 @@
         "6bdf7b36-c5cd-4653-a82c-26a75ae66e35",
         "460f66a2-bf89-4795-b5e3-6effe6f42c73",
         "dadb83a9-8b0e-4ccf-911d-8044b0e33d88",
+        "8368138a-f9f5-438c-bb8d-9bb16b9f76ad",
         "3a70c7ba-7021-441d-8013-5b2890e55e4f",
         "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
         "54c1ad95-819a-4ba1-8c60-0fa44e36a64a",
