@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 46471F34
 /// @DnDArgument : "var" "state"
-/// @DnDArgument : "value" "ps.CLIMBUP"
-if(state == ps.CLIMBUP)
+/// @DnDArgument : "value" "es.CLIMBUP"
+if(state == es.CLIMBUP)
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
@@ -20,8 +20,8 @@ if(state == ps.CLIMBUP)
 /// @DnDVersion : 1
 /// @DnDHash : 147A6288
 /// @DnDArgument : "var" "state"
-/// @DnDArgument : "value" "ps.CLIMBDOWN"
-if(state == ps.CLIMBDOWN)
+/// @DnDArgument : "value" "es.CLIMBDOWN"
+if(state == es.CLIMBDOWN)
 {
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
