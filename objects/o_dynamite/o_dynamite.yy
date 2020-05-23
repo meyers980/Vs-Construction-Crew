@@ -43,10 +43,29 @@
             "enumb": 79,
             "eventtype": 5,
             "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+        },
+        {
+            "id": "807a3e75-ae41-4b6d-a283-d3bcbca27fab",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "dfd14274-9fed-4ff6-a013-7d61290f4552",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
         }
     ],
     "maskSpriteId": "114f99be-1dbd-4bbb-bb40-6b27eb60647a",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "a3ccfe36-4ab1-4b09-afd1-148242896d10",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
+            "propertyId": "ad7a26c4-e3bd-4263-b74b-d6a62fff2521",
+            "value": "2"
+        }
+    ],
     "parentObjectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -88,6 +107,20 @@
             "resourceFilter": 1023,
             "value": "s_dynamite_move",
             "varName": "spr_walk",
+            "varType": 0
+        },
+        {
+            "id": "8412c62c-dec5-4f6c-9cc3-e84093e7e17e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_dynamite_move",
+            "varName": "spr_climb",
             "varType": 0
         }
     ],

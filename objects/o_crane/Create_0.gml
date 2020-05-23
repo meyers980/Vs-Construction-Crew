@@ -23,5 +23,9 @@ speed = 1.5;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 30F8371E
+/// @DnDInput : 2
 /// @DnDArgument : "steps" "90"
+/// @DnDArgument : "steps_1" "180"
+/// @DnDArgument : "alarm_1" "1"
 alarm_set(0, 90);
+alarm_set(1, 180);

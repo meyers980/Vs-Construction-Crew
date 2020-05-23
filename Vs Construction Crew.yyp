@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2f6676c3-0c05-49f9-8be1-3cf9cdb48a20",
+            "Value": {
+                "id": "347b8cba-8c27-40af-aa61-54edb70042d3",
+                "resourcePath": "scripts\\get_dynamite_input\\get_dynamite_input.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "359c0a20-ec72-4d8b-98f6-26d99654aa8a",
             "Value": {
                 "id": "7c4dfa69-9125-4c8d-b5dd-d624330d55e5",
@@ -702,6 +710,7 @@
         "460f66a2-bf89-4795-b5e3-6effe6f42c73",
         "dadb83a9-8b0e-4ccf-911d-8044b0e33d88",
         "8368138a-f9f5-438c-bb8d-9bb16b9f76ad",
+        "2f6676c3-0c05-49f9-8be1-3cf9cdb48a20",
         "3a70c7ba-7021-441d-8013-5b2890e55e4f",
         "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
         "043402a8-a1cd-4a4c-bb66-26337917061c",
