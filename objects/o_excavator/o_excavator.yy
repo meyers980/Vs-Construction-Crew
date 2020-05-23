@@ -98,6 +98,20 @@
             "value": "s_excavator_move",
             "varName": "spr_walk",
             "varType": 0
+        },
+        {
+            "id": "c9ad2a44-1920-4085-83d9-22e7243c76b8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_excavator_attack",
+            "varName": "spr_attack",
+            "varType": 0
         }
     ],
     "solid": false,
