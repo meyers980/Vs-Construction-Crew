@@ -1,61 +1,61 @@
 /// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 /// @DnDVersion : 1
-/// @DnDHash : 2B9C2F3B
-/// @DnDApplyTo : 956d67b5-dfe6-40b2-98f2-59d46c3dddcb
-/// @DnDArgument : "target" "srx"
+/// @DnDHash : 7155278D
+/// @DnDApplyTo : ad074cf7-6294-4952-ae41-4f1d70e1a22e
+/// @DnDArgument : "target" "jrx"
 /// @DnDArgument : "target_temp" "1"
-with(o_vsfelixsr) {
-var srx = x;
+with(o_vsfelixjr) {
+var jrx = x;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 685161C1
-/// @DnDArgument : "var" "srx"
+/// @DnDHash : 2547387B
+/// @DnDArgument : "var" "jrx"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "258"
-if(srx > 258)
+/// @DnDArgument : "value" "768"
+if(jrx > 768)
 {
 	/// @DnDAction : YoYo Games.Common.Apply_To
 	/// @DnDVersion : 1
-	/// @DnDHash : 54F854F9
+	/// @DnDHash : 630D7A00
 	/// @DnDApplyTo : other
-	/// @DnDParent : 685161C1
+	/// @DnDParent : 2547387B
 	with(other) {
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
-		/// @DnDHash : 3C7EE269
-		/// @DnDParent : 54F854F9
-		/// @DnDArgument : "x" "0"
+		/// @DnDHash : 0CF2187E
+		/// @DnDParent : 630D7A00
+		/// @DnDArgument : "x" "780"
 		/// @DnDArgument : "y" "0"
 		/// @DnDArgument : "y_relative" "1"
-		x = 0;
+		x = 780;
 		y += 0;
 	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0FB9B08D
-/// @DnDArgument : "var" "srx"
+/// @DnDHash : 340FB906
+/// @DnDArgument : "var" "jrx"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "257"
-if(srx < 257)
+/// @DnDArgument : "value" "767"
+if(jrx < 767)
 {
 	/// @DnDAction : YoYo Games.Common.Apply_To
 	/// @DnDVersion : 1
-	/// @DnDHash : 38A7A439
+	/// @DnDHash : 43D3310C
 	/// @DnDApplyTo : other
-	/// @DnDParent : 0FB9B08D
+	/// @DnDParent : 340FB906
 	with(other) {
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
-		/// @DnDHash : 2BA8454D
-		/// @DnDParent : 38A7A439
-		/// @DnDArgument : "x" "495"
+		/// @DnDHash : 00F2BB8E
+		/// @DnDParent : 43D3310C
+		/// @DnDArgument : "x" "1280"
 		/// @DnDArgument : "y" "0"
 		/// @DnDArgument : "y_relative" "1"
-		x = 495;
+		x = 1280;
 		y += 0;
 	}
 }
