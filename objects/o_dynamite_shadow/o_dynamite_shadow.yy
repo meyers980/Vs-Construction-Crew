@@ -45,7 +45,7 @@
             "m_owner": "dc42c994-c6cc-43a8-8dd8-c96c98ea3776"
         }
     ],
-    "maskSpriteId": "114f99be-1dbd-4bbb-bb40-6b27eb60647a",
+    "maskSpriteId": "f11ef98a-7bb7-4271-87cc-718ed6c8d481",
     "overriddenProperties": [
         {
             "id": "dbe7d35a-325f-4f40-85eb-e9339537098b",
@@ -81,7 +81,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_dynamite_idle",
+            "value": "s_dynamiteshadow_idle",
             "varName": "spr_idle",
             "varType": 0
         },
@@ -95,7 +95,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_dynamite_move",
+            "value": "s_dynamiteshadow_move",
             "varName": "spr_walk",
             "varType": 0
         },
@@ -115,6 +115,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "114f99be-1dbd-4bbb-bb40-6b27eb60647a",
+    "spriteId": "f11ef98a-7bb7-4271-87cc-718ed6c8d481",
     "visible": true
 }
