@@ -2,7 +2,7 @@
     "id": "fac5cc8c-9c40-4ba5-a7d8-f6f3a17faec5",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_dynamite_climbfacing",
+    "name": "s_dynamiteshadow_climbfacing",
     "For3D": false,
     "HTile": false,
     "VTile": false,

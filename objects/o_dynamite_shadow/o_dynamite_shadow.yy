@@ -109,8 +109,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_dynamite_climbfacing",
+            "value": "s_dynamiteshadow_climbfacing",
             "varName": "spr_climb",
+            "varType": 0
+        },
+        {
+            "id": "6527c35e-cfed-4973-80d9-afe8e3a03357",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_dynamiteshadow_attack",
+            "varName": "spr_attack",
             "varType": 0
         }
     ],

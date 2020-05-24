@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "323ac754-f5f4-4a11-b323-e38883971350",
+            "Value": {
+                "id": "2bfc720a-8f29-41d0-940d-792a4c628e02",
+                "resourcePath": "sprites\\s_dynamite_attack\\s_dynamite_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "359c0a20-ec72-4d8b-98f6-26d99654aa8a",
             "Value": {
                 "id": "7c4dfa69-9125-4c8d-b5dd-d624330d55e5",
@@ -211,6 +219,14 @@
             "Value": {
                 "id": "87c3a480-7e4e-4d1c-a949-9fc3ef87e440",
                 "resourcePath": "sprites\\s_ladder\\s_ladder.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4382a4a5-3c79-40e1-b107-698da531f4fa",
+            "Value": {
+                "id": "c41a074c-ed6a-41e5-b92c-e50afa449d54",
+                "resourcePath": "sprites\\s_explosion\\s_explosion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,6 +335,14 @@
             }
         },
         {
+            "Key": "695fc0e2-de30-43b5-896b-bb2def9684e2",
+            "Value": {
+                "id": "7e51ee95-fef9-4716-84ae-c404727e9265",
+                "resourcePath": "sprites\\s_dynamiteshadow_attack\\s_dynamiteshadow_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6ab7f601-44d9-47ad-90db-3c25ea0600fb",
             "Value": {
                 "id": "240b5434-5d19-4b51-bdce-0ec7e74e02d9",
@@ -343,11 +367,27 @@
             }
         },
         {
+            "Key": "726ffd21-f785-462e-9752-643942239261",
+            "Value": {
+                "id": "77ec246e-f3b4-400c-9d09-4721db606623",
+                "resourcePath": "objects\\o_explosionshadow\\o_explosionshadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "72e01c95-26c1-465e-aa2f-6d1bfeae6404",
             "Value": {
                 "id": "9ef3fcda-b4cb-4c37-9fa1-91b8054dc269",
                 "resourcePath": "sprites\\s_tilewrecking\\s_tilewrecking.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "73c5062d-59f5-47d7-ae28-51549e4692d7",
+            "Value": {
+                "id": "9e6be25a-467b-4f8d-9b67-081e8922ffc9",
+                "resourcePath": "objects\\o_explosion\\o_explosion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -679,6 +719,14 @@
             }
         },
         {
+            "Key": "df40f5e8-4438-4f5f-b4b8-8367af56ccc6",
+            "Value": {
+                "id": "ae48db41-486d-4b3d-843b-4e5649364f9c",
+                "resourcePath": "sprites\\s_explosionshadow\\s_explosionshadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dfd14274-9fed-4ff6-a013-7d61290f4552",
             "Value": {
                 "id": "8e7b7b4e-09bb-4fd7-85d5-045e9ca50018",
@@ -762,7 +810,7 @@
             "Key": "fac5cc8c-9c40-4ba5-a7d8-f6f3a17faec5",
             "Value": {
                 "id": "b9cc3cac-45c4-4566-ae85-70ad717fe329",
-                "resourcePath": "sprites\\s_dynamite_climbfacing\\s_dynamite_climbfacing.yy",
+                "resourcePath": "sprites\\s_dynamiteshadow_climbfacing\\s_dynamiteshadow_climbfacing.yy",
                 "resourceType": "GMSprite"
             }
         },

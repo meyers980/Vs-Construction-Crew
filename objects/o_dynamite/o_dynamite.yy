@@ -53,6 +53,16 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+        },
+        {
+            "id": "d934f399-8c8c-4927-9bc4-cbb18b8d9c70",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
         }
     ],
     "maskSpriteId": "114f99be-1dbd-4bbb-bb40-6b27eb60647a",
@@ -121,6 +131,20 @@
             "resourceFilter": 1023,
             "value": "s_dynamite_climb",
             "varName": "spr_climb",
+            "varType": 0
+        },
+        {
+            "id": "cee10ab3-acc0-4519-826c-9ee4de8df6b8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_dynamite_attack",
+            "varName": "spr_attack",
             "varType": 0
         }
     ],
