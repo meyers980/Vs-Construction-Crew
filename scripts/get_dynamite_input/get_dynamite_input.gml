@@ -132,11 +132,11 @@ if(x < 640)
 			/// @DnDHash : 076BBB3D
 			/// @DnDParent : 38CF29D5
 			/// @DnDArgument : "x_relative" "1"
-			/// @DnDArgument : "y" "55"
+			/// @DnDArgument : "y" "70"
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "object" "o_ladder"
 			/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
-			var l076BBB3D_0 = instance_place(x + 0, y + 55, o_ladder);
+			var l076BBB3D_0 = instance_place(x + 0, y + 70, o_ladder);
 			if ((l076BBB3D_0 > 0))
 			{
 				/// @DnDAction : YoYo Games.Common.Variable
