@@ -15,5 +15,5 @@ draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, facing, 1, 0, $FFFFFFFF
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-50"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""id""
-/// @DnDArgument : "var" "id"
+/// @DnDArgument : "caption" ""creator""
+/// @DnDArgument : "var" "dynamite"

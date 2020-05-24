@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1e5632b7-db93-4269-ba7e-e2c0dcd7aeaa",
+            "Value": {
+                "id": "a6e062b5-26c1-41de-949c-65a2cfe3de7e",
+                "resourcePath": "sprites\\s_dynamite_climb\\s_dynamite_climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "270fcf56-28f2-45c9-96b4-460da7154097",
             "Value": {
                 "id": "39da8474-1380-40f9-be2a-f70bb3c18e42",
@@ -607,6 +615,14 @@
             }
         },
         {
+            "Key": "dc42c994-c6cc-43a8-8dd8-c96c98ea3776",
+            "Value": {
+                "id": "f229c067-de04-448d-aad4-217bd8a40098",
+                "resourcePath": "objects\\o_dynamite_shadow\\o_dynamite_shadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dc6fe6de-f2a5-4169-8add-a1e06ea14011",
             "Value": {
                 "id": "88709674-d108-46f3-9885-d86e922201cb",
@@ -700,6 +716,14 @@
                 "id": "1bfe379c-219b-4069-8b85-4f04200c7339",
                 "resourcePath": "objects\\o_vsfelixjrshadow\\o_vsfelixjrshadow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fac5cc8c-9c40-4ba5-a7d8-f6f3a17faec5",
+            "Value": {
+                "id": "b9cc3cac-45c4-4566-ae85-70ad717fe329",
+                "resourcePath": "sprites\\s_dynamite_climbfacing\\s_dynamite_climbfacing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

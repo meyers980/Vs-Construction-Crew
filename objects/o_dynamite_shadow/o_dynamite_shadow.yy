@@ -1,64 +1,54 @@
 {
-    "id": "ba76aed6-044c-4188-90ee-863184a1cef9",
+    "id": "dc42c994-c6cc-43a8-8dd8-c96c98ea3776",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_dynamite",
+    "name": "o_dynamite_shadow",
     "eventList": [
         {
-            "id": "e5f54289-ce20-4f95-9c69-24fb608c573b",
+            "id": "51f95b34-9393-47ee-a48a-4b2cbcf9c1d3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+            "m_owner": "dc42c994-c6cc-43a8-8dd8-c96c98ea3776"
         },
         {
-            "id": "45ed0775-bda6-4b42-be68-6a85d154f8bd",
+            "id": "b6120473-b72b-4855-b62b-f06e290f0aaa",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+            "m_owner": "dc42c994-c6cc-43a8-8dd8-c96c98ea3776"
         },
         {
-            "id": "807a3e75-ae41-4b6d-a283-d3bcbca27fab",
+            "id": "564ec82e-e5ba-4844-968a-7f3140825a1e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "dfd14274-9fed-4ff6-a013-7d61290f4552",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+            "m_owner": "dc42c994-c6cc-43a8-8dd8-c96c98ea3776"
         },
         {
-            "id": "d335b482-eef7-4676-ae3f-c3ed4012a059",
+            "id": "bef36b24-3c6d-4c15-9414-457b6afbf1a2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 7,
-            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
-        },
-        {
-            "id": "b10eccd9-a285-4eaa-9fb7-d4fea4aa5d13",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ba76aed6-044c-4188-90ee-863184a1cef9"
+            "m_owner": "dc42c994-c6cc-43a8-8dd8-c96c98ea3776"
         }
     ],
     "maskSpriteId": "114f99be-1dbd-4bbb-bb40-6b27eb60647a",
     "overriddenProperties": [
         {
-            "id": "a3ccfe36-4ab1-4b09-afd1-148242896d10",
+            "id": "dbe7d35a-325f-4f40-85eb-e9339537098b",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
@@ -82,7 +72,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "3a2976d1-f61e-4c97-a0d4-642fe2e82aed",
+            "id": "81fcf8c0-4969-4357-83d1-409445972b45",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -96,7 +86,7 @@
             "varType": 0
         },
         {
-            "id": "cf9923ce-3eaa-4aee-9da0-9e926d1a981e",
+            "id": "88df6ecc-fe59-4a15-9858-19889132486b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -110,7 +100,7 @@
             "varType": 0
         },
         {
-            "id": "8412c62c-dec5-4f6c-9cc3-e84093e7e17e",
+            "id": "677529a5-8c69-44ba-89d2-f0f7af8b60ef",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -119,7 +109,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_dynamite_climb",
+            "value": "s_dynamite_climbfacing",
             "varName": "spr_climb",
             "varType": 0
         }
