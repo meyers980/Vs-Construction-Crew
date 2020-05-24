@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0441d88b-3990-4df2-8543-03ec36a6dde9",
+            "Value": {
+                "id": "3a5e4c94-a05c-4556-82c6-97271e921a96",
+                "resourcePath": "views\\0441d88b-3990-4df2-8543-03ec36a6dde9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "04cb94b7-4d8e-417b-9aa5-45c9e7122e06",
             "Value": {
                 "id": "f8cfa592-ebdf-4b3e-97ed-4c81b20b2344",
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "74396cde-f136-42c1-aa7d-474553c8bb90",
+            "Value": {
+                "id": "ced23565-7f48-4a6a-9777-a3b91d90747a",
+                "resourcePath": "scripts\\get_climbinput2\\get_climbinput2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "19730387-3dbc-440e-9ccf-b7545d581731",
@@ -460,6 +476,14 @@
                 "id": "a0a59cfa-4944-4672-8e40-9231f91870bf",
                 "resourcePath": "scripts\\get_excavator_input\\get_excavator_input.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "841c1c3b-327a-4288-addb-a04cd6981fc4",
+            "Value": {
+                "id": "e59d3398-b87a-4662-b1d1-5977f1a492bc",
+                "resourcePath": "views\\841c1c3b-327a-4288-addb-a04cd6981fc4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -695,6 +719,14 @@
             }
         },
         {
+            "Key": "cfd6c921-0383-45a0-aade-2db05de23974",
+            "Value": {
+                "id": "da6e773e-72b0-4923-a142-4f33fc494a4e",
+                "resourcePath": "sounds\\bgm_gameplay\\bgm_gameplay.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d17af614-748d-4646-812e-89750a5099ba",
             "Value": {
                 "id": "99f03b3c-dd21-4a7c-ab8f-b5113b45c987",
@@ -880,6 +912,7 @@
         "8368138a-f9f5-438c-bb8d-9bb16b9f76ad",
         "2f6676c3-0c05-49f9-8be1-3cf9cdb48a20",
         "3a70c7ba-7021-441d-8013-5b2890e55e4f",
+        "74396cde-f136-42c1-aa7d-474553c8bb90",
         "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
         "9cbc33d7-1351-4075-879b-240b31f519c3",
         "043402a8-a1cd-4a4c-bb66-26337917061c",

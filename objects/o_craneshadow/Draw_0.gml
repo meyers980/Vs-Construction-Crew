@@ -6,10 +6,9 @@ draw_self();
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 0647B22C
-/// @DnDArgument : "color" "$FFB1001D"
-draw_set_colour($FFB1001D & $ffffff);
-var l0647B22C_0=($FFB1001D >> 24);
-draw_set_alpha(l0647B22C_0 / $ff);
+/// @DnDArgument : "color" "$FFDB0000"
+/// @DnDArgument : "alpha" "false"
+draw_set_colour($FFDB0000 & $ffffff);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
 /// @DnDVersion : 1
