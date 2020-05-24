@@ -1,64 +1,34 @@
 {
-    "id": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf",
+    "id": "94a9335a-6644-4ec1-8dd4-b1ba31079555",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_excavator",
+    "name": "o_excavator_shadow",
     "eventList": [
         {
-            "id": "2c200c09-1490-4c1f-b775-ced2aff2aa51",
+            "id": "69f3f519-3820-455b-a2ca-decd29202208",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf"
+            "m_owner": "94a9335a-6644-4ec1-8dd4-b1ba31079555"
         },
         {
-            "id": "ce3407b0-c738-455b-92dd-4acb1a4b66fe",
+            "id": "ec44a3e8-ecb2-440c-91bd-006e67678740",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf"
-        },
-        {
-            "id": "0a77ee8e-57c0-40b9-ac1f-9f19619e7963",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf"
-        },
-        {
-            "id": "a289f29a-9340-4ce4-8cae-654ee8494157",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 7,
-            "m_owner": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf"
-        },
-        {
-            "id": "e69b30af-654f-4ff4-88fe-4b07e1469ed3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf"
+            "m_owner": "94a9335a-6644-4ec1-8dd4-b1ba31079555"
         }
     ],
-    "maskSpriteId": "7ca8e451-200a-4bc6-954c-c401993dda68",
+    "maskSpriteId": "3e052be3-e726-4ef4-a052-b8225d0bf6a2",
     "overriddenProperties": [
         {
-            "id": "a2542676-62af-472d-8348-1b2ec2854086",
+            "id": "d8a3b8e7-d52e-4dd1-9c21-d462803b91ec",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
@@ -82,7 +52,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "350af13d-e1fb-4808-aaa2-baf91270aa27",
+            "id": "2b5d36e2-07c5-44de-9c29-2594e98bd3e0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -91,12 +61,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_excavator_idle",
+            "value": "s_excavatorshadow_idle",
             "varName": "spr_idle",
             "varType": 0
         },
         {
-            "id": "ca5a2135-fb5e-408f-bb15-ad8d84b9f22a",
+            "id": "789a6388-c287-4fba-bdf6-4c818cfc5ea8",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -105,12 +75,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_excavator_move",
+            "value": "s_excavatorshadow_move",
             "varName": "spr_walk",
             "varType": 0
         },
         {
-            "id": "c9ad2a44-1920-4085-83d9-22e7243c76b8",
+            "id": "6a888ec0-5364-440a-8d09-e354b70183c2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -119,12 +89,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_excavator_attack",
+            "value": "s_excavatorshadow_attack",
             "varName": "spr_attack",
             "varType": 0
         },
         {
-            "id": "e596b37f-255a-4fd8-94a3-2f8f21ca13bb",
+            "id": "f9c725f9-f841-4aa4-b8af-d3bff9c76eac",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -133,12 +103,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_excavator_move",
+            "value": "s_excavatorshadow_move",
             "varName": "spr_escape",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "7ca8e451-200a-4bc6-954c-c401993dda68",
+    "spriteId": "3e052be3-e726-4ef4-a052-b8225d0bf6a2",
     "visible": true
 }

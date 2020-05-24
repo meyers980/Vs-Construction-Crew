@@ -144,9 +144,9 @@ switch(l3D12DFFC_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 0720DA07
 		/// @DnDParent : 210624AE
-		/// @DnDArgument : "value" "spr_walk"
+		/// @DnDArgument : "value" "spr_escape"
 		/// @DnDArgument : "instvar" "10"
-		sprite_index = spr_walk;
+		sprite_index = spr_escape;
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1

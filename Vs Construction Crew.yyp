@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "3e052be3-e726-4ef4-a052-b8225d0bf6a2",
+            "Value": {
+                "id": "385d5326-98e4-427f-8c61-5d6572235579",
+                "resourcePath": "sprites\\s_excavatorshadow_idle\\s_excavatorshadow_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ed30be6-3826-4450-8bca-dab7a517d6b3",
             "Value": {
                 "id": "bd945928-c94b-40be-a47a-1f41ab7621cd",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "80a90512-8dca-4f12-8895-7f694ce1e7e4",
+            "Value": {
+                "id": "f759c4fe-ebd3-4be7-9ee5-0ea0e72e6388",
+                "resourcePath": "objects\\o_craneshadow\\o_craneshadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "812ce2b3-b789-4692-96e0-039a4088b0ad",
             "Value": {
                 "id": "b1249915-7244-4bc4-8e71-420e8067f963",
@@ -487,6 +503,14 @@
             }
         },
         {
+            "Key": "94a9335a-6644-4ec1-8dd4-b1ba31079555",
+            "Value": {
+                "id": "df8b141f-7a13-44d9-b3fe-dd509f4107f1",
+                "resourcePath": "objects\\o_excavator_shadow\\o_excavator_shadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "94b07594-156f-49d9-ae43-a2146ee2aa60",
             "Value": {
                 "id": "5aa81901-8825-4828-a141-cb6034427ba4",
@@ -540,6 +564,14 @@
                 "id": "6251a4c8-0212-4607-abcc-a21d069df772",
                 "resourcePath": "objects\\o_vsfelixjr\\o_vsfelixjr.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ad2f5d88-e8d4-4cee-9f5d-fd4ae9358384",
+            "Value": {
+                "id": "584c8bd5-d169-4008-af53-17fd9439fc84",
+                "resourcePath": "sprites\\s_excavatorshadow_attack\\s_excavatorshadow_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -627,6 +659,14 @@
             "Value": {
                 "id": "300263b6-fd19-4c40-9c48-5ee6a4aaaf18",
                 "resourcePath": "sprites\\s_vsfelixjr_climb\\s_vsfelixjr_climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc42a956-4689-479f-b95c-db75d6b673ed",
+            "Value": {
+                "id": "df6d9ed0-c2a9-4a29-9989-ce50c7aa3721",
+                "resourcePath": "sprites\\s_excavatorshadow_move\\s_excavatorshadow_move.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -740,6 +780,14 @@
                 "id": "2b03c05c-c229-4108-9000-89f1434b80d2",
                 "resourcePath": "datafiles_yy\\ReleaseNotes.txt.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e175f7b3-1c4b-4981-b137-b980cd8d597e",
+            "Value": {
+                "id": "6a9e85dc-bed5-4ccd-a8a0-95d10be705d6",
+                "resourcePath": "sprites\\s_craneshadow\\s_craneshadow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,3 +1,28 @@
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 686A88CA
+/// @DnDArgument : "xpos" "1280 - x"
+/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "var" "shadow"
+/// @DnDArgument : "objectid" "o_craneshadow"
+/// @DnDArgument : "layer" ""Instances_Back""
+/// @DnDSaveInfo : "objectid" "80a90512-8dca-4f12-8895-7f694ce1e7e4"
+shadow = instance_create_layer(1280 - x, y + 0, "Instances_Back", o_craneshadow);
+
+/// @DnDAction : YoYo Games.Common.Apply_To
+/// @DnDVersion : 1
+/// @DnDHash : 39CE0C72
+/// @DnDApplyTo : shadow
+with(shadow) {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7B3EA46B
+	/// @DnDParent : 39CE0C72
+	/// @DnDArgument : "expr" "other.id"
+	/// @DnDArgument : "var" "shadowcrane"
+	shadowcrane = other.id;
+}
+
 /// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 73AAEA4B
