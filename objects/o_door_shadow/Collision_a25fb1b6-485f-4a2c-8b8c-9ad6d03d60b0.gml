@@ -21,13 +21,19 @@ if(state == ma.OPEN)
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 7467EF8A
+	/// @DnDHash : 4C29BE50
+	/// @DnDInput : 3
 	/// @DnDApplyTo : door
 	/// @DnDParent : 4C046691
-	/// @DnDArgument : "expr" "other.state"
-	/// @DnDArgument : "var" "state"
+	/// @DnDArgument : "expr_1" "ma.IDLE"
+	/// @DnDArgument : "expr_2" "1"
+	/// @DnDArgument : "var" "image_index"
+	/// @DnDArgument : "var_1" "state"
+	/// @DnDArgument : "var_2" "image_speed"
 	with(door) {
-	state = other.state;
+	image_index = 0;
+	state = ma.IDLE;
+	image_speed = 1;
 	
 	}
 
