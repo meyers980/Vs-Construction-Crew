@@ -71,6 +71,22 @@
             }
         },
         {
+            "Key": "0cfbbcf7-ee60-45c7-b52b-b422f3d6cb8f",
+            "Value": {
+                "id": "a99071c3-8057-4176-b14d-2dbb4c382d87",
+                "resourcePath": "views\\0cfbbcf7-ee60-45c7-b52b-b422f3d6cb8f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0fdd6595-9270-455d-984b-cbcb103c6da8",
+            "Value": {
+                "id": "0fde9b17-7d21-45cb-a237-169d717b9ab9",
+                "resourcePath": "sprites\\s_door_idle\\s_door_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ff3f5f5-c3f9-4a29-afc7-b17dee8399b5",
             "Value": {
                 "id": "f108e1bc-f1d5-4487-a0f4-826baf33e256",
@@ -447,6 +463,14 @@
             }
         },
         {
+            "Key": "7ef9412d-01e3-40a7-8038-8c49ca13d5aa",
+            "Value": {
+                "id": "352c7e00-f5d5-4f4f-833b-a91f824dedeb",
+                "resourcePath": "objects\\o_door_shadow\\o_door_shadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "80a90512-8dca-4f12-8895-7f694ce1e7e4",
             "Value": {
                 "id": "f759c4fe-ebd3-4be7-9ee5-0ea0e72e6388",
@@ -515,6 +539,14 @@
             "Value": {
                 "id": "2b7b01a3-1535-4997-a477-b040c7aad17e",
                 "resourcePath": "sprites\\s_vsfelixjr_build\\s_vsfelixjr_build.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8fba377e-70c1-41bf-b7a4-2a77790b2b54",
+            "Value": {
+                "id": "d21702eb-bd72-4d6d-bc12-41dc9ec21092",
+                "resourcePath": "sprites\\s_door_open\\s_door_open.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -883,6 +915,14 @@
             "Value": {
                 "id": "1bfe379c-219b-4069-8b85-4f04200c7339",
                 "resourcePath": "objects\\o_vsfelixjrshadow\\o_vsfelixjrshadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fa65aa94-76fa-4450-a385-314a81cd04dd",
+            "Value": {
+                "id": "e88c9aa9-6cec-49d8-9dc2-17c5e17db872",
+                "resourcePath": "objects\\o_door\\o_door.yy",
                 "resourceType": "GMObject"
             }
         },
