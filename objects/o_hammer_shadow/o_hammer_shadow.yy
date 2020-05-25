@@ -1,79 +1,49 @@
 {
-    "id": "ade14782-f264-48b6-8355-d1355b077369",
+    "id": "ed3de121-9591-4f0b-a40d-03f404e5bd0e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_hammer",
+    "name": "o_hammer_shadow",
     "eventList": [
         {
-            "id": "0d8656c1-c3ed-422c-8975-143c8ff1c181",
+            "id": "a3cae063-c283-461c-bfaa-47f0b9ed7bee",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "ade14782-f264-48b6-8355-d1355b077369"
+            "m_owner": "ed3de121-9591-4f0b-a40d-03f404e5bd0e"
         },
         {
-            "id": "622c157c-ebdd-41e4-8641-c8897d0efde9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "dfd14274-9fed-4ff6-a013-7d61290f4552",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ade14782-f264-48b6-8355-d1355b077369"
-        },
-        {
-            "id": "ff63def0-ace0-480f-99e2-f9009098e70a",
+            "id": "2a624a64-ec44-427d-810f-e4ce179022b8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "ade14782-f264-48b6-8355-d1355b077369"
+            "m_owner": "ed3de121-9591-4f0b-a40d-03f404e5bd0e"
         },
         {
-            "id": "42c0ce94-6061-47d1-a1d1-1bbf48295203",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "ade14782-f264-48b6-8355-d1355b077369"
-        },
-        {
-            "id": "348fa02d-7c2e-43be-be30-3693c38530c7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ade14782-f264-48b6-8355-d1355b077369"
-        },
-        {
-            "id": "f3ffdb09-0594-4064-88b6-0cb8d92ba935",
+            "id": "3cdb3497-405a-4a54-ae51-8704ece0fe6a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 7,
-            "m_owner": "ade14782-f264-48b6-8355-d1355b077369"
+            "m_owner": "ed3de121-9591-4f0b-a40d-03f404e5bd0e"
         }
     ],
-    "maskSpriteId": "917b9a2f-dcc8-441f-9837-d257e1717228",
+    "maskSpriteId": "cf4bd483-af3c-4dfd-bd77-87b5ace5f025",
     "overriddenProperties": [
         {
-            "id": "b4a65c72-ff5b-4f25-94c6-e9606c95139f",
+            "id": "df78b924-b1a6-4d78-ba07-01f37c7b6a91",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
             "propertyId": "ad7a26c4-e3bd-4263-b74b-d6a62fff2521",
-            "value": "2"
+            "value": "1.5"
         }
     ],
     "parentObjectId": "de2f53c7-6671-4edf-ac08-bba4883cc0d9",
@@ -92,7 +62,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "45f54a36-bdcb-4935-90fc-5bf1795d174b",
+            "id": "3f638aff-65c2-478b-9f30-2708eba70923",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -101,12 +71,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_hammer_idle",
+            "value": "s_hammershadow_idle",
             "varName": "spr_idle",
             "varType": 0
         },
         {
-            "id": "615a2960-e1ac-4dfe-8e56-0567d8390863",
+            "id": "8c8b17fa-ec9e-4a1f-9dba-1517738aacec",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -115,12 +85,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_hammer_move",
+            "value": "s_hammershadow_move",
             "varName": "spr_walk",
             "varType": 0
         },
         {
-            "id": "74ba5a9d-312d-4b2b-a6c8-af85725f8afb",
+            "id": "d01bcdbf-b902-4f9b-89b2-57ab5bddd4c4",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -129,12 +99,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_hammer_climb",
+            "value": "s_hammershadow_climb",
             "varName": "spr_climb",
             "varType": 0
         },
         {
-            "id": "e869f333-d09c-45b4-ae88-bbae46c01daf",
+            "id": "b6c8245b-5891-4c72-b8e2-7cb623cdd8cc",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -143,26 +113,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_hammer_move",
+            "value": "s_hammershadow_idle",
             "varName": "spr_attack",
-            "varType": 0
-        },
-        {
-            "id": "54323a51-99dc-4eab-95de-507a10576124",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "search",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "917b9a2f-dcc8-441f-9837-d257e1717228",
+    "spriteId": "cf4bd483-af3c-4dfd-bd77-87b5ace5f025",
     "visible": true
 }
