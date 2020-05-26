@@ -63,6 +63,16 @@
             "enumb": 0,
             "eventtype": 7,
             "m_owner": "ade14782-f264-48b6-8355-d1355b077369"
+        },
+        {
+            "id": "30aaac75-f984-4555-9dd3-7d1c96a24f31",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "ade14782-f264-48b6-8355-d1355b077369"
         }
     ],
     "maskSpriteId": "917b9a2f-dcc8-441f-9837-d257e1717228",
@@ -145,6 +155,20 @@
             "resourceFilter": 1023,
             "value": "s_hammer_move",
             "varName": "spr_attack",
+            "varType": 0
+        },
+        {
+            "id": "c8772ea0-0717-4980-ba94-5318a1c3b4f8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_hammer_climb",
+            "varName": "spr_escape",
             "varType": 0
         },
         {

@@ -116,6 +116,20 @@
             "value": "s_hammershadow_idle",
             "varName": "spr_attack",
             "varType": 0
+        },
+        {
+            "id": "182eeb9a-0059-426f-b55c-d3e248998301",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_hammershadow_climb",
+            "varName": "spr_escape",
+            "varType": 0
         }
     ],
     "solid": false,
