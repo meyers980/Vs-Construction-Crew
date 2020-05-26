@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0a9810e6-b9b0-466f-9726-722e7c1ef853",
+            "Value": {
+                "id": "38b89547-5ba9-498a-b743-3e2b30562714",
+                "resourcePath": "tilesets\\t_wreckingcrew_2\\t_wreckingcrew_2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "0cfbbcf7-ee60-45c7-b52b-b422f3d6cb8f",
             "Value": {
                 "id": "a99071c3-8057-4176-b14d-2dbb4c382d87",
@@ -156,6 +164,14 @@
                 "id": "39da8474-1380-40f9-be2a-f70bb3c18e42",
                 "resourcePath": "scripts\\check_ground\\check_ground.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "27d71a55-d84b-4a18-8a34-c12efdae274b",
+            "Value": {
+                "id": "f0e75a72-ecc4-4343-8336-9ba43b34bb9e",
+                "resourcePath": "sprites\\s_tilewrecking3\\s_tilewrecking3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -687,6 +703,14 @@
             }
         },
         {
+            "Key": "ac7cfadf-9744-4d25-84b7-0e37756d92de",
+            "Value": {
+                "id": "0587a6ed-ea10-4be3-88dd-3c7d08b3b047",
+                "resourcePath": "sprites\\s_tilewrecking1\\s_tilewrecking1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad074cf7-6294-4952-ae41-4f1d70e1a22e",
             "Value": {
                 "id": "6251a4c8-0212-4607-abcc-a21d069df772",
@@ -780,14 +804,6 @@
                 "id": "e9f9bc7e-208f-46cb-8e4d-9f06d90c93d4",
                 "resourcePath": "scripts\\notes\\notes.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "bfb26551-0a31-4ad0-9352-614bd8d87f90",
-            "Value": {
-                "id": "ce559222-c298-4286-93b3-bd530ac764fe",
-                "resourcePath": "sprites\\s_wreckingcrewlayout\\s_wreckingcrewlayout.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1007,6 +1023,14 @@
             }
         },
         {
+            "Key": "ec771e0d-287b-4c83-bb77-4dab508eb30c",
+            "Value": {
+                "id": "162d7e6a-8327-445c-8ca5-281642c21015",
+                "resourcePath": "objects\\o_start\\o_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ed3de121-9591-4f0b-a40d-03f404e5bd0e",
             "Value": {
                 "id": "d326c580-b9bc-4470-b758-a5c810c4eebb",
@@ -1047,6 +1071,14 @@
             }
         },
         {
+            "Key": "f76e5ce0-74d2-46ef-b53a-b7c32aaf45e7",
+            "Value": {
+                "id": "d85c8c56-6103-4457-8c27-4d8c7b760fa5",
+                "resourcePath": "objects\\o_admin_obj\\o_admin_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f8d711d8-7d05-454e-b94b-4e50b7fe944b",
             "Value": {
                 "id": "1bfe379c-219b-4069-8b85-4f04200c7339",
@@ -1071,11 +1103,27 @@
             }
         },
         {
+            "Key": "fc98ee44-2a88-4312-a231-0b785887fc68",
+            "Value": {
+                "id": "bb78a0d0-a3e1-415e-9e3f-8cb62112ca43",
+                "resourcePath": "tilesets\\t_wreckingcrew3\\t_wreckingcrew3.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "fc9ed6df-9264-46c6-9d2d-93b24529ebb5",
             "Value": {
                 "id": "d4687fb2-0435-4c7e-b5e8-3ed53f6bdb4b",
                 "resourcePath": "sprites\\s_vsfelixsr_climbfacing\\s_vsfelixsr_climbfacing.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff00802e-7154-4859-b4b6-36e7198156b9",
+            "Value": {
+                "id": "68d6cbc3-5a7c-4aaa-8038-b5df001cdee7",
+                "resourcePath": "rooms\\r_coin\\r_coin.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],

@@ -5,9 +5,9 @@
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "var" "shadow"
 /// @DnDArgument : "objectid" "o_door_shadow"
-/// @DnDArgument : "layer" ""Instances_Back""
+/// @DnDArgument : "layer" ""Materials_Back""
 /// @DnDSaveInfo : "objectid" "7ef9412d-01e3-40a7-8038-8c49ca13d5aa"
-shadow = instance_create_layer(1280 - x, y + 0, "Instances_Back", o_door_shadow);
+shadow = instance_create_layer(1280 - x, y + 0, "Materials_Back", o_door_shadow);
 
 /// @DnDAction : YoYo Games.Common.Apply_To
 /// @DnDVersion : 1
