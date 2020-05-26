@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "846d3d35-cc2a-4e17-8b76-8f310ec53a38",
+            "Value": {
+                "id": "7a1c073b-e047-48ed-80c1-4b09c600b70b",
+                "resourcePath": "sprites\\s_tilewrecking4\\s_tilewrecking4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "848cbc11-29c1-4e73-ae21-bb94169afa7e",
             "Value": {
                 "id": "de946b62-195a-4cb9-a793-36fd516b6aa1",
@@ -1124,6 +1132,14 @@
                 "id": "68d6cbc3-5a7c-4aaa-8038-b5df001cdee7",
                 "resourcePath": "rooms\\r_coin\\r_coin.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ff09c1f3-2d66-47ce-9992-797aa264db21",
+            "Value": {
+                "id": "a0edc17f-953b-42c3-8cf7-b584878e78ad",
+                "resourcePath": "tilesets\\t_wreckingcrew4\\t_wreckingcrew4.yy",
+                "resourceType": "GMTileSet"
             }
         }
     ],
