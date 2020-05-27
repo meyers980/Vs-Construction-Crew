@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "a7bb46a1-c620-47c9-950f-49f6d192259a",
+            "Value": {
+                "id": "54eb8a36-3bab-4d17-a342-2a69d1ee50b6",
+                "resourcePath": "sprites\\s_felixnames\\s_felixnames.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "6e0f3c47-ea9c-4836-85ec-db8108b64345",
