@@ -16,8 +16,8 @@ var jry = y;
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 12E8D72E
-/// @DnDArgument : "expr" "y < jry + 10 && y > jry - 10"
-if(y < jry + 10 && y > jry - 10)
+/// @DnDArgument : "expr" "y < jry + 5 && y > jry - 5"
+if(y < jry + 5 && y > jry - 5)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

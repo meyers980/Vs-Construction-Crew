@@ -74,7 +74,7 @@
             "Key": "0a9810e6-b9b0-466f-9726-722e7c1ef853",
             "Value": {
                 "id": "38b89547-5ba9-498a-b743-3e2b30562714",
-                "resourcePath": "tilesets\\t_wreckingcrew_2\\t_wreckingcrew_2.yy",
+                "resourcePath": "tilesets\\t_constructionmenu\\t_constructionmenu.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -170,7 +170,7 @@
             "Key": "27d71a55-d84b-4a18-8a34-c12efdae274b",
             "Value": {
                 "id": "f0e75a72-ecc4-4343-8336-9ba43b34bb9e",
-                "resourcePath": "sprites\\s_tilewrecking3\\s_tilewrecking3.yy",
+                "resourcePath": "sprites\\s_crew1\\s_crew1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -458,7 +458,7 @@
             "Key": "72e01c95-26c1-465e-aa2f-6d1bfeae6404",
             "Value": {
                 "id": "9ef3fcda-b4cb-4c37-9fa1-91b8054dc269",
-                "resourcePath": "sprites\\s_tilewrecking\\s_tilewrecking.yy",
+                "resourcePath": "sprites\\s_crew2\\s_crew2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -570,7 +570,7 @@
             "Key": "846d3d35-cc2a-4e17-8b76-8f310ec53a38",
             "Value": {
                 "id": "7a1c073b-e047-48ed-80c1-4b09c600b70b",
-                "resourcePath": "sprites\\s_tilewrecking4\\s_tilewrecking4.yy",
+                "resourcePath": "sprites\\s_crew0\\s_crew0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -714,7 +714,7 @@
             "Key": "ac7cfadf-9744-4d25-84b7-0e37756d92de",
             "Value": {
                 "id": "0587a6ed-ea10-4be3-88dd-3c7d08b3b047",
-                "resourcePath": "sprites\\s_tilewrecking1\\s_tilewrecking1.yy",
+                "resourcePath": "sprites\\s_constructionmenu\\s_constructionmenu.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1058,7 +1058,7 @@
             "Key": "f253062e-6265-4ed4-b1ed-f2332cdc80d2",
             "Value": {
                 "id": "7d359017-ec59-4d28-8218-acc5ab2689b2",
-                "resourcePath": "tilesets\\t_wreckingcrew\\t_wreckingcrew.yy",
+                "resourcePath": "tilesets\\t_crew2\\t_crew2.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -1114,7 +1114,7 @@
             "Key": "fc98ee44-2a88-4312-a231-0b785887fc68",
             "Value": {
                 "id": "bb78a0d0-a3e1-415e-9e3f-8cb62112ca43",
-                "resourcePath": "tilesets\\t_wreckingcrew3\\t_wreckingcrew3.yy",
+                "resourcePath": "tilesets\\t_crew1\\t_crew1.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -1138,7 +1138,7 @@
             "Key": "ff09c1f3-2d66-47ce-9992-797aa264db21",
             "Value": {
                 "id": "a0edc17f-953b-42c3-8cf7-b584878e78ad",
-                "resourcePath": "tilesets\\t_wreckingcrew4\\t_wreckingcrew4.yy",
+                "resourcePath": "tilesets\\t_crew0\\t_crew0.yy",
                 "resourceType": "GMTileSet"
             }
         }

@@ -1,8 +1,8 @@
 {
-    "id": "f253062e-6265-4ed4-b1ed-f2332cdc80d2",
+    "id": "0a9810e6-b9b0-466f-9726-722e7c1ef853",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "t_wreckingcrew",
+    "name": "t_constructionmenu",
     "auto_tile_sets": [
         
     ],
@@ -14,10 +14,10 @@
             
         ]
     },
-    "out_columns": 16,
+    "out_columns": 23,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
-    "spriteId": "72e01c95-26c1-465e-aa2f-6d1bfeae6404",
+    "spriteId": "ac7cfadf-9744-4d25-84b7-0e37756d92de",
     "sprite_no_export": true,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "tile_animation": {
@@ -542,7 +542,7 @@
         
     ],
     "tile_animation_speed": 15,
-    "tile_count": 256,
+    "tile_count": 512,
     "tileheight": 16,
     "tilehsep": 0,
     "tilevsep": 0,
