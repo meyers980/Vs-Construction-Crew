@@ -8,3 +8,10 @@
 /// @DnDArgument : "layer" ""Instances_Back""
 /// @DnDSaveInfo : "objectid" "f8d711d8-7d05-454e-b94b-4e50b7fe944b"
 instance_create_layer(x + -1280, y + 0, "Instances_Back", o_vsfelixjrshadow);
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 530979AC
+/// @DnDArgument : "lives" "2"
+
+__dnd_lives = real(2);

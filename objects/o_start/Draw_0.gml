@@ -34,8 +34,8 @@ if(global.coins == 1)
 	/// @DnDParent : 7555711C
 	/// @DnDArgument : "x" "257"
 	/// @DnDArgument : "y" "304"
-	/// @DnDArgument : "caption" ""P R E S S  1  S T A R T""
-	draw_text(257, 304, string("P R E S S  1  S T A R T") + "");
+	/// @DnDArgument : "caption" ""P R E S S \n1  S T A R T""
+	draw_text(257, 304, string("P R E S S \n1  S T A R T") + "");
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -52,6 +52,6 @@ if(global.coins > 1)
 	/// @DnDParent : 76209F67
 	/// @DnDArgument : "x" "257"
 	/// @DnDArgument : "y" "304"
-	/// @DnDArgument : "caption" ""P R E S S  1  O R  2  S T A R T""
-	draw_text(257, 304, string("P R E S S  1  O R  2  S T A R T") + "");
+	/// @DnDArgument : "caption" ""P R E S S \n1  O R  2  S T A R T""
+	draw_text(257, 304, string("P R E S S \n1  O R  2  S T A R T") + "");
 }

@@ -15,7 +15,9 @@
         "7a4fa32a-eb9e-40e4-8e8b-008ad8e885a9",
         "359c0a20-ec72-4d8b-98f6-26d99654aa8a",
         "8d784bf0-7bcc-4e73-8c00-760eaa01eefb",
-        "902bb1fa-a327-4b2e-9438-7c0d8d80dd5c"
+        "902bb1fa-a327-4b2e-9438-7c0d8d80dd5c",
+        "ae80e11e-0ea1-4049-81bc-7ccc9ad50251",
+        "0b6135ae-add0-43cd-85ec-2c608ae5d59b"
     ],
     "filterType": "GMSprite",
     "folderName": "g_felix",
