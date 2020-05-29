@@ -83,6 +83,26 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "956d67b5-dfe6-40b2-98f2-59d46c3dddcb"
+        },
+        {
+            "id": "9f8bc530-093d-4c12-9e92-80cc4f58716b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "94b07594-156f-49d9-ae43-a2146ee2aa60",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "956d67b5-dfe6-40b2-98f2-59d46c3dddcb"
+        },
+        {
+            "id": "2b22ca20-c50e-4a8a-86fd-44ab4bfa5751",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "956d67b5-dfe6-40b2-98f2-59d46c3dddcb"
         }
     ],
     "maskSpriteId": "b7363b86-5203-4825-8121-5b65f496dcbd",
@@ -201,6 +221,20 @@
             "resourceFilter": 1023,
             "value": "s_vsfelixsr_build",
             "varName": "spr_build",
+            "varType": 0
+        },
+        {
+            "id": "126b58a7-bca3-46e7-8315-946cf47eb11c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_vsfelixsr_invul",
+            "varName": "spr_invul",
             "varType": 0
         }
     ],

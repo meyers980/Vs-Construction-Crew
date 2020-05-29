@@ -99,6 +99,20 @@
             "varType": 0
         },
         {
+            "id": "2fc2a5ab-78cd-4fec-8e7a-0492b984dfcc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_vsfelixjr_invul",
+            "varName": "spr_invul",
+            "varType": 0
+        },
+        {
             "id": "26195e01-a36e-4acb-b8dd-935c2bc08e1b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

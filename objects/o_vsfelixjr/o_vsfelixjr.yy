@@ -63,6 +63,46 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "ad074cf7-6294-4952-ae41-4f1d70e1a22e"
+        },
+        {
+            "id": "b9dc3819-53ce-49ac-8bbd-5f524d125411",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "ade14782-f264-48b6-8355-d1355b077369",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ad074cf7-6294-4952-ae41-4f1d70e1a22e"
+        },
+        {
+            "id": "2e77790b-7f0c-42d2-90a0-e8c8d3937c61",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "ad074cf7-6294-4952-ae41-4f1d70e1a22e"
+        },
+        {
+            "id": "edab2f2b-bffb-4931-969b-66a16cf76042",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "94b07594-156f-49d9-ae43-a2146ee2aa60",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ad074cf7-6294-4952-ae41-4f1d70e1a22e"
+        },
+        {
+            "id": "ac0e04a6-84ea-4c6a-9049-06a7437ca3d6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "ad074cf7-6294-4952-ae41-4f1d70e1a22e"
         }
     ],
     "maskSpriteId": "c5153d17-dafc-459d-8531-38a97f97dd2b",
@@ -181,6 +221,20 @@
             "resourceFilter": 1023,
             "value": "s_vsfelixjr_build",
             "varName": "spr_build",
+            "varType": 0
+        },
+        {
+            "id": "02561893-9505-454f-96d0-5a6730924e21",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_vsfelixjr_invul",
+            "varName": "spr_invul",
             "varType": 0
         }
     ],
