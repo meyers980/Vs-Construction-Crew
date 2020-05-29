@@ -1,17 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 49F45D73
-/// @DnDInput : 3
-/// @DnDArgument : "expr" "door.state"
-/// @DnDArgument : "expr_1" "door.image_speed"
-/// @DnDArgument : "expr_2" "door.image_index"
-/// @DnDArgument : "var" "state"
-/// @DnDArgument : "var_1" "image_speed"
-/// @DnDArgument : "var_2" "image_index"
-state = door.state;
-image_speed = door.image_speed;
-image_index = door.image_index;
-
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
 /// @DnDHash : 42EDF6CF

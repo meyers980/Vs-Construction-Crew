@@ -384,9 +384,9 @@ switch(l7036B229_0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 629F049B
 			/// @DnDParent : 5E76653B
-			/// @DnDArgument : "steps" "120"
+			/// @DnDArgument : "steps" "180"
 			/// @DnDArgument : "alarm" "1"
-			alarm_set(1, 120);
+			alarm_set(1, 180);
 		}
 		break;
 
