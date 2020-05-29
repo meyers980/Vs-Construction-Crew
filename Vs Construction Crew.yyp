@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "28afe682-26a6-452c-a6b4-e042edfd2dd5",
+            "Value": {
+                "id": "66b3fc46-669c-4286-9cdd-3993fe347751",
+                "resourcePath": "objects\\o_ladder_invis\\o_ladder_invis.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "291c8f7e-3d54-4b0d-aa01-3b46b4f5accf",
             "Value": {
                 "id": "7767ffd4-fc89-49e3-b191-0b235b7655f3",
