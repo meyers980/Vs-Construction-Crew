@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "2ac58aeb-20b7-4d47-864d-b18585d2fa8c",
+            "Value": {
+                "id": "bd92b149-089d-4288-b53a-7e7dc4a6073f",
+                "resourcePath": "scripts\\create_2doors\\create_2doors.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2c562733-fa0d-4dc4-b088-1fc5bd14a27d",
             "Value": {
                 "id": "16093d8b-8c7a-4a42-9273-f907342baba8",
@@ -615,6 +623,14 @@
             }
         },
         {
+            "Key": "7e2c2136-8f8a-4b20-b1ee-d1f27db33415",
+            "Value": {
+                "id": "ef4cdac1-652b-4f51-a4b6-a44be5488da8",
+                "resourcePath": "scripts\\create_drywallperlevel\\create_drywallperlevel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7ef9412d-01e3-40a7-8038-8c49ca13d5aa",
             "Value": {
                 "id": "352c7e00-f5d5-4f4f-833b-a91f824dedeb",
@@ -868,6 +884,14 @@
                 "id": "6f854d54-278a-4703-a549-8b70a277457a",
                 "resourcePath": "objects\\o_hammer\\o_hammer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ae09dd86-94ac-403d-a153-91ec16b85a20",
+            "Value": {
+                "id": "bc3bab00-3a6f-499b-b9c2-e4f3279916d8",
+                "resourcePath": "scripts\\create_framesperlevel\\create_framesperlevel.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1344,6 +1368,9 @@
         "270fcf56-28f2-45c9-96b4-460da7154097",
         "d17af614-748d-4646-812e-89750a5099ba",
         "283faa95-70f8-4deb-a7a1-59c21e2ae03f",
+        "2ac58aeb-20b7-4d47-864d-b18585d2fa8c",
+        "ae09dd86-94ac-403d-a153-91ec16b85a20",
+        "7e2c2136-8f8a-4b20-b1ee-d1f27db33415",
         "63c113fd-04f1-40c4-8fc4-da40844d8b9d",
         "dc6fe6de-f2a5-4169-8add-a1e06ea14011",
         "e36ca228-882a-4522-9a83-6744abf2b19a",

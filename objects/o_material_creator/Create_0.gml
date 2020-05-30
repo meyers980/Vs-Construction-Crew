@@ -51,3 +51,24 @@ ds_list_add(y_build_coords, 48, 128, 208, 288, 368);
 /// @DnDArgument : "script" "create_4ladders"
 /// @DnDSaveInfo : "script" "283faa95-70f8-4deb-a7a1-59c21e2ae03f"
 script_execute(create_4ladders);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 5EBDDD4D
+/// @DnDArgument : "script" "create_2doors"
+/// @DnDSaveInfo : "script" "2ac58aeb-20b7-4d47-864d-b18585d2fa8c"
+script_execute(create_2doors);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 7562EB35
+/// @DnDArgument : "script" "create_framesperlevel"
+/// @DnDSaveInfo : "script" "ae09dd86-94ac-403d-a153-91ec16b85a20"
+script_execute(create_framesperlevel);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 1F5C49E1
+/// @DnDArgument : "script" "create_drywallperlevel"
+/// @DnDSaveInfo : "script" "7e2c2136-8f8a-4b20-b1ee-d1f27db33415"
+script_execute(create_drywallperlevel);

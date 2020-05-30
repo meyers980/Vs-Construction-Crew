@@ -7,6 +7,15 @@
 /// @DnDArgument : "max" "13"
 var x_list_item = floor(random_range(0, 13 + 1));
 
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 1CA8620F
+/// @DnDArgument : "var" "x_list_item"
+/// @DnDArgument : "var_temp" "1"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "max" "13"
+var x_list_item = floor(random_range(0, 13 + 1));
+
 /// @DnDAction : YoYo Games.Data Structures.List_Get_At
 /// @DnDVersion : 1
 /// @DnDHash : 787D53CF
