@@ -113,6 +113,20 @@
             "varType": 0
         },
         {
+            "id": "fd468517-de6c-4f50-bc68-0a27b5b9811f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_vsfelixsr_stun",
+            "varName": "spr_stun",
+            "varType": 0
+        },
+        {
             "id": "2c6e5027-9583-4418-89ae-08e3cbfd5880",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

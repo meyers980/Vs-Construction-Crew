@@ -128,6 +128,21 @@ switch(l3D12DFFC_0)
 
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
+	/// @DnDHash : 50F51D31
+	/// @DnDParent : 3D12DFFC
+	/// @DnDArgument : "const" "ps.STUN"
+	case ps.STUN:
+		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 538D24FB
+		/// @DnDParent : 50F51D31
+		/// @DnDArgument : "value" "spr_stun"
+		/// @DnDArgument : "instvar" "10"
+		sprite_index = spr_stun;
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
 	/// @DnDHash : 217D0BEF
 	/// @DnDParent : 3D12DFFC
 	/// @DnDArgument : "const" "ps.INVUL"
