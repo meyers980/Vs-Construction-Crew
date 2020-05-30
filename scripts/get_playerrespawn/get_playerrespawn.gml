@@ -78,4 +78,70 @@ else
 	/// @DnDArgument : "y" "240"
 	x = 640;
 	y = 240;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 22DB0BD4
+	/// @DnDParent : 1E0CCBAB
+	/// @DnDArgument : "var" "global.numberofplayers"
+	/// @DnDArgument : "value" "1"
+	if(global.numberofplayers == 1)
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 2F495EE1
+		/// @DnDParent : 22DB0BD4
+		/// @DnDArgument : "room" "r_enterscore"
+		/// @DnDSaveInfo : "room" "419583cf-9d4f-4c47-a976-e80151b035df"
+		room_goto(r_enterscore);
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 761D4CAF
+	/// @DnDParent : 1E0CCBAB
+	else
+	{
+		/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 4E6BD88E
+		/// @DnDApplyTo : 956d67b5-dfe6-40b2-98f2-59d46c3dddcb
+		/// @DnDParent : 761D4CAF
+		/// @DnDArgument : "target" "srlives"
+		/// @DnDArgument : "target_temp" "1"
+		/// @DnDArgument : "instvar" "26"
+		with(o_vsfelixsr) {
+		var srlives = variable_instance_exists(id, "__dnd_lives") ? __dnd_lives : 0;
+		}
+	
+		/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 50A5EDBC
+		/// @DnDApplyTo : ad074cf7-6294-4952-ae41-4f1d70e1a22e
+		/// @DnDParent : 761D4CAF
+		/// @DnDArgument : "target" "jrlives"
+		/// @DnDArgument : "target_temp" "1"
+		/// @DnDArgument : "instvar" "26"
+		with(o_vsfelixjr) {
+		var jrlives = variable_instance_exists(id, "__dnd_lives") ? __dnd_lives : 0;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 14924BAD
+		/// @DnDParent : 761D4CAF
+		/// @DnDArgument : "var" "srlives + jrlives"
+		/// @DnDArgument : "op" "3"
+		/// @DnDArgument : "value" "-2"
+		if(srlives + jrlives <= -2)
+		{
+			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+			/// @DnDVersion : 1
+			/// @DnDHash : 29860EAE
+			/// @DnDParent : 14924BAD
+			/// @DnDArgument : "room" "r_enterscore"
+			/// @DnDSaveInfo : "room" "419583cf-9d4f-4c47-a976-e80151b035df"
+			room_goto(r_enterscore);
+		}
+	}
 }
