@@ -22,8 +22,8 @@ if ((l2D7EE7BA_0 > 0))
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 0B30C1E2
-	/// @DnDDisabled : 1
 	/// @DnDParent : 2D7EE7BA
+	instance_destroy();
 }
 
 /// @DnDAction : YoYo Games.Common.Else
