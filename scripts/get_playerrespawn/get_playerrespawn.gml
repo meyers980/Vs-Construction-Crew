@@ -62,5 +62,20 @@ if(__dnd_lives > -1)
 /// @DnDHash : 1E0CCBAB
 else
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7CF5F926
+	/// @DnDParent : 1E0CCBAB
+	/// @DnDArgument : "expr" "ps.DEAD"
+	/// @DnDArgument : "var" "state"
+	state = ps.DEAD;
 
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 52076A20
+	/// @DnDParent : 1E0CCBAB
+	/// @DnDArgument : "x" "640"
+	/// @DnDArgument : "y" "240"
+	x = 640;
+	y = 240;
 }

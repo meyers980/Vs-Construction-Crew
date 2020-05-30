@@ -127,6 +127,20 @@
             "varType": 0
         },
         {
+            "id": "2e48f091-23b7-4ee0-9f5c-602dbcd0e41a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_vsfelixsr_dead",
+            "varName": "spr_dead",
+            "varType": 0
+        },
+        {
             "id": "2c6e5027-9583-4418-89ae-08e3cbfd5880",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
