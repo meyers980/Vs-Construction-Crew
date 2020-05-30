@@ -136,7 +136,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "s_vsfelixsr_dead",
+            "value": "s_vsfelixsr_idle",
             "varName": "spr_dead",
             "varType": 0
         },

@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0f1e54a4-eb06-46a5-9771-d423c23dfa15",
+            "Value": {
+                "id": "a9b6c361-c444-41ec-8a91-763594b0cf89",
+                "resourcePath": "sounds\\sfx_stun\\sfx_stun.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0fdd6595-9270-455d-984b-cbcb103c6da8",
             "Value": {
                 "id": "0fde9b17-7d21-45cb-a237-169d717b9ab9",

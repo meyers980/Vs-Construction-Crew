@@ -22,5 +22,13 @@ if(!(state == ps.STUN))
 		/// @DnDArgument : "expr" "ps.STUN"
 		/// @DnDArgument : "var" "state"
 		state = ps.STUN;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 3D93C080
+		/// @DnDParent : 26A71843
+		/// @DnDArgument : "soundid" "sfx_stun"
+		/// @DnDSaveInfo : "soundid" "0f1e54a4-eb06-46a5-9771-d423c23dfa15"
+		audio_play_sound(sfx_stun, 0, 0);
 	}
 }
