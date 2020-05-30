@@ -1,1 +1,1 @@
-view_set_wport(1, 514);
+var xbuild = ds_list_find_value(x_build_coords, 0);
