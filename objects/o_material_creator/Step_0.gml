@@ -11,9 +11,9 @@ var drywall_count = instance_number(o_drywall);
 /// @DnDVersion : 1
 /// @DnDHash : 6FF3DD9D
 /// @DnDArgument : "var" "drywall_count"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "100"
-if(drywall_count > 100)
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "136"
+if(drywall_count >= 136)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
