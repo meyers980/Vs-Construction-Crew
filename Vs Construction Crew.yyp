@@ -399,11 +399,27 @@
             }
         },
         {
+            "Key": "4e6a1dd8-b501-4313-a9b6-6f79797ce6f2",
+            "Value": {
+                "id": "a150b506-fbf2-4747-ae43-55a9664f8ffc",
+                "resourcePath": "scripts\\check_finish_level\\check_finish_level.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "52883506-4561-482c-b72f-092b3735d9da",
             "Value": {
                 "id": "e7738e63-9a27-480a-9e5a-f593e78ef88b",
                 "resourcePath": "views\\52883506-4561-482c-b72f-092b3735d9da.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "53dd5a4e-e28a-4521-abf9-17b1629b835c",
+            "Value": {
+                "id": "7e83ebb6-4e8d-40d3-87e9-eecda4bb1695",
+                "resourcePath": "fonts\\level_font\\level_font.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -476,6 +492,14 @@
                 "id": "038dfee1-8ae1-4dfc-8554-5733e08be1fc",
                 "resourcePath": "views\\5c99cfc3-27de-4f22-9a02-f6cc0421a6bb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "604423f4-aca7-456c-8464-c5280846f1b8",
+            "Value": {
+                "id": "7f9997a8-5af5-420d-ab56-d7aff96f5df3",
+                "resourcePath": "objects\\o_level_display\\o_level_display.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1295,6 +1319,14 @@
             }
         },
         {
+            "Key": "f8d266f5-9377-44e6-bc0d-f4986e41f86d",
+            "Value": {
+                "id": "acc109d3-0842-46af-9691-53655856fa1e",
+                "resourcePath": "scripts\\destroy_enemies\\destroy_enemies.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f8d711d8-7d05-454e-b94b-4e50b7fe944b",
             "Value": {
                 "id": "1bfe379c-219b-4069-8b85-4f04200c7339",
@@ -1388,7 +1420,9 @@
         "e513da26-af35-482d-b0ae-59c90599a0e0",
         "d0412349-ce7d-4a37-baca-8a2a61784cf4",
         "bf7915c8-800c-41c3-a918-45a41287bcb2",
-        "1e14dc38-47de-446f-a5a4-4c8e214d9fa1"
+        "1e14dc38-47de-446f-a5a4-4c8e214d9fa1",
+        "4e6a1dd8-b501-4313-a9b6-6f79797ce6f2",
+        "f8d266f5-9377-44e6-bc0d-f4986e41f86d"
     ],
     "tutorial": ""
 }

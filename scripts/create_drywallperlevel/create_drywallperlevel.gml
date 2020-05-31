@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
 /// @DnDHash : 10335DD2
-/// @DnDArgument : "times" "15 - global.level"
-repeat(15 - global.level)
+/// @DnDArgument : "times" "25 - global.level"
+repeat(25 - global.level)
 {
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1

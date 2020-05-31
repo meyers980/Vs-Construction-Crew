@@ -15,20 +15,39 @@ var drywall_count = instance_number(o_drywall);
 /// @DnDArgument : "value" "136"
 if(drywall_count >= 136)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
-	/// @DnDHash : 771C19F5
+	/// @DnDHash : 5054C759
+	/// @DnDApplyTo : f76e5ce0-74d2-46ef-b53a-b7c32aaf45e7
 	/// @DnDParent : 6FF3DD9D
-	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "global.level"
-	global.level += 1;
-
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-	/// @DnDVersion : 1
-	/// @DnDHash : 4931F36D
-	/// @DnDParent : 6FF3DD9D
-	/// @DnDArgument : "room" "room1"
-	/// @DnDSaveInfo : "room" "a050639d-0dbf-4762-8972-c12ff3c7bf15"
-	room_goto(room1);
+	/// @DnDArgument : "expr" "alarm[0]<1"
+	with(o_admin_obj) var l5054C759_0 = alarm[0]<1;
+	if(l5054C759_0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 78B35C39
+		/// @DnDApplyTo : f76e5ce0-74d2-46ef-b53a-b7c32aaf45e7
+		/// @DnDParent : 5054C759
+		/// @DnDArgument : "steps" "180"
+		with(o_admin_obj) {
+		alarm_set(0, 180);
+		
+		}
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 42CA51CA
+		/// @DnDDisabled : 1
+		/// @DnDParent : 5054C759
+		/// @DnDArgument : "soundid" "Level_Complete"
+	
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 0074BA56
+		/// @DnDParent : 5054C759
+		/// @DnDArgument : "script" "destroy_enemies"
+		script_execute(destroy_enemies);
+	}
 }
