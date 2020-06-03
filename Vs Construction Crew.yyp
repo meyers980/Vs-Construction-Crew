@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "4ac16879-ee4a-463c-9b97-8c4343f761a7",
+            "Value": {
+                "id": "45e3abb5-740f-431e-a28e-c33e6a37d105",
+                "resourcePath": "sounds\\bgm_gamestart\\bgm_gamestart.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4c2e7323-f839-483e-b798-462ccd8b86a3",
             "Value": {
                 "id": "8d4cbc6b-a4ea-49a8-93a2-7d5643ca400f",
@@ -396,14 +404,6 @@
                 "id": "29f98736-fb98-4ead-9f77-918b636d4d2b",
                 "resourcePath": "objects\\o_enemy_creator\\o_enemy_creator.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4e6a1dd8-b501-4313-a9b6-6f79797ce6f2",
-            "Value": {
-                "id": "a150b506-fbf2-4747-ae43-55a9664f8ffc",
-                "resourcePath": "scripts\\check_finish_level\\check_finish_level.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -831,6 +831,14 @@
             }
         },
         {
+            "Key": "9ba0d838-6401-4cb1-ac9d-39d051212956",
+            "Value": {
+                "id": "a41b5dea-e43e-45ec-8799-cd33acffeff0",
+                "resourcePath": "sounds\\bgm_mainplay\\bgm_mainplay.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9cbc33d7-1351-4075-879b-240b31f519c3",
             "Value": {
                 "id": "c58160a1-f82c-483a-ba43-5b80c5a8528a",
@@ -908,6 +916,14 @@
                 "id": "584c8bd5-d169-4008-af53-17fd9439fc84",
                 "resourcePath": "sprites\\s_excavatorshadow_attack\\s_excavatorshadow_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "adab6500-7ba9-4d8a-bbbd-beb95316fde5",
+            "Value": {
+                "id": "79230881-baf2-4062-9f9f-7ea979dd857e",
+                "resourcePath": "sounds\\sfx_leveltransition\\sfx_leveltransition.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1007,6 +1023,14 @@
             }
         },
         {
+            "Key": "bb6767db-748e-4d63-a46a-300c9b0e6162",
+            "Value": {
+                "id": "508bd51c-9f4f-45c2-b7f7-a88a986d5e82",
+                "resourcePath": "sounds\\sfx_climbladderdown\\sfx_climbladderdown.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bde851bb-a417-49b9-8e75-9c9237588fc8",
             "Value": {
                 "id": "8d15c5d6-633b-473c-a1bc-96eb2acdfc0c",
@@ -1028,6 +1052,14 @@
                 "id": "36d3452a-97d5-4935-a9c3-a279a2d3891b",
                 "resourcePath": "views\\c2a7dfe8-87ff-4f94-9390-fb3c674e95b2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c391bd61-1b5b-47e4-849a-548299b3e90a",
+            "Value": {
+                "id": "a43c92bd-8b4c-4427-a91f-2f9ea3557359",
+                "resourcePath": "sounds\\sfx_climbladderup\\sfx_climbladderup.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1335,6 +1367,14 @@
             }
         },
         {
+            "Key": "f935a77d-fd25-4b6d-a5b6-fd20663cae93",
+            "Value": {
+                "id": "34e0b02a-9922-42bb-a6d2-5d4aee4f1e5d",
+                "resourcePath": "sounds\\sfx_playerwalk\\sfx_playerwalk.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "fa65aa94-76fa-4450-a385-314a81cd04dd",
             "Value": {
                 "id": "e88c9aa9-6cec-49d8-9dc2-17c5e17db872",
@@ -1421,7 +1461,6 @@
         "d0412349-ce7d-4a37-baca-8a2a61784cf4",
         "bf7915c8-800c-41c3-a918-45a41287bcb2",
         "1e14dc38-47de-446f-a5a4-4c8e214d9fa1",
-        "4e6a1dd8-b501-4313-a9b6-6f79797ce6f2",
         "f8d266f5-9377-44e6-bc0d-f4986e41f86d"
     ],
     "tutorial": ""

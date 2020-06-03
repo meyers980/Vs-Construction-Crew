@@ -38,16 +38,17 @@ if(drywall_count >= 136)
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1
 		/// @DnDHash : 42CA51CA
-		/// @DnDDisabled : 1
 		/// @DnDParent : 5054C759
-		/// @DnDArgument : "soundid" "Level_Complete"
-	
+		/// @DnDArgument : "soundid" "sfx_leveltransition"
+		/// @DnDSaveInfo : "soundid" "adab6500-7ba9-4d8a-bbbd-beb95316fde5"
+		audio_play_sound(sfx_leveltransition, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 0074BA56
 		/// @DnDParent : 5054C759
 		/// @DnDArgument : "script" "destroy_enemies"
+		/// @DnDSaveInfo : "script" "f8d266f5-9377-44e6-bc0d-f4986e41f86d"
 		script_execute(destroy_enemies);
 	}
 }
