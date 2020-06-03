@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "1bec3962-e098-4f8b-bcef-840430dc7d41",
+            "Value": {
+                "id": "1841c82d-f487-42f9-8060-7c5fdc37f9c6",
+                "resourcePath": "sounds\\sfx_1coin\\sfx_1coin.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1e14dc38-47de-446f-a5a4-4c8e214d9fa1",
             "Value": {
                 "id": "b6a4feef-f4fc-46c6-82a9-b78383edf1cd",
@@ -996,6 +1004,14 @@
                 "id": "22384afa-8642-4858-9be7-687f14178ab7",
                 "resourcePath": "sprites\\s_crane\\s_crane.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b8fbf359-ea69-41dc-a03e-6c60189de87a",
+            "Value": {
+                "id": "588c467a-9124-4856-9ad7-1a1570d91001",
+                "resourcePath": "sounds\\sfx_2coin\\sfx_2coin.yy",
+                "resourceType": "GMSound"
             }
         },
         {

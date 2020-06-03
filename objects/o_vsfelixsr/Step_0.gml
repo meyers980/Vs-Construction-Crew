@@ -58,6 +58,14 @@ switch(l7036B229_0)
 		/// @DnDArgument : "script" "anim"
 		/// @DnDSaveInfo : "script" "87c2e2e0-dd28-4f14-8f86-d2b2790f9eee"
 		script_execute(anim);
+	
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 0C07BF60
+		/// @DnDParent : 288AA232
+		/// @DnDArgument : "soundid" "sfx_playerwalk"
+		/// @DnDSaveInfo : "soundid" "f935a77d-fd25-4b6d-a5b6-fd20663cae93"
+		audio_stop_sound(sfx_playerwalk);
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case

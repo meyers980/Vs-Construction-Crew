@@ -240,9 +240,9 @@ switch(l207ACA2D_0)
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 1E522196
 			/// @DnDParent : 42BC12F9
-			/// @DnDArgument : "script" "check_state_dynamite"
-			/// @DnDSaveInfo : "script" "9cbc33d7-1351-4075-879b-240b31f519c3"
-			script_execute(check_state_dynamite);
+			/// @DnDArgument : "script" "check_state_hammer"
+			/// @DnDSaveInfo : "script" "848cbc11-29c1-4e73-ae21-bb94169afa7e"
+			script_execute(check_state_hammer);
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
