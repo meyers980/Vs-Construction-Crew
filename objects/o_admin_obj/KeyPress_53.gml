@@ -14,6 +14,12 @@ global.coins += 1;
 /// @DnDArgument : "value" "2"
 if(global.coins < 2)
 {
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 07439B37
+	/// @DnDParent : 51E27D04
+	audio_stop_all();
+
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 7BC11B27
@@ -28,13 +34,11 @@ if(global.coins < 2)
 /// @DnDHash : 556700DC
 else
 {
-	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDVersion : 1
-	/// @DnDHash : 14AB54D4
+	/// @DnDHash : 735CFB11
 	/// @DnDParent : 556700DC
-	/// @DnDArgument : "soundid" "sfx_1coin"
-	/// @DnDSaveInfo : "soundid" "1bec3962-e098-4f8b-bcef-840430dc7d41"
-	audio_stop_sound(sfx_1coin);
+	audio_stop_all();
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1

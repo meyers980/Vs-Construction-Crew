@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "06505764-0f85-40d8-ab58-79dde7f99e93",
+            "Value": {
+                "id": "79b60485-814b-485d-a203-9336dfca4bf1",
+                "resourcePath": "sounds\\bgn_open\\bgn_open.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "06beb609-4716-4607-95fc-c06847969602",
             "Value": {
                 "id": "b11344ad-b889-40eb-9677-1afd73c3029c",
@@ -212,6 +220,14 @@
                 "id": "a6e062b5-26c1-41de-949c-65a2cfe3de7e",
                 "resourcePath": "sprites\\s_dynamite_climb\\s_dynamite_climb.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "24b4d64b-385e-417a-b8b0-b8864caa12fd",
+            "Value": {
+                "id": "95eb4519-045d-44fb-a11b-bbab505bcabd",
+                "resourcePath": "views\\24b4d64b-385e-417a-b8b0-b8864caa12fd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -831,19 +847,19 @@
             }
         },
         {
+            "Key": "968400dd-5b68-4acb-bf8b-d1cf13f44e6c",
+            "Value": {
+                "id": "0a7ca587-7f10-4c49-a84e-4a0057887dff",
+                "resourcePath": "sounds\\sfx_build2\\sfx_build2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "99babcd9-7c18-42f2-b930-0e3b5ea89e36",
             "Value": {
                 "id": "95731cab-20b2-46a3-ab6b-a2b289bb419f",
                 "resourcePath": "sprites\\s_hammer_move\\s_hammer_move.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9ba0d838-6401-4cb1-ac9d-39d051212956",
-            "Value": {
-                "id": "a41b5dea-e43e-45ec-8799-cd33acffeff0",
-                "resourcePath": "sounds\\bgm_mainplay\\bgm_mainplay.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -871,11 +887,27 @@
             }
         },
         {
+            "Key": "a0cea515-6005-4b60-b9d4-d5e41139483f",
+            "Value": {
+                "id": "d70dde98-6cca-4567-9b13-cb879957b911",
+                "resourcePath": "sounds\\sfx_build4\\sfx_build4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a55a2969-00bd-417e-bbd7-b79f8157291a",
             "Value": {
                 "id": "ce528ad3-fe6e-4144-9744-ecaf02b4f0ee",
                 "resourcePath": "views\\a55a2969-00bd-417e-bbd7-b79f8157291a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a6ec1f33-c593-470d-9d81-3be8f8945301",
+            "Value": {
+                "id": "f8e82699-f50f-42b2-89c4-c6d01763688a",
+                "resourcePath": "sounds\\sfx_dynamiteexplode\\sfx_dynamiteexplode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -980,6 +1012,14 @@
                 "id": "2aeb7668-70b1-4625-8d39-ce3bd4b20c07",
                 "resourcePath": "sprites\\s_hammershadow_climb\\s_hammershadow_climb.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b70e7923-4385-4f88-b965-45cb04763b63",
+            "Value": {
+                "id": "210db86c-5621-4de6-8793-5742364b74d6",
+                "resourcePath": "sounds\\sfx_build3\\sfx_build3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1100,6 +1140,14 @@
                 "id": "e9618469-3fb3-40c3-bc87-2efbeb7bd15a",
                 "resourcePath": "scripts\\check_playerstun\\check_playerstun.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c9ce106b-6d7a-4647-a6ea-a1029eb468ca",
+            "Value": {
+                "id": "9365f6a8-74b5-459c-ac40-4dd47ea6df9c",
+                "resourcePath": "sounds\\sfx_build1\\sfx_build1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1228,6 +1276,14 @@
                 "id": "0a19bbc9-d03d-43f2-888d-f1ba32756c6a",
                 "resourcePath": "objects\\o_entity\\o_entity.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "df29097b-ad42-4dad-a4b2-0a62d2f831d6",
+            "Value": {
+                "id": "17907374-4158-40f5-8ae3-922553a79449",
+                "resourcePath": "sounds\\sfx_build5\\sfx_build5.yy",
+                "resourceType": "GMSound"
             }
         },
         {

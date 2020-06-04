@@ -14,6 +14,14 @@ global.coins += 1;
 /// @DnDArgument : "value" "2"
 if(global.coins < 2)
 {
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 44B92CEC
+	/// @DnDParent : 576937E3
+	/// @DnDArgument : "soundid" "sfx_1coin"
+	/// @DnDSaveInfo : "soundid" "1bec3962-e098-4f8b-bcef-840430dc7d41"
+	audio_stop_sound(sfx_1coin);
+
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 7286FDDD
