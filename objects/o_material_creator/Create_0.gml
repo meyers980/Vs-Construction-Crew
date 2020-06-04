@@ -59,6 +59,14 @@ script_execute(create_4ladders);
 /// @DnDSaveInfo : "script" "2ac58aeb-20b7-4d47-864d-b18585d2fa8c"
 script_execute(create_2doors);
 
+/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
+/// @DnDVersion : 1
+/// @DnDHash : 031F3C9D
+/// @DnDArgument : "var" "laddercount"
+/// @DnDArgument : "object" "o_ladder"
+/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+laddercount = instance_number(o_ladder);
+
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 7562EB35
