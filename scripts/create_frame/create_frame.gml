@@ -15,10 +15,10 @@ if ((l44885068_0 > 0))
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "-20"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "object" "o_ladder"
+	/// @DnDArgument : "object" "o_buildframe"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
-	var l6D117F37_0 = instance_place(x + 0, y + -20, o_ladder);
+	/// @DnDSaveInfo : "object" "16473759-4ea8-4b38-ae67-d252b8211c08"
+	var l6D117F37_0 = instance_place(x + 0, y + -20, o_buildframe);
 	if (!(l6D117F37_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
