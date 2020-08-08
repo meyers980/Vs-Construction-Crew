@@ -58,25 +58,3 @@ script_execute(create_4ladders);
 /// @DnDArgument : "script" "create_2doors"
 /// @DnDSaveInfo : "script" "2ac58aeb-20b7-4d47-864d-b18585d2fa8c"
 script_execute(create_2doors);
-
-/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
-/// @DnDVersion : 1
-/// @DnDHash : 031F3C9D
-/// @DnDArgument : "var" "laddercount"
-/// @DnDArgument : "object" "o_ladder"
-/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
-laddercount = instance_number(o_ladder);
-
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 7562EB35
-/// @DnDArgument : "script" "create_framesperlevel"
-/// @DnDSaveInfo : "script" "ae09dd86-94ac-403d-a153-91ec16b85a20"
-script_execute(create_framesperlevel);
-
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 1F5C49E1
-/// @DnDArgument : "script" "create_drywallperlevel"
-/// @DnDSaveInfo : "script" "7e2c2136-8f8a-4b20-b1ee-d1f27db33415"
-script_execute(create_drywallperlevel);
