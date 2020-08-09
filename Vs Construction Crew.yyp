@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "0ff3f5f5-c3f9-4a29-afc7-b17dee8399b5",
-            "Value": {
-                "id": "f108e1bc-f1d5-4487-a0f4-826baf33e256",
-                "resourcePath": "objects\\o_buildframe_shadow\\o_buildframe_shadow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "114f99be-1dbd-4bbb-bb40-6b27eb60647a",
             "Value": {
                 "id": "9a0928a6-686c-47ad-8263-1684125f4e49",
@@ -156,14 +148,6 @@
                 "id": "1ac39241-3f64-445f-9a6b-f80d53e2283c",
                 "resourcePath": "scripts\\check_state_door\\check_state_door.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "16473759-4ea8-4b38-ae67-d252b8211c08",
-            "Value": {
-                "id": "da7ad6f8-39d9-4c4e-9d6f-a4930b413281",
-                "resourcePath": "objects\\o_buildframe\\o_buildframe.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -411,14 +395,6 @@
             "Value": {
                 "id": "8d4cbc6b-a4ea-49a8-93a2-7d5643ca400f",
                 "resourcePath": "objects\\o_game\\o_game.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4cb37350-5f56-41cc-b0bd-0fa7f1a51fc0",
-            "Value": {
-                "id": "5df1c0df-4be2-471b-b600-fc2e109400e5",
-                "resourcePath": "objects\\o_drywall\\o_drywall.yy",
                 "resourceType": "GMObject"
             }
         },
