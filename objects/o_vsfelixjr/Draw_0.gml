@@ -90,3 +90,18 @@ for(var l1FD7A6C3_2 = __dnd_lives; l1FD7A6C3_2 > 0; --l1FD7A6C3_2) {
 	draw_sprite(s_JrLives, 0, 836 + l1FD7A6C3_1, 40);
 	l1FD7A6C3_1 += l1FD7A6C3_0;
 }
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
+/// @DnDVersion : 1
+/// @DnDHash : 668FEEEA
+/// @DnDArgument : "x" "783"
+/// @DnDArgument : "y" "31"
+/// @DnDArgument : "sprite" "s_collection"
+/// @DnDArgument : "number" "collection"
+/// @DnDSaveInfo : "sprite" "87f7b505-1f5a-48ee-8467-14135c969380"
+var l668FEEEA_0 = sprite_get_width(s_collection);
+var l668FEEEA_1 = 0;
+for(var l668FEEEA_2 = collection; l668FEEEA_2 > 0; --l668FEEEA_2) {
+	draw_sprite(s_collection, 0, 783 + l668FEEEA_1, 31);
+	l668FEEEA_1 += l668FEEEA_0;
+}

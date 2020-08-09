@@ -232,6 +232,20 @@
             "value": "0.3",
             "varName": "personal_gravity",
             "varType": 0
+        },
+        {
+            "id": "e512486a-bd98-403b-84a6-1aad32163b96",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "collection",
+            "varType": 0
         }
     ],
     "solid": false,
