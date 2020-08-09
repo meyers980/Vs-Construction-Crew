@@ -1,20 +1,11 @@
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
-/// @DnDHash : 059BCF6F
-/// @DnDArgument : "var" "x_list_item"
-/// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "13"
-var x_list_item = floor(random_range(0, 13 + 1));
-
-/// @DnDAction : YoYo Games.Random.Get_Random_Number
-/// @DnDVersion : 1
 /// @DnDHash : 1CA8620F
 /// @DnDArgument : "var" "x_list_item"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "13"
-var x_list_item = floor(random_range(0, 13 + 1));
+/// @DnDArgument : "max" "5"
+var x_list_item = floor(random_range(0, 5 + 1));
 
 /// @DnDAction : YoYo Games.Data Structures.List_Get_At
 /// @DnDVersion : 1
@@ -41,8 +32,9 @@ instance_create_layer(xbuild, 128, "Materials_Back", o_ladder);
 /// @DnDArgument : "var" "x_list_item"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "13"
-var x_list_item = floor(random_range(0, 13 + 1));
+/// @DnDArgument : "min" "6"
+/// @DnDArgument : "max" "11"
+var x_list_item = floor(random_range(6, 11 + 1));
 
 /// @DnDAction : YoYo Games.Data Structures.List_Get_At
 /// @DnDVersion : 1
@@ -69,8 +61,8 @@ instance_create_layer(xbuild, 208, "Materials_Back", o_ladder);
 /// @DnDArgument : "var" "x_list_item"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "13"
-var x_list_item = floor(random_range(0, 13 + 1));
+/// @DnDArgument : "max" "5"
+var x_list_item = floor(random_range(0, 5 + 1));
 
 /// @DnDAction : YoYo Games.Data Structures.List_Get_At
 /// @DnDVersion : 1
@@ -97,8 +89,9 @@ instance_create_layer(xbuild, 288, "Materials_Back", o_ladder);
 /// @DnDArgument : "var" "x_list_item"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "type" "1"
-/// @DnDArgument : "max" "13"
-var x_list_item = floor(random_range(0, 13 + 1));
+/// @DnDArgument : "min" "6"
+/// @DnDArgument : "max" "11"
+var x_list_item = floor(random_range(6, 11 + 1));
 
 /// @DnDAction : YoYo Games.Data Structures.List_Get_At
 /// @DnDVersion : 1

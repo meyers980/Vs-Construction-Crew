@@ -2,24 +2,22 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 14EB064A
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "40"
+/// @DnDArgument : "y" "-10"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "o_ladder"
-/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
-var l14EB064A_0 = instance_place(x + 0, y + 40, o_ladder);
+/// @DnDArgument : "target" "createpoint"
+/// @DnDArgument : "target_temp" "1"
+/// @DnDArgument : "object" "o_createpoint"
+/// @DnDSaveInfo : "object" "cc856849-a255-4167-b590-e7c99730c810"
+var l14EB064A_0 = instance_place(x + 0, y + -10, o_createpoint);
+var createpoint = l14EB064A_0;
 if ((l14EB064A_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 6F3C6D67
+	/// @DnDApplyTo : createpoint
 	/// @DnDParent : 14EB064A
-	instance_destroy();
-
-	/// @DnDAction : YoYo Games.Common.Exit_Event
-	/// @DnDVersion : 1
-	/// @DnDHash : 1BE8905F
-	/// @DnDParent : 14EB064A
-	exit;
+	with(createpoint) instance_destroy();
 }
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
