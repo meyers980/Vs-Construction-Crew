@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
 /// @DnDHash : 10335DD2
-/// @DnDArgument : "times" "200 - global.level"
-repeat(200 - global.level)
+/// @DnDArgument : "times" "100 - global.level"
+repeat(100 - global.level)
 {
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1
@@ -57,41 +57,53 @@ repeat(200 - global.level)
 	buildpoint = l5B4C7C2B_0;
 	if((l5B4C7C2B_0))
 	{
-		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 29A4C8AF
+		/// @DnDHash : 61FC75CE
 		/// @DnDApplyTo : buildpoint
 		/// @DnDParent : 5B4C7C2B
-		/// @DnDArgument : "value" "1"
-		/// @DnDArgument : "value_relative" "1"
-		/// @DnDArgument : "instvar" "11"
-		with(buildpoint) {
-		image_index += 1;
-		}
-	
-		/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
-		/// @DnDVersion : 1
-		/// @DnDHash : 25753359
-		/// @DnDParent : 5B4C7C2B
-		/// @DnDArgument : "x" "1280 - xbuild"
-		/// @DnDArgument : "y" "ybuild"
-		/// @DnDArgument : "target" "buildpoint2"
-		/// @DnDArgument : "obj" "o_createpoint"
-		/// @DnDSaveInfo : "obj" "cc856849-a255-4167-b590-e7c99730c810"
-		var l25753359_0 = collision_point(1280 - xbuild, ybuild, o_createpoint, true, 1);
-		buildpoint2 = l25753359_0;
-		if((l25753359_0))
+		/// @DnDArgument : "var" "image_index"
+		/// @DnDArgument : "op" "1"
+		/// @DnDArgument : "value" "2"
+		with(buildpoint) var l61FC75CE_0 = image_index < 2;
+		if(l61FC75CE_0)
 		{
 			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
-			/// @DnDHash : 472B55A4
-			/// @DnDApplyTo : buildpoint2
-			/// @DnDParent : 25753359
+			/// @DnDHash : 29A4C8AF
+			/// @DnDApplyTo : buildpoint
+			/// @DnDParent : 61FC75CE
 			/// @DnDArgument : "value" "1"
 			/// @DnDArgument : "value_relative" "1"
 			/// @DnDArgument : "instvar" "11"
-			with(buildpoint2) {
+			with(buildpoint) {
 			image_index += 1;
+			}
+		
+			/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
+			/// @DnDVersion : 1
+			/// @DnDHash : 25753359
+			/// @DnDParent : 61FC75CE
+			/// @DnDArgument : "x" "1280 - xbuild"
+			/// @DnDArgument : "y" "ybuild"
+			/// @DnDArgument : "target" "buildpoint2"
+			/// @DnDArgument : "obj" "o_createpoint"
+			/// @DnDSaveInfo : "obj" "cc856849-a255-4167-b590-e7c99730c810"
+			var l25753359_0 = collision_point(1280 - xbuild, ybuild, o_createpoint, true, 1);
+			buildpoint2 = l25753359_0;
+			if((l25753359_0))
+			{
+				/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+				/// @DnDVersion : 1
+				/// @DnDHash : 472B55A4
+				/// @DnDApplyTo : buildpoint2
+				/// @DnDParent : 25753359
+				/// @DnDArgument : "value" "1"
+				/// @DnDArgument : "value_relative" "1"
+				/// @DnDArgument : "instvar" "11"
+				with(buildpoint2) {
+				image_index += 1;
+				}
 			}
 		}
 	}

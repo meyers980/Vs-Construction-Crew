@@ -1,11 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0243608B
-/// @DnDArgument : "code" "level_complete = 0;$(13_10)with o_createpoint$(13_10)if image_index = 2 {$(13_10)other.level_complete = other.level_complete + 1;$(13_10)}"
-level_complete = 0;
+/// @DnDArgument : "code" "var level_complete = 0;$(13_10)with o_createpoint$(13_10)if image_index = 2 {$(13_10)level_complete = level_complete + 1;$(13_10)}"
+var level_complete = 0;
 with o_createpoint
 if image_index = 2 {
-other.level_complete = other.level_complete + 1;
+level_complete = level_complete + 1;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -13,8 +13,8 @@ other.level_complete = other.level_complete + 1;
 /// @DnDHash : 361E953F
 /// @DnDArgument : "var" "level_complete"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "104"
-if(level_complete >= 104)
+/// @DnDArgument : "value" "136"
+if(level_complete >= 136)
 {
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
