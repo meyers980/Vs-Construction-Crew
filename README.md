@@ -9,7 +9,10 @@ MAME style controls, can be customized in settings.ini. Each player has four dir
 ## Gameplay
 Players must build frames and then drywall over those frames in all empty spaces to complete the level. Avoid enemies (hammers, dynamite, and excavators) to stay alive. You can hit some enemies if they're on the other side of the wall. Pickup and deploy ladders where you need them - but be careful, you could get yourself stuck!
 
-![Image of Vs Construction Crew Single Player](https://sergiostuff.com/wp-content/uploads/2020/08/Vs-Construction-Crew-1Player.png)
+![Image of Vs Construction Crew Single Player](https://sergiostuff.com/wp-content/uploads/2020/08/Vs-Construction-Crew-1Player.png) 
+
+![Image of Vs Construction Crew Enemies](https://sergiostuff.com/wp-content/uploads/2020/08/VS-Construction-Crew-Enemies.png)
+Some of the enemies in Vs. Construction Crew
 
 ## Multiscreen
 This game is being designed with two screens, with the Vs. Dual System (Nintendo arcade) cabinets in mind. For two players, it's best to set the settings to 2 screens. The players are on opposite sides of the wall.
