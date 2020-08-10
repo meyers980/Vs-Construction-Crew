@@ -16,7 +16,7 @@ global.freeplay = ini_read_string("Settings", "Freeplay", "false");
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 06A7319F
-/// @DnDArgument : "code" "Coin_1 = ini_read_real("Controls", "Coin_1", 53);$(13_10)Coin_2 = ini_read_real("Controls", "Coin_2", 54);$(13_10)Start_1 = ini_read_real("Controls", "Start_1", 49);$(13_10)Start_2 = ini_read_real("Controls", "Start_2", 50);$(13_10)P1_Left = ini_read_real("Controls", "P1_Left", 37);$(13_10)P1_Right = ini_read_real("Controls", "P1_Right", 39);$(13_10)P1_Up = ini_read_real("Controls", "P1_Up", 38);$(13_10)P1_Down = ini_read_real("Controls", "P1_Down", 40);$(13_10)P1_Button1 = ini_read_real("Controls", "P1_Button1", 162);$(13_10)P2_Left = ini_read_real("Controls", "P2_Left", 44);$(13_10)P2_Right = ini_read_real("Controls", "P2_Right", 47);$(13_10)P2_Up = ini_read_real("Controls", "P2_Up", 82);$(13_10)P2_Down = ini_read_real("Controls", "P2_Down", 70);$(13_10)P2_Button1 = ini_read_real("Controls", "P2_Button1", 41);$(13_10)Exit = ini_read_real("Controls", "Exit", 27);$(13_10)global.screens = ini_read_real("Settings", "Screens", 1);$(13_10)//Coin 1$(13_10)keyboard_set_map(Coin_1, ord("5"));$(13_10)//Coin 2$(13_10)keyboard_set_map(Coin_2, ord("6"));$(13_10)//1 Start$(13_10)keyboard_set_map(Start_1, ord("1"));$(13_10)//2 Start$(13_10)keyboard_set_map(Start_2, ord("2"));$(13_10)//P1 Left$(13_10)keyboard_set_map(P1_Left, vk_left);$(13_10)//P1 Right$(13_10)keyboard_set_map(P1_Right, vk_right);$(13_10)//P1 Up$(13_10)keyboard_set_map(P1_Up, vk_up);$(13_10)//P1 Down$(13_10)keyboard_set_map(P1_Down, vk_down);$(13_10)//P1 Button1$(13_10)keyboard_set_map(P1_Button1, vk_control);$(13_10)//P2 Left$(13_10)keyboard_set_map(P2_Left, ord("D"));$(13_10)//P2 Right$(13_10)keyboard_set_map(P2_Right, ord("G"));$(13_10)//P2 Up$(13_10)keyboard_set_map(P2_Up, ord("R"));$(13_10)//P2 Down$(13_10)keyboard_set_map(P2_Down, ord("F"));$(13_10)//P2 Button1$(13_10)keyboard_set_map(P2_Button1, ord("A"));$(13_10)//Exit$(13_10)keyboard_set_map(Exit, vk_escape);$(13_10)//Create viewports based on screens settings$(13_10)if global.screens = 1$(13_10)	{$(13_10)	view_set_visible(1, false);$(13_10)	window_set_size(514, 480);$(13_10)	surface_resize(application_surface, 514, 480);$(13_10)	}"
+/// @DnDArgument : "code" "Coin_1 = ini_read_real("Controls", "Coin_1", 53);$(13_10)Coin_2 = ini_read_real("Controls", "Coin_2", 54);$(13_10)Start_1 = ini_read_real("Controls", "Start_1", 49);$(13_10)Start_2 = ini_read_real("Controls", "Start_2", 50);$(13_10)P1_Left = ini_read_real("Controls", "P1_Left", 37);$(13_10)P1_Right = ini_read_real("Controls", "P1_Right", 39);$(13_10)P1_Up = ini_read_real("Controls", "P1_Up", 38);$(13_10)P1_Down = ini_read_real("Controls", "P1_Down", 40);$(13_10)P1_Button1 = ini_read_real("Controls", "P1_Button1", 162);$(13_10)P1_Button2 = ini_read_real("Controls", "P1_Button2", 164);$(13_10)P2_Left = ini_read_real("Controls", "P2_Left", 44);$(13_10)P2_Right = ini_read_real("Controls", "P2_Right", 47);$(13_10)P2_Up = ini_read_real("Controls", "P2_Up", 82);$(13_10)P2_Down = ini_read_real("Controls", "P2_Down", 70);$(13_10)P2_Button1 = ini_read_real("Controls", "P2_Button1", 65);$(13_10)P2_Button2 = ini_read_real("Controls", "P2_Button2", 83);$(13_10)Exit = ini_read_real("Controls", "Exit", 27);$(13_10)global.screens = ini_read_real("Settings", "Screens", 1);$(13_10)//Coin 1$(13_10)keyboard_set_map(Coin_1, ord("5"));$(13_10)//Coin 2$(13_10)keyboard_set_map(Coin_2, ord("6"));$(13_10)//1 Start$(13_10)keyboard_set_map(Start_1, ord("1"));$(13_10)//2 Start$(13_10)keyboard_set_map(Start_2, ord("2"));$(13_10)//P1 Left$(13_10)keyboard_set_map(P1_Left, vk_left);$(13_10)//P1 Right$(13_10)keyboard_set_map(P1_Right, vk_right);$(13_10)//P1 Up$(13_10)keyboard_set_map(P1_Up, vk_up);$(13_10)//P1 Down$(13_10)keyboard_set_map(P1_Down, vk_down);$(13_10)//P1 Button1$(13_10)keyboard_set_map(P1_Button1, vk_control);$(13_10)//P1 Button2$(13_10)keyboard_set_map(P1_Button2, vk_alt);$(13_10)//P2 Left$(13_10)keyboard_set_map(P2_Left, ord("D"));$(13_10)//P2 Right$(13_10)keyboard_set_map(P2_Right, ord("G"));$(13_10)//P2 Up$(13_10)keyboard_set_map(P2_Up, ord("R"));$(13_10)//P2 Down$(13_10)keyboard_set_map(P2_Down, ord("F"));$(13_10)//P2 Button1$(13_10)keyboard_set_map(P2_Button1, ord("A"));$(13_10)//P2 Button2$(13_10)keyboard_set_map(P2_Button2, ord("S"));$(13_10)//Exit$(13_10)keyboard_set_map(Exit, vk_escape);$(13_10)//Create viewports based on screens settings$(13_10)if global.screens = 1$(13_10)	{$(13_10)	view_set_visible(1, false);$(13_10)	window_set_size(514, 480);$(13_10)	surface_resize(application_surface, 514, 480);$(13_10)	}"
 Coin_1 = ini_read_real("Controls", "Coin_1", 53);
 Coin_2 = ini_read_real("Controls", "Coin_2", 54);
 Start_1 = ini_read_real("Controls", "Start_1", 49);
@@ -26,11 +26,13 @@ P1_Right = ini_read_real("Controls", "P1_Right", 39);
 P1_Up = ini_read_real("Controls", "P1_Up", 38);
 P1_Down = ini_read_real("Controls", "P1_Down", 40);
 P1_Button1 = ini_read_real("Controls", "P1_Button1", 162);
+P1_Button2 = ini_read_real("Controls", "P1_Button2", 164);
 P2_Left = ini_read_real("Controls", "P2_Left", 44);
 P2_Right = ini_read_real("Controls", "P2_Right", 47);
 P2_Up = ini_read_real("Controls", "P2_Up", 82);
 P2_Down = ini_read_real("Controls", "P2_Down", 70);
-P2_Button1 = ini_read_real("Controls", "P2_Button1", 41);
+P2_Button1 = ini_read_real("Controls", "P2_Button1", 65);
+P2_Button2 = ini_read_real("Controls", "P2_Button2", 83);
 Exit = ini_read_real("Controls", "Exit", 27);
 global.screens = ini_read_real("Settings", "Screens", 1);
 //Coin 1
@@ -51,6 +53,8 @@ keyboard_set_map(P1_Up, vk_up);
 keyboard_set_map(P1_Down, vk_down);
 //P1 Button1
 keyboard_set_map(P1_Button1, vk_control);
+//P1 Button2
+keyboard_set_map(P1_Button2, vk_alt);
 //P2 Left
 keyboard_set_map(P2_Left, ord("D"));
 //P2 Right
@@ -61,6 +65,8 @@ keyboard_set_map(P2_Up, ord("R"));
 keyboard_set_map(P2_Down, ord("F"));
 //P2 Button1
 keyboard_set_map(P2_Button1, ord("A"));
+//P2 Button2
+keyboard_set_map(P2_Button2, ord("S"));
 //Exit
 keyboard_set_map(Exit, vk_escape);
 //Create viewports based on screens settings
