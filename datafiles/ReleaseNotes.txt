@@ -1,2 +1,5 @@
+Beta
+Completely rebuilt building mechanism. All movement and basic functionality complete. Main menu, levels load. Two player controls. Custom controls. Enemy AI. Three enemy types. Game over functions.
+
 Pre-Beta
 Initial movement complete. Gotta figure out ladders next.
