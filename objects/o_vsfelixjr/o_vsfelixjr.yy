@@ -277,6 +277,20 @@
             "value": "s_vsfelixjr_invul",
             "varName": "spr_invul",
             "varType": 0
+        },
+        {
+            "id": "25bde786-6afe-48bf-a604-a408eea6b87b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_vsfelixjr_store",
+            "varName": "spr_store",
+            "varType": 0
         }
     ],
     "solid": false,

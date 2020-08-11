@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "4db02fae-ba7d-4d55-b594-69f12521a1a8",
+            "Value": {
+                "id": "528d2f56-403c-4361-b9fc-57cd2272ea1d",
+                "resourcePath": "sprites\\s_vsfelixsr_store\\s_vsfelixsr_store.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "52883506-4561-482c-b72f-092b3735d9da",
             "Value": {
                 "id": "e7738e63-9a27-480a-9e5a-f593e78ef88b",
@@ -500,6 +508,14 @@
                 "id": "7f9997a8-5af5-420d-ab56-d7aff96f5df3",
                 "resourcePath": "objects\\o_level_display\\o_level_display.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "60810e1c-695e-4eeb-b7cb-2a7fddf92265",
+            "Value": {
+                "id": "7625844d-3321-4c60-92ab-953c7367bc75",
+                "resourcePath": "sprites\\s_vsfelixjr_store\\s_vsfelixjr_store.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -755,6 +771,14 @@
             "Value": {
                 "id": "c93e2686-7444-42e4-bc40-06c0b4e6ca37",
                 "resourcePath": "sprites\\s_collection\\s_collection.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8aadf0d1-b52d-4d73-8a31-a6f684ae6e30",
+            "Value": {
+                "id": "3e07dd88-7067-48fb-bdf1-3f0e2d6b3a7e",
+                "resourcePath": "sprites\\s_vsfelixsr_storefacing\\s_vsfelixsr_storefacing.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1292,6 +1316,14 @@
                 "id": "96702663-1ddf-4a0b-8015-b829eaf55a77",
                 "resourcePath": "views\\e41fc96e-8cf9-42cf-9556-a4ee306b1f76.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e4a6cc6e-331b-4a5d-b9e8-f5739d92bce9",
+            "Value": {
+                "id": "e95ffd9e-a3fc-4730-8a24-15b9b78c0eec",
+                "resourcePath": "sprites\\s_vsfelixjr_storefacing\\s_vsfelixjr_storefacing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

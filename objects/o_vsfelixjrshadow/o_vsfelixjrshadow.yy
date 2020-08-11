@@ -141,6 +141,20 @@
             "varType": 0
         },
         {
+            "id": "9d547409-d01d-45c3-beb1-dcc25fd49195",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "s_vsfelixjr_storefacing",
+            "varName": "spr_store",
+            "varType": 0
+        },
+        {
             "id": "26195e01-a36e-4acb-b8dd-935c2bc08e1b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

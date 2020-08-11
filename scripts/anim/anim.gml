@@ -136,9 +136,9 @@ switch(l3D12DFFC_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 1161E970
 		/// @DnDParent : 15AD1F1A
-		/// @DnDArgument : "value" "spr_build"
+		/// @DnDArgument : "value" "spr_store"
 		/// @DnDArgument : "instvar" "10"
-		sprite_index = spr_build;
+		sprite_index = spr_store;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
