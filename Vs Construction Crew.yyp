@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "98d54960-6314-418a-882f-dcedd9b0d0bd",
+            "Value": {
+                "id": "cea8c0c5-d4bc-4637-a803-06068974281d",
+                "resourcePath": "sprites\\s_ladder_blink\\s_ladder_blink.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99babcd9-7c18-42f2-b930-0e3b5ea89e36",
             "Value": {
                 "id": "95731cab-20b2-46a3-ab6b-a2b289bb419f",

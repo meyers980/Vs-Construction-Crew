@@ -4,3 +4,10 @@
 /// @DnDArgument : "soundid" "bgn_open"
 /// @DnDSaveInfo : "soundid" "06505764-0f85-40d8-ab58-79dde7f99e93"
 audio_play_sound(bgn_open, 0, 0);
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 1777F81A
+/// @DnDArgument : "steps" "360"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 360);
