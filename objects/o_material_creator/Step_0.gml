@@ -53,3 +53,31 @@ if(level_complete >= 136)
 		script_execute(destroy_enemies);
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 25D34198
+/// @DnDArgument : "var" "alarm_get(0)"
+/// @DnDArgument : "op" "1"
+/// @DnDArgument : "value" "1000"
+if(alarm_get(0) < 1000)
+{
+	/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+	/// @DnDVersion : 1
+	/// @DnDHash : 4FC2372D
+	/// @DnDParent : 25D34198
+	/// @DnDArgument : "soundid" "sfx_lowtime"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "soundid" "481398a3-dfdc-40cc-82c4-2f72ac972ade"
+	var l4FC2372D_0 = sfx_lowtime;
+	if (!audio_is_playing(l4FC2372D_0))
+	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 7FDE5186
+		/// @DnDParent : 4FC2372D
+		/// @DnDArgument : "soundid" "sfx_lowtime"
+		/// @DnDSaveInfo : "soundid" "481398a3-dfdc-40cc-82c4-2f72ac972ade"
+		audio_play_sound(sfx_lowtime, 0, 0);
+	}
+}

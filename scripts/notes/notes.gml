@@ -1,3 +1,1 @@
-with(o_createpoint) {
-	other.drywall = image_index;
-}
+variable = alarm_get(0);

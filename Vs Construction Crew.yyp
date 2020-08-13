@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "481398a3-dfdc-40cc-82c4-2f72ac972ade",
+            "Value": {
+                "id": "917a27f7-b699-4c16-b0d1-52dff933473a",
+                "resourcePath": "sounds\\sfx_lowtime\\sfx_lowtime.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4ac16879-ee4a-463c-9b97-8c4343f761a7",
             "Value": {
                 "id": "45e3abb5-740f-431e-a28e-c33e6a37d105",
@@ -691,14 +699,6 @@
             "Value": {
                 "id": "c5fb1b67-8061-44c5-ae94-6bf5bd6292d8",
                 "resourcePath": "scripts\\check_forfelixsr\\check_forfelixsr.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "824df55e-69a9-472f-8844-95d5e1b26a5e",
-            "Value": {
-                "id": "98e88f1b-c45d-44f4-b2ad-fc25efe0710a",
-                "resourcePath": "scripts\\create_points\\create_points.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1223,6 +1223,14 @@
             }
         },
         {
+            "Key": "d1831f92-9482-4cde-b88c-04522bc99a81",
+            "Value": {
+                "id": "c9d66e03-e087-46ec-9b5c-67d141a750cb",
+                "resourcePath": "sounds\\sfx_timeup\\sfx_timeup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d6e798e4-fa02-486c-a2b6-0264b154e4b3",
             "Value": {
                 "id": "6a01341f-9e7e-4db9-ab55-48705e1ede8a",
@@ -1532,7 +1540,6 @@
         "ae09dd86-94ac-403d-a153-91ec16b85a20",
         "dc6fe6de-f2a5-4169-8add-a1e06ea14011",
         "e8bf594a-32e4-4f4e-8d4d-b95b99f14ae9",
-        "824df55e-69a9-472f-8844-95d5e1b26a5e",
         "81af4dff-14da-4e67-9ba8-94edd21ce40d",
         "b06fe80a-6b23-462f-97a7-cc903fac807d",
         "e513da26-af35-482d-b0ae-59c90599a0e0",

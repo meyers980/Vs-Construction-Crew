@@ -12,6 +12,39 @@ draw_set_valign(fa_top);
 /// @DnDSaveInfo : "font" "53dd5a4e-e28a-4521-abf9-17b1629b835c"
 draw_set_font(level_font);
 
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 34C82307
+/// @DnDArgument : "color" "$FF000000"
+/// @DnDArgument : "alpha" "false"
+draw_set_colour($FF000000 & $ffffff);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
+/// @DnDVersion : 1
+/// @DnDHash : 7814D84F
+/// @DnDArgument : "x1" "208"
+/// @DnDArgument : "y1" "48"
+/// @DnDArgument : "x2" "288"
+/// @DnDArgument : "y2" "64"
+/// @DnDArgument : "fill" "1"
+draw_rectangle(208, 48, 288, 64, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
+/// @DnDVersion : 1
+/// @DnDHash : 12A514AD
+/// @DnDArgument : "x1" "976"
+/// @DnDArgument : "y1" "48"
+/// @DnDArgument : "x2" "1056"
+/// @DnDArgument : "y2" "64"
+/// @DnDArgument : "fill" "1"
+draw_rectangle(976, 48, 1056, 64, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 05DDB544
+/// @DnDArgument : "alpha" "false"
+draw_set_colour($FFFFFFFF & $ffffff);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 184DCA16

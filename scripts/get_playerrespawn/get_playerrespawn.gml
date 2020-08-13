@@ -26,9 +26,9 @@ if(__dnd_lives > -1)
 		/// @DnDHash : 5709D6E9
 		/// @DnDParent : 04B4B499
 		/// @DnDArgument : "x" "48"
-		/// @DnDArgument : "y" "128"
+		/// @DnDArgument : "y" "447"
 		x = 48;
-		y = 128;
+		y = 447;
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Expression
@@ -43,9 +43,9 @@ if(__dnd_lives > -1)
 		/// @DnDHash : 567DA9EC
 		/// @DnDParent : 55D4FACD
 		/// @DnDArgument : "x" "816"
-		/// @DnDArgument : "y" "128"
+		/// @DnDArgument : "y" "447"
 		x = 816;
-		y = 128;
+		y = 447;
 	}
 
 	/// @DnDAction : YoYo Games.Common.Variable

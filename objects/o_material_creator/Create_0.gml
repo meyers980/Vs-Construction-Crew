@@ -3,6 +3,12 @@
 /// @DnDHash : 4C4EC5F3
 randomize();
 
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 7A1B7402
+/// @DnDArgument : "steps" "15000"
+alarm_set(0, 15000);
+
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
 /// @DnDHash : 20CFF9F8
