@@ -69,8 +69,8 @@ ds_list_add(y_build_coords, 128, 208, 288, 368);
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
 /// @DnDHash : 493075B7
-/// @DnDArgument : "times" "2"
-repeat(2)
+/// @DnDArgument : "times" "3"
+repeat(3)
 {
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1

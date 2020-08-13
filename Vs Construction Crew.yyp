@@ -1423,6 +1423,14 @@
             }
         },
         {
+            "Key": "f48cd9a1-b242-499f-967e-0073fc395e83",
+            "Value": {
+                "id": "89cd90b5-e89c-4242-9c9d-ce0c24f3ec05",
+                "resourcePath": "sprites\\s_ladder_blinkodd\\s_ladder_blinkodd.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f4bb2f1a-b0cd-4b42-b808-d586f94eade5",
             "Value": {
                 "id": "d277c060-0718-48a5-91af-b9ad3646101b",
