@@ -77,6 +77,15 @@ if global.screens = 1
 	surface_resize(application_surface, 514, 480);
 	}
 
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 18E935B4
+/// @DnDArgument : "var" "global.freeplay"
+/// @DnDArgument : "section" ""Settings""
+/// @DnDArgument : "key" ""Freeplay""
+/// @DnDArgument : "default" ""false""
+global.freeplay = ini_read_string("Settings", "Freeplay", "false");
+
 /// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1
 /// @DnDHash : 055A4A81

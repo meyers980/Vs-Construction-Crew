@@ -87,6 +87,17 @@ else
 	/// @DnDArgument : "value" "1"
 	if(global.numberofplayers == 1)
 	{
+		/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 4F8A3225
+		/// @DnDApplyTo : 956d67b5-dfe6-40b2-98f2-59d46c3dddcb
+		/// @DnDParent : 22DB0BD4
+		/// @DnDArgument : "target" "global.srscore"
+		/// @DnDArgument : "instvar" "25"
+		with(o_vsfelixsr) {
+		global.srscore = variable_instance_exists(id, "__dnd_score") ? __dnd_score : 0;
+		}
+	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 2F495EE1
@@ -102,6 +113,28 @@ else
 	/// @DnDParent : 1E0CCBAB
 	else
 	{
+		/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 0C0AECA2
+		/// @DnDApplyTo : 956d67b5-dfe6-40b2-98f2-59d46c3dddcb
+		/// @DnDParent : 761D4CAF
+		/// @DnDArgument : "target" "global.srscore"
+		/// @DnDArgument : "instvar" "25"
+		with(o_vsfelixsr) {
+		global.srscore = variable_instance_exists(id, "__dnd_score") ? __dnd_score : 0;
+		}
+	
+		/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 2775BC02
+		/// @DnDApplyTo : ad074cf7-6294-4952-ae41-4f1d70e1a22e
+		/// @DnDParent : 761D4CAF
+		/// @DnDArgument : "target" "global.jrscore"
+		/// @DnDArgument : "instvar" "25"
+		with(o_vsfelixjr) {
+		global.jrscore = variable_instance_exists(id, "__dnd_score") ? __dnd_score : 0;
+		}
+	
 		/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 		/// @DnDVersion : 1
 		/// @DnDHash : 4E6BD88E

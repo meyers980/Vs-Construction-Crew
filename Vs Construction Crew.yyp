@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1073cd73-1f5e-4417-aa61-f59732f3b85f",
+            "Value": {
+                "id": "5065a187-5da2-4639-a288-956972404595",
+                "resourcePath": "rooms\\r_scoredisplay\\r_scoredisplay.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "114f99be-1dbd-4bbb-bb40-6b27eb60647a",
             "Value": {
                 "id": "9a0928a6-686c-47ad-8263-1684125f4e49",
@@ -203,6 +211,14 @@
             "Value": {
                 "id": "a6e062b5-26c1-41de-949c-65a2cfe3de7e",
                 "resourcePath": "sprites\\s_dynamite_climb\\s_dynamite_climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e88f459-c21d-46d3-b6dd-42e552ad4d7b",
+            "Value": {
+                "id": "f8ee628f-9375-4f29-9b91-1e41f96af19a",
+                "resourcePath": "sprites\\s_end_sprite\\s_end_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "39875a0a-977f-4497-ae0f-79584d0bbeb5",
+            "Value": {
+                "id": "40aad9f7-3aef-4e9b-8ca7-f301a4049fbf",
+                "resourcePath": "objects\\o_score_entry\\o_score_entry.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a70c7ba-7021-441d-8013-5b2890e55e4f",
             "Value": {
                 "id": "b4a028bd-bcc8-482e-b9d2-ed020eed1844",
@@ -356,6 +380,14 @@
                 "id": "87c3a480-7e4e-4d1c-a949-9fc3ef87e440",
                 "resourcePath": "sprites\\s_ladder\\s_ladder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "40a0b3ae-6e7b-443b-b8c0-312afee74a46",
+            "Value": {
+                "id": "f1bb0a73-a2f0-404a-94db-c6babbc4f8b6",
+                "resourcePath": "rooms\\r_ram\\r_ram.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -588,6 +620,14 @@
                 "id": "bf2e7b23-ab63-4452-a2f6-3bd739a0d44e",
                 "resourcePath": "scripts\\calc_movement\\calc_movement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6c788d82-1cc4-401c-b7b7-cbfdc21016ca",
+            "Value": {
+                "id": "34ca2155-3a72-4b3d-949f-b5469590e656",
+                "resourcePath": "objects\\o_RAM_Check\\o_RAM_Check.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -935,6 +975,14 @@
             }
         },
         {
+            "Key": "ab2b9685-1bba-44b2-b006-ff6b3c777b06",
+            "Value": {
+                "id": "82ee785e-d69b-4ceb-8c02-ed2251708aa7",
+                "resourcePath": "sprites\\s_invisible_sprite\\s_invisible_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac7cfadf-9744-4d25-84b7-0e37756d92de",
             "Value": {
                 "id": "0587a6ed-ea10-4be3-88dd-3c7d08b3b047",
@@ -1011,6 +1059,14 @@
             "Value": {
                 "id": "2aeb7668-70b1-4625-8d39-ce3bd4b20c07",
                 "resourcePath": "sprites\\s_hammershadow_climb\\s_hammershadow_climb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3bcb6c5-d587-431d-8cf2-3e1bb26c20e8",
+            "Value": {
+                "id": "0b8fc0bb-3b80-452a-8548-95c2cfc86215",
+                "resourcePath": "sprites\\s_selector_box\\s_selector_box.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1196,6 +1252,14 @@
                 "id": "e8f10ba7-0464-4c90-8a0a-951919afc2c5",
                 "resourcePath": "sprites\\s_hammershadow_idle\\s_hammershadow_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cf8d6632-5cca-4b2a-9397-cfdb2c646c05",
+            "Value": {
+                "id": "d46c5b72-2ef5-46a5-bca1-3295684d8234",
+                "resourcePath": "objects\\o_score_show\\o_score_show.yy",
+                "resourceType": "GMObject"
             }
         },
         {
