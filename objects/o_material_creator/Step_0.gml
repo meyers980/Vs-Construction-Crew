@@ -16,6 +16,14 @@ level_complete = level_complete + 1;
 /// @DnDArgument : "value" "136"
 if(level_complete >= 136)
 {
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 1C8B0D57
+	/// @DnDParent : 361E953F
+	/// @DnDArgument : "steps" "1"
+	/// @DnDArgument : "steps_relative" "1"
+	alarm_set(0, 1 + alarm_get(0));
+
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 0F11359B
