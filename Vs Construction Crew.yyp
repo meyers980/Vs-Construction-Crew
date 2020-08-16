@@ -31,11 +31,27 @@
     },
     "resources": [
         {
+            "Key": "0043db63-365f-45e0-90d9-f322ed8771be",
+            "Value": {
+                "id": "e3ec2cee-1cf4-4a66-9965-36ea58e21db2",
+                "resourcePath": "sounds\\sfx_hitenemy\\sfx_hitenemy.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "007c9e61-48be-493c-8501-7cec3f136f0e",
             "Value": {
                 "id": "99230b5c-8eda-41c8-a591-eb1c87db7619",
                 "resourcePath": "objects\\o_material_creator\\o_material_creator.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0408d3de-c8eb-4095-aff6-a39c8eb05870",
+            "Value": {
+                "id": "c0ce0141-ae6d-414f-8c66-7d488fe4a12c",
+                "resourcePath": "sounds\\sfx_storeladder\\sfx_storeladder.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "54914ebd-dcb2-4c39-9f74-747d2d261fc6",
+            "Value": {
+                "id": "1b6f5ac9-578d-4786-a621-d60d1d7a7cb8",
+                "resourcePath": "sounds\\sfx_door\\sfx_door.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "54b7e4d6-17b0-4ae8-8933-3a570d40a1b2",
             "Value": {
                 "id": "69da7f04-2329-4b87-abf6-ad8350ef4bdb",
@@ -567,6 +591,14 @@
             }
         },
         {
+            "Key": "6398ca63-4cdd-4826-b43e-141b77d6f47e",
+            "Value": {
+                "id": "8d4b35fe-e5cc-4c70-b4cc-721b170f0ce1",
+                "resourcePath": "sounds\\sfx_build\\sfx_build.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "63e22329-ac8b-44bc-9ad5-3e1b41caee72",
             "Value": {
                 "id": "21534744-650d-4f8d-aa12-a618305daeab",
@@ -604,6 +636,14 @@
                 "id": "7e51ee95-fef9-4716-84ae-c404727e9265",
                 "resourcePath": "sprites\\s_dynamiteshadow_attack\\s_dynamiteshadow_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a19257b-80f2-4043-8e01-64f81a0177ff",
+            "Value": {
+                "id": "eb4421ee-00e0-465a-a5db-7f682b9ada6b",
+                "resourcePath": "sounds\\sfx_swing\\sfx_swing.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -871,19 +911,19 @@
             }
         },
         {
+            "Key": "952bb81b-2ccc-4850-af0f-b51b861fd936",
+            "Value": {
+                "id": "47e8c66d-fd02-41a8-9215-825a30745bde",
+                "resourcePath": "sounds\\sfx_drywall\\sfx_drywall.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "956d67b5-dfe6-40b2-98f2-59d46c3dddcb",
             "Value": {
                 "id": "90bbb5bb-b8e9-4a91-85db-4b9c58883e57",
                 "resourcePath": "objects\\o_vsfelixsr\\o_vsfelixsr.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "968400dd-5b68-4acb-bf8b-d1cf13f44e6c",
-            "Value": {
-                "id": "0a7ca587-7f10-4c49-a84e-4a0057887dff",
-                "resourcePath": "sounds\\sfx_build2\\sfx_build2.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -924,14 +964,6 @@
                 "id": "0397e887-7d0a-4ad1-bb7d-79723ef48e2f",
                 "resourcePath": "rooms\\room1\\room1.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "a0cea515-6005-4b60-b9d4-d5e41139483f",
-            "Value": {
-                "id": "d70dde98-6cca-4567-9b13-cb879957b911",
-                "resourcePath": "sounds\\sfx_build4\\sfx_build4.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -1071,14 +1103,6 @@
             }
         },
         {
-            "Key": "b70e7923-4385-4f88-b965-45cb04763b63",
-            "Value": {
-                "id": "210db86c-5621-4de6-8793-5742364b74d6",
-                "resourcePath": "sounds\\sfx_build3\\sfx_build3.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "b733bf9a-b116-4277-ba62-477690deef8b",
             "Value": {
                 "id": "d70a81ce-6744-464c-a17e-a5752ac849de",
@@ -1196,14 +1220,6 @@
                 "id": "e9618469-3fb3-40c3-bc87-2efbeb7bd15a",
                 "resourcePath": "scripts\\check_playerstun\\check_playerstun.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c9ce106b-6d7a-4647-a6ea-a1029eb468ca",
-            "Value": {
-                "id": "9365f6a8-74b5-459c-ac40-4dd47ea6df9c",
-                "resourcePath": "sounds\\sfx_build1\\sfx_build1.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -1351,14 +1367,6 @@
             }
         },
         {
-            "Key": "df29097b-ad42-4dad-a4b2-0a62d2f831d6",
-            "Value": {
-                "id": "17907374-4158-40f5-8ae3-922553a79449",
-                "resourcePath": "sounds\\sfx_build5\\sfx_build5.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "df40f5e8-4438-4f5f-b4b8-8367af56ccc6",
             "Value": {
                 "id": "ae48db41-486d-4b3d-843b-4e5649364f9c",
@@ -1436,6 +1444,14 @@
                 "id": "0ce0d14a-a6b9-4d82-a29d-8fc833855673",
                 "resourcePath": "sprites\\s_vsfelixsr_climb\\s_vsfelixsr_climb.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ebfb1fe8-4097-4121-b2b2-d4054ff4ed99",
+            "Value": {
+                "id": "5ceb0244-56f1-4176-93ec-68aa4cb5c3d1",
+                "resourcePath": "sounds\\sfx_deployladder\\sfx_deployladder.yy",
+                "resourceType": "GMSound"
             }
         },
         {

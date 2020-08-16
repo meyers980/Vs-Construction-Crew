@@ -112,6 +112,14 @@ if (l32BA6BE1_0)
 	/// @DnDArgument : "expr" "state = ps.IDLE  || state = ps.WALK"
 	if(state = ps.IDLE  || state = ps.WALK)
 	{
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 4A06598E
+		/// @DnDParent : 75A604BD
+		/// @DnDArgument : "soundid" "sfx_swing"
+		/// @DnDSaveInfo : "soundid" "6a19257b-80f2-4043-8e01-64f81a0177ff"
+		audio_play_sound(sfx_swing, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 69044028

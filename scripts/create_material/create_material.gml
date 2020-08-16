@@ -70,6 +70,14 @@ if ((l44885068_0 > 0))
 			with(buildpoint) var l293BEBE4_0 = image_index == 1;
 			if(l293BEBE4_0)
 			{
+				/// @DnDAction : YoYo Games.Audio.Play_Audio
+				/// @DnDVersion : 1
+				/// @DnDHash : 740D0EE8
+				/// @DnDParent : 293BEBE4
+				/// @DnDArgument : "soundid" "sfx_build"
+				/// @DnDSaveInfo : "soundid" "6398ca63-4cdd-4826-b43e-141b77d6f47e"
+				audio_play_sound(sfx_build, 0, 0);
+			
 				/// @DnDAction : YoYo Games.Common.Temp_Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 3A32EAD9
@@ -85,6 +93,14 @@ if ((l44885068_0 > 0))
 			/// @DnDParent : 6A22F116
 			else
 			{
+				/// @DnDAction : YoYo Games.Audio.Play_Audio
+				/// @DnDVersion : 1
+				/// @DnDHash : 7009184F
+				/// @DnDParent : 3F6B05BA
+				/// @DnDArgument : "soundid" "sfx_drywall"
+				/// @DnDSaveInfo : "soundid" "952bb81b-2ccc-4850-af0f-b51b861fd936"
+				audio_play_sound(sfx_drywall, 0, 0);
+			
 				/// @DnDAction : YoYo Games.Common.Temp_Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 17EB367B
