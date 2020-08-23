@@ -1,0 +1,51 @@
+{
+  "spriteId": {
+    "name": "s_dynamiteshadow_idle",
+    "path": "sprites/s_dynamiteshadow_idle/s_dynamiteshadow_idle.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": {
+    "name": "s_dynamiteshadow_idle",
+    "path": "sprites/s_dynamiteshadow_idle/s_dynamiteshadow_idle.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "o_entity",
+    "path": "objects/o_entity/o_entity.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_dynamite_shadow","path":"objects/o_dynamite_shadow/o_dynamite_shadow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_dynamite_shadow","path":"objects/o_dynamite_shadow/o_dynamite_shadow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_ladder","path":"objects/o_ladder/o_ladder.yy",},"parent":{"name":"o_dynamite_shadow","path":"objects/o_dynamite_shadow/o_dynamite_shadow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":0,"value":"s_dynamiteshadow_idle","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_idle","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_dynamiteshadow_move","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_walk","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_dynamiteshadow_climbfacing","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_climb","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_dynamiteshadow_attack","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_attack","tags":[],"resourceType":"GMObjectProperty",},
+  ],
+  "overriddenProperties": [
+    {"propertyId":{"name":"walk_spd","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"1.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "enemies",
+    "path": "folders/Objects/enemies.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "o_dynamite_shadow",
+  "tags": [],
+  "resourceType": "GMObject",
+}
