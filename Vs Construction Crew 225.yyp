@@ -120,7 +120,6 @@
     {"id":{"name":"check_forfelixjr","path":"scripts/check_forfelixjr/check_forfelixjr.yy",},"order":29,},
     {"id":{"name":"check_forfelixsr_excavator","path":"scripts/check_forfelixsr_excavator/check_forfelixsr_excavator.yy",},"order":30,},
     {"id":{"name":"check_forfelixjr_excavator","path":"scripts/check_forfelixjr_excavator/check_forfelixjr_excavator.yy",},"order":31,},
-    {"id":{"name":"notes","path":"scripts/notes/notes.yy",},"order":32,},
     {"id":{"name":"get_playerrespawn","path":"scripts/get_playerrespawn/get_playerrespawn.yy",},"order":33,},
     {"id":{"name":"destroy_enemies","path":"scripts/destroy_enemies/destroy_enemies.yy",},"order":34,},
     {"id":{"name":"arcade_font","path":"fonts/arcade_font/arcade_font.yy",},"order":0,},
