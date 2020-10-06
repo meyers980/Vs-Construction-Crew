@@ -7,7 +7,7 @@ randomize();
 /// @DnDVersion : 1
 /// @DnDHash : 76A718EE
 /// @DnDArgument : "font" "arcade_font"
-/// @DnDSaveInfo : "font" "b733bf9a-b116-4277-ba62-477690deef8b"
+/// @DnDSaveInfo : "font" "arcade_font"
 draw_set_font(arcade_font);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
@@ -27,8 +27,8 @@ draw_set_alpha(l6C7944C7_0 / $ff);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 4B95D80D
-/// @DnDArgument : "steps" "120"
-alarm_set(0, 120);
+/// @DnDArgument : "steps" "240"
+alarm_set(0, 240);
 
 /// @DnDAction : YoYo Games.Files.Open_Ini
 /// @DnDVersion : 1

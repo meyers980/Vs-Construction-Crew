@@ -68,7 +68,7 @@
     "eventStubScript": null,
     "parent": {"name":"s_semisolid","path":"sprites/s_semisolid/s_semisolid.yy",},
     "resourceVersion": "1.3",
-    "name": "s_semisolid",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },

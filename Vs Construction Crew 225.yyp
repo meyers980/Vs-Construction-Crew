@@ -127,6 +127,7 @@
     {"id":{"name":"level_font","path":"fonts/level_font/level_font.yy",},"order":2,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":0,},
     {"id":{"name":"o_buildmaterial","path":"objects/o_buildmaterial/o_buildmaterial.yy",},"order":4,},
+    {"id":{"name":"s_wall_animate","path":"sprites/s_wall_animate/s_wall_animate.yy",},"order":21,},
     {"id":{"name":"o_ladder","path":"objects/o_ladder/o_ladder.yy",},"order":0,},
     {"id":{"name":"o_explosion","path":"objects/o_explosion/o_explosion.yy",},"order":6,},
     {"id":{"name":"o_explosionshadow","path":"objects/o_explosionshadow/o_explosionshadow.yy",},"order":7,},
