@@ -1,11 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 67D1808F
-/// @DnDArgument : "code" "if global.monitors = 2$(13_10)	{$(13_10)	camera_set_view_pos(view_camera[1], -global.newposition, 0);$(13_10)	camera_set_view_pos(view_camera[0], 720 - global.newposition, 0);$(13_10)	}$(13_10)else$(13_10)	{$(13_10)	camera_set_view_pos(view_camera[1], 0, 0);$(13_10)	camera_set_view_pos(view_camera[0], 766, 0);$(13_10)	}"
+/// @DnDArgument : "code" "if global.monitors = 2$(13_10)	{$(13_10)	camera_set_view_pos(view_camera[1], -global.newposition, 0);$(13_10)	camera_set_view_pos(view_camera[0], global.hsmall - global.newposition, 0);$(13_10)	}$(13_10)else$(13_10)	{$(13_10)	camera_set_view_pos(view_camera[1], 0, 0);$(13_10)	camera_set_view_pos(view_camera[0], 766, 0);$(13_10)	}"
 if global.monitors = 2
 	{
 	camera_set_view_pos(view_camera[1], -global.newposition, 0);
-	camera_set_view_pos(view_camera[0], 720 - global.newposition, 0);
+	camera_set_view_pos(view_camera[0], global.hsmall - global.newposition, 0);
 	}
 else
 	{

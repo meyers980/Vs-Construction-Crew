@@ -11,6 +11,6 @@ if global.monitors = 2
 	camera_set_view_size(view_camera[0], global.hsmall, 480);
 	camera_set_view_size(view_camera[1], global.hsmall, 480);
 	camera_set_view_pos(view_camera[0], -global.newposition, 0);
-	camera_set_view_pos(view_camera[1], 720 - global.newposition, 0);
+	camera_set_view_pos(view_camera[1], global.hsmall - global.newposition, 0);
 	//surface_resize(application_surface, global.hsmall * 2, 480);
 	}		
