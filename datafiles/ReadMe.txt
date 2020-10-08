@@ -26,4 +26,4 @@ You can change controls in settings.ini. To change, find the UTF-8 value for the
 For two player, it's recommended to set the screens to 2 in settings.ini. This shows you both sides of the wall.
 
 [Monitors]
-If you want to play across two monitors, set to two. NOTE: This game requires you to manually enter your monitors horizontal and vertical resolution. If using two monitors, both MUST have the same resolution.
+If screens are set to two, use this setting to tell the game if you want to play across two monitors, set to 2. NOTE: This game requires you to manually enter your monitor's horizontal and vertical resolution. If using two monitors, both MUST have the same resolution.

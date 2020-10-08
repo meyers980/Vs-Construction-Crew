@@ -1,3 +1,6 @@
+Beta v0.8
+Finished two monitor functionality with several successful tests. Need to finish some enemy spawning bugs before releasing 1.0
+
 Beta
 Completely rebuilt building mechanism. All movement and basic functionality complete. Main menu, levels load. Two player controls. Custom controls. Enemy AI. Three enemy types. Game over functions.
 
