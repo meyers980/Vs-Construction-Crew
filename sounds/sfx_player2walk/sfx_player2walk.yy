@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_playerwalk.wav",
+  "soundFile": "sfx_player2walk.wav",
   "duration": 0.498878,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sfx_playerwalk",
+  "name": "sfx_player2walk",
   "tags": [],
   "resourceType": "GMSound",
 }

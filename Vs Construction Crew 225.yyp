@@ -82,6 +82,7 @@
     {"id":{"name":"bgn_open","path":"sounds/bgn_open/bgn_open.yy",},"order":11,},
     {"id":{"name":"sfx_dynamiteexplode","path":"sounds/sfx_dynamiteexplode/sfx_dynamiteexplode.yy",},"order":12,},
     {"id":{"name":"sfx_build","path":"sounds/sfx_build/sfx_build.yy",},"order":0,},
+    {"id":{"name":"sfx_player2walk","path":"sounds/sfx_player2walk/sfx_player2walk.yy",},"order":14,},
     {"id":{"name":"sfx_door","path":"sounds/sfx_door/sfx_door.yy",},"order":1,},
     {"id":{"name":"sfx_hitenemy","path":"sounds/sfx_hitenemy/sfx_hitenemy.yy",},"order":2,},
     {"id":{"name":"sfx_drywall","path":"sounds/sfx_drywall/sfx_drywall.yy",},"order":3,},
