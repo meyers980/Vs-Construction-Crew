@@ -1,9 +1,9 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 6EF2BEFE
-///@DnDInput : 0
-///@DnDArgument : "funcName" "get_playerrespawn"
-function get_playerrespawn() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 6EF2BEFE
+/// @DnDArgument : "funcName" "get_playerrespawn"
+function get_playerrespawn() 
+{
 	/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 	/// @DnDVersion : 1
 	/// @DnDHash : 3885653E
@@ -38,7 +38,7 @@ function get_playerrespawn() {
 			x = 48;
 			y = 447;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Expression
 		/// @DnDVersion : 1
 		/// @DnDHash : 55D4FACD
@@ -55,7 +55,7 @@ function get_playerrespawn() {
 			x = 816;
 			y = 447;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 77AFDF7A
@@ -78,7 +78,7 @@ function get_playerrespawn() {
 		/// @DnDArgument : "expr" "ps.DEAD"
 		/// @DnDArgument : "var" "state"
 		state = ps.DEAD;
-
+	
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
 		/// @DnDHash : 52076A20
@@ -87,7 +87,7 @@ function get_playerrespawn() {
 		/// @DnDArgument : "y" "240"
 		x = 640;
 		y = 240;
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 22DB0BD4
@@ -99,55 +99,109 @@ function get_playerrespawn() {
 			/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 4F8A3225
-			/// @DnDApplyTo : 956d67b5-dfe6-40b2-98f2-59d46c3dddcb
+			/// @DnDApplyTo : {o_vsfelixsr}
 			/// @DnDParent : 22DB0BD4
 			/// @DnDArgument : "target" "global.srscore"
 			/// @DnDArgument : "instvar" "25"
 			with(o_vsfelixsr) {
 			global.srscore = variable_instance_exists(id, "__dnd_score") ? __dnd_score : 0;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 			/// @DnDVersion : 1
 			/// @DnDHash : 2F495EE1
 			/// @DnDParent : 22DB0BD4
 			/// @DnDArgument : "room" "r_enterscore"
-			/// @DnDSaveInfo : "room" "419583cf-9d4f-4c47-a976-e80151b035df"
+			/// @DnDSaveInfo : "room" "r_enterscore"
 			room_goto(r_enterscore);
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
 		/// @DnDHash : 761D4CAF
 		/// @DnDParent : 1E0CCBAB
 		else
 		{
+			/// @DnDAction : YoYo Games.Common.If_Expression
+			/// @DnDVersion : 1
+			/// @DnDHash : 0C643518
+			/// @DnDParent : 761D4CAF
+			/// @DnDArgument : "expr" "object_get_name(object_index) == "o_vsfelixsr""
+			if(object_get_name(object_index) == "o_vsfelixsr")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 31E3EB11
+				/// @DnDApplyTo : {o_vsfelixjr}
+				/// @DnDParent : 0C643518
+				/// @DnDArgument : "expr" "other.collection"
+				/// @DnDArgument : "var" "collection"
+				with(o_vsfelixjr) {
+				collection = other.collection;
+				
+				}
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 63F19FB9
+				/// @DnDParent : 0C643518
+				/// @DnDArgument : "var" "collection"
+				collection = 0;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Expression
+			/// @DnDVersion : 1
+			/// @DnDHash : 337CBFEF
+			/// @DnDParent : 761D4CAF
+			/// @DnDArgument : "expr" "object_get_name(object_index) == "o_vsfelixjr""
+			if(object_get_name(object_index) == "o_vsfelixjr")
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 4165349F
+				/// @DnDApplyTo : {o_vsfelixsr}
+				/// @DnDParent : 337CBFEF
+				/// @DnDArgument : "expr" "other.collection"
+				/// @DnDArgument : "var" "collection"
+				with(o_vsfelixsr) {
+				collection = other.collection;
+				
+				}
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 04ED9DB8
+				/// @DnDParent : 337CBFEF
+				/// @DnDArgument : "var" "collection"
+				collection = 0;
+			}
+		
 			/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 0C0AECA2
-			/// @DnDApplyTo : 956d67b5-dfe6-40b2-98f2-59d46c3dddcb
+			/// @DnDApplyTo : {o_vsfelixsr}
 			/// @DnDParent : 761D4CAF
 			/// @DnDArgument : "target" "global.srscore"
 			/// @DnDArgument : "instvar" "25"
 			with(o_vsfelixsr) {
 			global.srscore = variable_instance_exists(id, "__dnd_score") ? __dnd_score : 0;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 2775BC02
-			/// @DnDApplyTo : ad074cf7-6294-4952-ae41-4f1d70e1a22e
+			/// @DnDApplyTo : {o_vsfelixjr}
 			/// @DnDParent : 761D4CAF
 			/// @DnDArgument : "target" "global.jrscore"
 			/// @DnDArgument : "instvar" "25"
 			with(o_vsfelixjr) {
 			global.jrscore = variable_instance_exists(id, "__dnd_score") ? __dnd_score : 0;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 4E6BD88E
-			/// @DnDApplyTo : 956d67b5-dfe6-40b2-98f2-59d46c3dddcb
+			/// @DnDApplyTo : {o_vsfelixsr}
 			/// @DnDParent : 761D4CAF
 			/// @DnDArgument : "target" "srlives"
 			/// @DnDArgument : "target_temp" "1"
@@ -155,11 +209,11 @@ function get_playerrespawn() {
 			with(o_vsfelixsr) {
 			var srlives = variable_instance_exists(id, "__dnd_lives") ? __dnd_lives : 0;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 50A5EDBC
-			/// @DnDApplyTo : ad074cf7-6294-4952-ae41-4f1d70e1a22e
+			/// @DnDApplyTo : {o_vsfelixjr}
 			/// @DnDParent : 761D4CAF
 			/// @DnDArgument : "target" "jrlives"
 			/// @DnDArgument : "target_temp" "1"
@@ -167,7 +221,7 @@ function get_playerrespawn() {
 			with(o_vsfelixjr) {
 			var jrlives = variable_instance_exists(id, "__dnd_lives") ? __dnd_lives : 0;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 14924BAD
@@ -182,11 +236,9 @@ function get_playerrespawn() {
 				/// @DnDHash : 29860EAE
 				/// @DnDParent : 14924BAD
 				/// @DnDArgument : "room" "r_enterscore"
-				/// @DnDSaveInfo : "room" "419583cf-9d4f-4c47-a976-e80151b035df"
+				/// @DnDSaveInfo : "room" "r_enterscore"
 				room_goto(r_enterscore);
 			}
 		}
 	}
-
-
 }
