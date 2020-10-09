@@ -21,6 +21,15 @@ draw_set_valign(fa_top);
 /// @DnDArgument : "var" "round(countdown_clock / 30)"
 draw_text(257, 45,  + string(round(countdown_clock / 30)));
 
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 63585685
+/// @DnDArgument : "x" "1023"
+/// @DnDArgument : "y" "45"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "var" "round(countdown_clock / 30)"
+draw_text(1023, 45,  + string(round(countdown_clock / 30)));
+
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
 /// @DnDHash : 1FF4202E

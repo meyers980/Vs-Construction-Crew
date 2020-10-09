@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_player2walk.wav",
-  "duration": 0.498878,
+  "duration": 0.364456,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
