@@ -11,6 +11,13 @@ alarm_set(0, 240);
 /// @DnDArgument : "alarm" "1"
 alarm_set(1, 240);
 
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 707FBF26
+/// @DnDArgument : "steps" "600"
+/// @DnDArgument : "alarm" "2"
+alarm_set(2, 600);
+
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
 /// @DnDHash : 05C739C6
@@ -119,6 +126,6 @@ repeat(3)
 	/// @DnDArgument : "xpos" "xbuild"
 	/// @DnDArgument : "ypos" "ybuild"
 	/// @DnDArgument : "objectid" "o_hammer"
-	/// @DnDSaveInfo : "objectid" "ade14782-f264-48b6-8355-d1355b077369"
+	/// @DnDSaveInfo : "objectid" "o_hammer"
 	instance_create_layer(xbuild, ybuild, "Instances", o_hammer);
 }

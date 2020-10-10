@@ -21,6 +21,7 @@
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_enemy_creator","path":"objects/o_enemy_creator/o_enemy_creator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_enemy_creator","path":"objects/o_enemy_creator/o_enemy_creator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_enemy_creator","path":"objects/o_enemy_creator/o_enemy_creator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_enemy_creator","path":"objects/o_enemy_creator/o_enemy_creator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":6,"value":"16, 496, 784, 1264","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
