@@ -1,4 +1,4 @@
-A game starring Felix Sr. and Felix Jr. created in homage to Fix It Felix Jr. and Vs. Wrecking Crew. Designed for play on a Nintendo Vs. Dual System.
+A game starring Felix Sr. and Felix Jr. created in homage to Fix It Felix Jr. and Vs. Wrecking Crew. Designed for play on a Nintendo Vs. Dual System. Imagine a contrustion site, with workers on both sides. That's what this game is all about - Felix Sr and Felix Jr trying to work together (or maybe against!) to construct this building from either side of a wall. Enemies can only hurt you if they're on the same side as you.
 
 [Default Controls]
 1 - 1 Player Start
