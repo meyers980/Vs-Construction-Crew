@@ -1,15 +1,15 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 28099C01
-///@DnDInput : 0
-///@DnDArgument : "funcName" "create_framesperlevel"
-function create_framesperlevel() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 28099C01
+/// @DnDArgument : "funcName" "create_framesperlevel"
+function create_framesperlevel() 
+{
 	/// @DnDAction : YoYo Games.Loops.Repeat
 	/// @DnDVersion : 1
 	/// @DnDHash : 10335DD2
 	/// @DnDParent : 28099C01
-	/// @DnDArgument : "times" "100 - global.level"
-	repeat(100 - global.level)
+	/// @DnDArgument : "times" "125 - global.level"
+	repeat(125 - global.level)
 	{
 		/// @DnDAction : YoYo Games.Random.Get_Random_Number
 		/// @DnDVersion : 1
@@ -20,7 +20,7 @@ function create_framesperlevel() {
 		/// @DnDArgument : "type" "1"
 		/// @DnDArgument : "max" "11"
 		var x_list_item = floor(random_range(0, 11 + 1));
-
+	
 		/// @DnDAction : YoYo Games.Data Structures.List_Get_At
 		/// @DnDVersion : 1
 		/// @DnDHash : 790594B0
@@ -30,7 +30,7 @@ function create_framesperlevel() {
 		/// @DnDArgument : "var" "x_build_coords"
 		/// @DnDArgument : "index" "x_list_item"
 		var xbuild = ds_list_find_value(x_build_coords, x_list_item);
-
+	
 		/// @DnDAction : YoYo Games.Random.Get_Random_Number
 		/// @DnDVersion : 1
 		/// @DnDHash : 1AFF02D7
@@ -40,7 +40,7 @@ function create_framesperlevel() {
 		/// @DnDArgument : "type" "1"
 		/// @DnDArgument : "max" "4"
 		var y_list_item = floor(random_range(0, 4 + 1));
-
+	
 		/// @DnDAction : YoYo Games.Data Structures.List_Get_At
 		/// @DnDVersion : 1
 		/// @DnDHash : 32F04955
@@ -50,7 +50,7 @@ function create_framesperlevel() {
 		/// @DnDArgument : "var" "y_build_coords"
 		/// @DnDArgument : "index" "y_list_item"
 		var ybuild = ds_list_find_value(y_build_coords, y_list_item);
-
+	
 		/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
 		/// @DnDVersion : 1
 		/// @DnDHash : 5B4C7C2B
@@ -59,7 +59,7 @@ function create_framesperlevel() {
 		/// @DnDArgument : "y" "ybuild"
 		/// @DnDArgument : "target" "buildpoint"
 		/// @DnDArgument : "obj" "o_createpoint"
-		/// @DnDSaveInfo : "obj" "cc856849-a255-4167-b590-e7c99730c810"
+		/// @DnDSaveInfo : "obj" "o_createpoint"
 		var l5B4C7C2B_0 = collision_point(xbuild, ybuild, o_createpoint, true, 1);
 		buildpoint = l5B4C7C2B_0;
 		if((l5B4C7C2B_0))
@@ -86,7 +86,7 @@ function create_framesperlevel() {
 				with(buildpoint) {
 				image_index += 1;
 				}
-		
+			
 				/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
 				/// @DnDVersion : 1
 				/// @DnDHash : 25753359
@@ -95,7 +95,7 @@ function create_framesperlevel() {
 				/// @DnDArgument : "y" "ybuild"
 				/// @DnDArgument : "target" "buildpoint2"
 				/// @DnDArgument : "obj" "o_createpoint"
-				/// @DnDSaveInfo : "obj" "cc856849-a255-4167-b590-e7c99730c810"
+				/// @DnDSaveInfo : "obj" "o_createpoint"
 				var l25753359_0 = collision_point(1280 - xbuild, ybuild, o_createpoint, true, 1);
 				buildpoint2 = l25753359_0;
 				if((l25753359_0))
@@ -115,6 +115,4 @@ function create_framesperlevel() {
 			}
 		}
 	}
-
-
 }

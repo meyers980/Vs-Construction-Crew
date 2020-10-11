@@ -31,8 +31,8 @@ if(hammer_count < 3)
 	/// @DnDArgument : "var" "y_list_item"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "type" "1"
-	/// @DnDArgument : "max" "3"
-	var y_list_item = floor(random_range(0, 3 + 1));
+	/// @DnDArgument : "max" "2"
+	var y_list_item = floor(random_range(0, 2 + 1));
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1

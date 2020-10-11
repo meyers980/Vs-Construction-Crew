@@ -6,8 +6,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "s_hammer_idle",
-    "path": "sprites/s_hammer_idle/s_hammer_idle.yy",
+    "name": "s_hammer_dead",
+    "path": "sprites/s_hammer_dead/s_hammer_dead.yy",
   },
   "persistent": false,
   "parentObjectId": {
@@ -45,6 +45,7 @@
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"walk_spd","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"1.2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spr_dead","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"s_hammer_dead","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "enemies",
