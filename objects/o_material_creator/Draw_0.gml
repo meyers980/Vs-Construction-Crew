@@ -48,6 +48,53 @@ draw_text(257, 455, string("L") + string(global.level));
 /// @DnDArgument : "var" "global.level"
 draw_text(1023, 455, string("L") + string(global.level));
 
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 179219DE
+/// @DnDArgument : "font" "level_font"
+/// @DnDSaveInfo : "font" "level_font"
+draw_set_font(level_font);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 2061C44A
+/// @DnDArgument : "color" "$FFAA6D48"
+draw_set_colour($FFAA6D48 & $ffffff);
+var l2061C44A_0=($FFAA6D48 >> 24);
+draw_set_alpha(l2061C44A_0 / $ff);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 1C832F1C
+/// @DnDArgument : "x" "257"
+/// @DnDArgument : "y" "15"
+/// @DnDArgument : "caption" ""TOP ""
+/// @DnDArgument : "var" "highscore_value(1)"
+draw_text(257, 15, string("TOP ") + string(highscore_value(1)));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 74A90918
+/// @DnDArgument : "x" "1023"
+/// @DnDArgument : "y" "15"
+/// @DnDArgument : "caption" ""TOP ""
+/// @DnDArgument : "var" "highscore_value(1)"
+draw_text(1023, 15, string("TOP ") + string(highscore_value(1)));
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 1AB11BAE
+draw_set_colour($FFFFFFFF & $ffffff);
+var l1AB11BAE_0=($FFFFFFFF >> 24);
+draw_set_alpha(l1AB11BAE_0 / $ff);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 4AFC1696
+/// @DnDArgument : "font" "arcade_font"
+/// @DnDSaveInfo : "font" "arcade_font"
+draw_set_font(arcade_font);
+
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
 /// @DnDHash : 1FF4202E
