@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 7155278D
-/// @DnDApplyTo : ad074cf7-6294-4952-ae41-4f1d70e1a22e
+/// @DnDApplyTo : {o_vsfelixjr}
 /// @DnDArgument : "target" "jrx"
 /// @DnDArgument : "target_temp" "1"
 with(o_vsfelixjr) {
@@ -52,10 +52,10 @@ if(jrx < 767)
 		/// @DnDVersion : 1
 		/// @DnDHash : 00F2BB8E
 		/// @DnDParent : 43D3310C
-		/// @DnDArgument : "x" "1280"
+		/// @DnDArgument : "x" "1275"
 		/// @DnDArgument : "y" "0"
 		/// @DnDArgument : "y_relative" "1"
-		x = 1280;
+		x = 1275;
 		y += 0;
 	}
 }

@@ -6,7 +6,7 @@
 /// @DnDArgument : "var" "shadow"
 /// @DnDArgument : "objectid" "o_dynamite_shadow"
 /// @DnDArgument : "layer" ""Instances_Back""
-/// @DnDSaveInfo : "objectid" "dc42c994-c6cc-43a8-8dd8-c96c98ea3776"
+/// @DnDSaveInfo : "objectid" "o_dynamite_shadow"
 shadow = instance_create_layer(1280  - x, y + 0, "Instances_Back", o_dynamite_shadow);
 
 /// @DnDAction : YoYo Games.Common.Apply_To
@@ -22,3 +22,10 @@ with(shadow) {
 	/// @DnDArgument : "var" "dynamite"
 	dynamite = other.id;
 }
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 13E9A866
+/// @DnDArgument : "steps" "1000"
+/// @DnDArgument : "alarm" "2"
+alarm_set(2, 1000);

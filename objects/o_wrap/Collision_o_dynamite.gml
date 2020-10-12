@@ -76,10 +76,10 @@ if(dynamitex > 257 && dynamitex < 640)
 		/// @DnDVersion : 1
 		/// @DnDHash : 62083DB4
 		/// @DnDParent : 63A81D1D
-		/// @DnDArgument : "x" "0"
+		/// @DnDArgument : "x" "5"
 		/// @DnDArgument : "y" "0"
 		/// @DnDArgument : "y_relative" "1"
-		x = 0;
+		x = 5;
 		y += 0;
 	}
 }
@@ -100,10 +100,10 @@ if(dynamitex > 640 && dynamitex < 766)
 		/// @DnDVersion : 1
 		/// @DnDHash : 19CF2504
 		/// @DnDParent : 5F38737D
-		/// @DnDArgument : "x" "1280"
+		/// @DnDArgument : "x" "1275"
 		/// @DnDArgument : "y" "0"
 		/// @DnDArgument : "y_relative" "1"
-		x = 1280;
+		x = 1275;
 		y += 0;
 	}
 }

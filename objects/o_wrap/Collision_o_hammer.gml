@@ -76,10 +76,10 @@ if(hammerx > 257 && hammerx < 640)
 		/// @DnDVersion : 1
 		/// @DnDHash : 1E0691F4
 		/// @DnDParent : 7AA58E17
-		/// @DnDArgument : "x" "0"
+		/// @DnDArgument : "x" "5"
 		/// @DnDArgument : "y" "0"
 		/// @DnDArgument : "y_relative" "1"
-		x = 0;
+		x = 5;
 		y += 0;
 	}
 }
@@ -100,10 +100,10 @@ if(hammerx > 640 && hammerx < 766)
 		/// @DnDVersion : 1
 		/// @DnDHash : 01D4DC19
 		/// @DnDParent : 5F96157B
-		/// @DnDArgument : "x" "1280"
+		/// @DnDArgument : "x" "1275"
 		/// @DnDArgument : "y" "0"
 		/// @DnDArgument : "y_relative" "1"
-		x = 1280;
+		x = 1275;
 		y += 0;
 	}
 }
