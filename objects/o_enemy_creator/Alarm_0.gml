@@ -50,7 +50,7 @@ if(createdynamite >= 20 - global.level)
 	/// @DnDArgument : "xpos" "xbuild"
 	/// @DnDArgument : "ypos" "ybuild"
 	/// @DnDArgument : "objectid" "o_dynamite"
-	/// @DnDSaveInfo : "objectid" "ba76aed6-044c-4188-90ee-863184a1cef9"
+	/// @DnDSaveInfo : "objectid" "o_dynamite"
 	instance_create_layer(xbuild, ybuild, "Instances", o_dynamite);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
@@ -70,6 +70,6 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 2ED6A13A
 	/// @DnDParent : 4028333A
-	/// @DnDArgument : "steps" "240"
-	alarm_set(0, 240);
+	/// @DnDArgument : "steps" "880"
+	alarm_set(0, 880);
 }

@@ -71,7 +71,7 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 2884F909
 	/// @DnDParent : 3D06E33D
-	/// @DnDArgument : "steps" "240"
+	/// @DnDArgument : "steps" "300"
 	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, 240);
+	alarm_set(1, 300);
 }
