@@ -7,9 +7,9 @@ box_location = x;
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 62061387
-/// @DnDArgument : "var" "selector_box_object.box_location"
+/// @DnDArgument : "var" "box_location"
 /// @DnDArgument : "value" "208"
-if(selector_box_object.box_location == 208)
+if(box_location == 208)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
