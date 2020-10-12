@@ -1,3 +1,6 @@
+1.0
+Enemy AI should be complete, finished sounds, replaced old sprites, screen functionality finished. 
+
 Beta v0.8
 Finished two monitor functionality with several successful tests. Need to finish some enemy spawning bugs before releasing 1.0
 

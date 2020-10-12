@@ -30,6 +30,24 @@ draw_text(257, 45,  + string(round(countdown_clock / 30)));
 /// @DnDArgument : "var" "round(countdown_clock / 30)"
 draw_text(1023, 45,  + string(round(countdown_clock / 30)));
 
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 12299C25
+/// @DnDArgument : "x" "257"
+/// @DnDArgument : "y" "455"
+/// @DnDArgument : "caption" ""L""
+/// @DnDArgument : "var" "global.level"
+draw_text(257, 455, string("L") + string(global.level));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 6888F4C3
+/// @DnDArgument : "x" "1023"
+/// @DnDArgument : "y" "455"
+/// @DnDArgument : "caption" ""L""
+/// @DnDArgument : "var" "global.level"
+draw_text(1023, 455, string("L") + string(global.level));
+
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
 /// @DnDHash : 1FF4202E
