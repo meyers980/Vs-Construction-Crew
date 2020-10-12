@@ -6,7 +6,7 @@
 /// @DnDArgument : "target" "hammer_shadow"
 /// @DnDArgument : "target_temp" "1"
 /// @DnDArgument : "object" "o_hammer_shadow"
-/// @DnDSaveInfo : "object" "ed3de121-9591-4f0b-a40d-03f404e5bd0e"
+/// @DnDSaveInfo : "object" "o_hammer_shadow"
 var l133479E4_0 = instance_place(x + 0, y + 0, o_hammer_shadow);
 var hammer_shadow = l133479E4_0;
 if ((l133479E4_0 > 0))
@@ -16,8 +16,17 @@ if ((l133479E4_0 > 0))
 	/// @DnDHash : 32D700E6
 	/// @DnDParent : 133479E4
 	/// @DnDArgument : "soundid" "sfx_hitenemy"
-	/// @DnDSaveInfo : "soundid" "0043db63-365f-45e0-90d9-f322ed8771be"
+	/// @DnDSaveInfo : "soundid" "sfx_hitenemy"
 	audio_play_sound(sfx_hitenemy, 0, 0);
+
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 3DB30054
+	/// @DnDParent : 133479E4
+	/// @DnDArgument : "score" "100"
+	/// @DnDArgument : "score_relative" "1"
+	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+	__dnd_score += real(100);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
@@ -53,7 +62,7 @@ else
 	/// @DnDArgument : "target" "door"
 	/// @DnDArgument : "target_temp" "1"
 	/// @DnDArgument : "object" "o_door"
-	/// @DnDSaveInfo : "object" "fa65aa94-76fa-4450-a385-314a81cd04dd"
+	/// @DnDSaveInfo : "object" "o_door"
 	var l36668D61_0 = instance_place(x + 0, y + 0, o_door);
 	var door = l36668D61_0;
 	if ((l36668D61_0 > 0))
@@ -63,7 +72,7 @@ else
 		/// @DnDHash : 4E2915B7
 		/// @DnDParent : 36668D61
 		/// @DnDArgument : "soundid" "sfx_door"
-		/// @DnDSaveInfo : "soundid" "54914ebd-dcb2-4c39-9f74-747d2d261fc6"
+		/// @DnDSaveInfo : "soundid" "sfx_door"
 		audio_play_sound(sfx_door, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
@@ -106,7 +115,7 @@ else
 			/// @DnDHash : 3D2AB79B
 			/// @DnDParent : 2A9E245B
 			/// @DnDArgument : "script" "create_material"
-			/// @DnDSaveInfo : "script" "e8bf594a-32e4-4f4e-8d4d-b95b99f14ae9"
+			/// @DnDSaveInfo : "script" "create_material"
 			script_execute(create_material);
 		}
 	}
