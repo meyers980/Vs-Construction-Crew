@@ -15,3 +15,10 @@ tempname_c = string_char_at(alphabet, index_c);
 /// @DnDHash : 0ED29F9F
 /// @DnDArgument : "steps" "1800"
 alarm_set(0, 1800);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 5EBF0A17
+/// @DnDArgument : "soundid" "sfx_inputscores"
+/// @DnDSaveInfo : "soundid" "sfx_inputscores"
+audio_play_sound(sfx_inputscores, 0, 0);
