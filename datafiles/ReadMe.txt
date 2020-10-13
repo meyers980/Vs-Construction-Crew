@@ -26,7 +26,7 @@ You can change controls in settings.ini. To change, find the UTF-8 value for the
 For two player, it's recommended to set the screens to 2 in settings.ini. This shows you both sides of the wall.
 
 [Monitors]
-If screens are set to two, use this setting to tell the game if you want to play across two monitors, set to 2. If playing on a Vs Unisystem, set to 1. NOTE: This game requires you to manually enter your monitor's horizontal and vertical resolution. If using two monitors, both MUST have the same resolution. If you're monitor is in a vertical orientation, must be set to 1/
+If screens are set to two, use this setting to tell the game if you want to play across two monitors, set to 2. If playing on a Vs Unisystem, set to 1. NOTE: This game requires you to manually enter your monitor's horizontal and vertical resolution. If using two monitors, both MUST have the same resolution. If your monitor is in a vertical orientation, must be set to 1.
 
 [Primary Monitor]
-When playing with two monitors, the game needs to know if your primary monitor is to the right or left of your secondary monitor (Primary Monitor is labeled "1" in Windows display settings). Set to Left or Right.
+When playing with two monitors, the game needs to know if your primary monitor is to the right or left of your secondary monitor (Primary Monitor is labeled "1" in Windows display settings). Set to left or right.
