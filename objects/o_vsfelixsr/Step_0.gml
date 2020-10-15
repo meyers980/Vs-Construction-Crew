@@ -601,6 +601,14 @@ switch(l7036B229_0)
 		/// @DnDParent : 48FCEBFE
 		else
 		{
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1
+			/// @DnDHash : 26EB0AA8
+			/// @DnDParent : 050EE5E7
+			/// @DnDArgument : "soundid" "sfx_bumpbottom"
+			/// @DnDSaveInfo : "soundid" "sfx_bumpbottom"
+			audio_play_sound(sfx_bumpbottom, 0, 0);
+		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 4AAB11E7

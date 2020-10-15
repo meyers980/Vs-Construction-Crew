@@ -75,6 +75,14 @@ else
 		state = ps.BUMP;
 		
 		}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 4DA735F9
+		/// @DnDParent : 4BE331AA
+		/// @DnDArgument : "expr" "ps.IDLE"
+		/// @DnDArgument : "var" "state"
+		state = ps.IDLE;
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
