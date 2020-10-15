@@ -54,6 +54,7 @@
     {"varType":0,"value":"s_vsfelixsr_stun","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_stun","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_vsfelixsr_invul","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_invul","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_vsfelixsr_store","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_store","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_vsfelixsr_stun","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_bump","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

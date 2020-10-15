@@ -552,6 +552,67 @@ switch(l5FC8A36B_0)
 
 	/// @DnDAction : YoYo Games.Switch.Case
 	/// @DnDVersion : 1
+	/// @DnDHash : 6D15D339
+	/// @DnDParent : 5FC8A36B
+	/// @DnDArgument : "const" "ps.BUMP"
+	case ps.BUMP:
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5BE259CF
+		/// @DnDParent : 6D15D339
+		/// @DnDArgument : "var" "y"
+		/// @DnDArgument : "op" "1"
+		/// @DnDArgument : "value" "440"
+		if(y < 440)
+		{
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 01EEFEE5
+			/// @DnDParent : 5BE259CF
+			/// @DnDArgument : "script" "calc_movement"
+			/// @DnDSaveInfo : "script" "calc_movement"
+			script_execute(calc_movement);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 53F4A9D5
+			/// @DnDInput : 2
+			/// @DnDParent : 5BE259CF
+			/// @DnDArgument : "expr" "vsp"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "expr_1" "0.3"
+			/// @DnDArgument : "var" "y"
+			/// @DnDArgument : "var_1" "personal_gravity"
+			y += vsp;
+			personal_gravity = 0.3;
+		
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 026EF6CF
+			/// @DnDParent : 5BE259CF
+			/// @DnDArgument : "script" "anim"
+			/// @DnDSaveInfo : "script" "anim"
+			script_execute(anim);
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 461F8650
+		/// @DnDParent : 6D15D339
+		else
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 28E24730
+			/// @DnDParent : 461F8650
+			/// @DnDArgument : "expr" "ps.IDLE"
+			/// @DnDArgument : "var" "state"
+			state = ps.IDLE;
+		}
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
 	/// @DnDHash : 0545E3EE
 	/// @DnDParent : 5FC8A36B
 	/// @DnDArgument : "const" "ps.DEAD"
