@@ -48,6 +48,12 @@ if(global.coins > 1)
 	/// @DnDParent : 56C1755A
 	room_goto_next();
 
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 2088C179
+	/// @DnDParent : 56C1755A
+	audio_stop_all();
+
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 0CB6F1A5

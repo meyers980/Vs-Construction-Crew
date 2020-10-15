@@ -28,7 +28,7 @@ if(global.coins > 0)
 	/// @DnDArgument : "xpos" "128"
 	/// @DnDArgument : "ypos" "448"
 	/// @DnDArgument : "objectid" "o_vsfelixsr"
-	/// @DnDSaveInfo : "objectid" "956d67b5-dfe6-40b2-98f2-59d46c3dddcb"
+	/// @DnDSaveInfo : "objectid" "o_vsfelixsr"
 	instance_create_layer(128, 448, "Instances", o_vsfelixsr);
 
 	/// @DnDAction : YoYo Games.Rooms.Next_Room
@@ -37,11 +37,17 @@ if(global.coins > 0)
 	/// @DnDParent : 43CF9E27
 	room_goto_next();
 
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 14DC7259
+	/// @DnDParent : 43CF9E27
+	audio_stop_all();
+
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 41831BE8
 	/// @DnDParent : 43CF9E27
 	/// @DnDArgument : "soundid" "bgm_gamestart"
-	/// @DnDSaveInfo : "soundid" "4ac16879-ee4a-463c-9b97-8c4343f761a7"
+	/// @DnDSaveInfo : "soundid" "bgm_gamestart"
 	audio_play_sound(bgm_gamestart, 0, 0);
 }
