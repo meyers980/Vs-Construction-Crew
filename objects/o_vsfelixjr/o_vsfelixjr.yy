@@ -54,7 +54,7 @@
     {"varType":0,"value":"s_vsfelixjr_stun","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_stun","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_vsfelixjr_invul","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_invul","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_vsfelixjr_store","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_store","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"s_vsfelixjr_stun","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_bump","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_vsfelixjr_bump","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_bump","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"spr_dead","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"s_vsfelixjr_idle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
