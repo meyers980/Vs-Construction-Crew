@@ -42,8 +42,8 @@ draw_set_alpha(l1C52852F_0 / $ff);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4F7D1B26
-/// @DnDArgument : "code" "draw_highscore(100, 30, 414, 450);"
-draw_highscore(100, 30, 414, 450);
+/// @DnDArgument : "code" "draw_highscore(100, 80, 414, 400);"
+draw_highscore(100, 80, 414, 400);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
