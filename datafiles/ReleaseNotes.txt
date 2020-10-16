@@ -1,3 +1,6 @@
+1.1
+Players can bump eachother off. Various sounds added. Some small bugs fixed.
+
 1.0
 Enemy AI should be complete, finished sounds, replaced old sprites, screen functionality finished. 
 
