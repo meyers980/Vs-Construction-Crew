@@ -1,40 +1,40 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 03E44172
-///@DnDInput : 0
-///@DnDArgument : "funcName" "check_forfelixjr_excavator"
-function check_forfelixjr_excavator() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 03E44172
+/// @DnDArgument : "funcName" "check_forfelixjr_excavator"
+function check_forfelixjr_excavator() 
+{
 	/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 	/// @DnDVersion : 1
 	/// @DnDHash : 6150CB48
-	/// @DnDParent : 03E44172
 	/// @DnDInput : 2
-	/// @DnDApplyTo : ad074cf7-6294-4952-ae41-4f1d70e1a22e
-	/// @DnDArgument : "target" "srx"
+	/// @DnDApplyTo : {o_vsfelixjr}
+	/// @DnDParent : 03E44172
+	/// @DnDArgument : "target" "jrx"
 	/// @DnDArgument : "target_temp" "1"
-	/// @DnDArgument : "target_1" "sry"
+	/// @DnDArgument : "target_1" "jry"
 	/// @DnDArgument : "target_temp_1" "1"
 	/// @DnDArgument : "instvar_1" "1"
 	with(o_vsfelixjr) {
-	var srx = x;
-	var sry = y;
+	var jrx = x;
+	var jry = y;
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 0DD731FE
 	/// @DnDParent : 03E44172
-	/// @DnDArgument : "expr" "y < sry + 20 && y > sry - 20"
-	if(y < sry + 20 && y > sry - 20)
+	/// @DnDArgument : "expr" "y < jry + 20 && y > jry - 20"
+	if(y < jry + 20 && y > jry - 20)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 0C09A20B
 		/// @DnDParent : 0DD731FE
-		/// @DnDArgument : "var" "srx"
+		/// @DnDArgument : "var" "jrx"
 		/// @DnDArgument : "op" "1"
 		/// @DnDArgument : "value" "x"
-		if(srx < x)
+		if(jrx < x)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -44,15 +44,15 @@ function check_forfelixjr_excavator() {
 			/// @DnDArgument : "var" "hsp"
 			hsp = -walk_spd;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 196FF4AA
 		/// @DnDParent : 0DD731FE
-		/// @DnDArgument : "var" "srx"
+		/// @DnDArgument : "var" "jrx"
 		/// @DnDArgument : "op" "2"
 		/// @DnDArgument : "value" "x"
-		if(srx > x)
+		if(jrx > x)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -74,10 +74,10 @@ function check_forfelixjr_excavator() {
 		/// @DnDVersion : 1
 		/// @DnDHash : 4B0DA4CC
 		/// @DnDParent : 44F1A1DC
-		/// @DnDArgument : "var" "srx"
+		/// @DnDArgument : "var" "jrx"
 		/// @DnDArgument : "op" "1"
 		/// @DnDArgument : "value" "x - 40"
-		if(srx < x - 40)
+		if(jrx < x - 40)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -87,15 +87,15 @@ function check_forfelixjr_excavator() {
 			/// @DnDArgument : "var" "hsp"
 			hsp = -walk_spd;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 68D43E5B
 		/// @DnDParent : 44F1A1DC
-		/// @DnDArgument : "var" "srx"
+		/// @DnDArgument : "var" "jrx"
 		/// @DnDArgument : "op" "2"
 		/// @DnDArgument : "value" "x + 40"
-		if(srx > x + 40)
+		if(jrx > x + 40)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -105,13 +105,13 @@ function check_forfelixjr_excavator() {
 			/// @DnDArgument : "var" "hsp"
 			hsp = walk_spd;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Expression
 		/// @DnDVersion : 1
 		/// @DnDHash : 00D2EDE4
 		/// @DnDParent : 44F1A1DC
-		/// @DnDArgument : "expr" "srx > x - 40 && srx < x + 40"
-		if(srx > x - 40 && srx < x + 40)
+		/// @DnDArgument : "expr" "jrx > x - 40 && jrx < x + 40"
+		if(jrx > x - 40 && jrx < x + 40)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -123,15 +123,15 @@ function check_forfelixjr_excavator() {
 			/// @DnDArgument : "var_1" "state"
 			hsp = 0;
 			state = es.ATTACK;
-	
+		
 			/// @DnDAction : YoYo Games.Common.Execute_Script
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 55723A6A
 			/// @DnDParent : 00D2EDE4
 			/// @DnDArgument : "script" "create_crane"
-			/// @DnDSaveInfo : "script" "dc6fe6de-f2a5-4169-8add-a1e06ea14011"
+			/// @DnDSaveInfo : "script" "create_crane"
 			script_execute(create_crane);
-	
+		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
 			/// @DnDHash : 7D3C028B
@@ -140,6 +140,4 @@ function check_forfelixjr_excavator() {
 			alarm_set(0, 180);
 		}
 	}
-
-
 }

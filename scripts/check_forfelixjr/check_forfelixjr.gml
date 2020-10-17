@@ -1,15 +1,15 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 55F6EEB9
-///@DnDInput : 0
-///@DnDArgument : "funcName" "check_forfelixjr"
-function check_forfelixjr() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 55F6EEB9
+/// @DnDArgument : "funcName" "check_forfelixjr"
+function check_forfelixjr() 
+{
 	/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 	/// @DnDVersion : 1
 	/// @DnDHash : 137448BE
-	/// @DnDParent : 55F6EEB9
 	/// @DnDInput : 2
-	/// @DnDApplyTo : ad074cf7-6294-4952-ae41-4f1d70e1a22e
+	/// @DnDApplyTo : {o_vsfelixjr}
+	/// @DnDParent : 55F6EEB9
 	/// @DnDArgument : "target" "jrx"
 	/// @DnDArgument : "target_temp" "1"
 	/// @DnDArgument : "target_1" "jry"
@@ -44,7 +44,7 @@ function check_forfelixjr() {
 			/// @DnDArgument : "var" "hsp"
 			hsp = -walk_spd;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 72AFCF5D
@@ -86,7 +86,7 @@ function check_forfelixjr() {
 			/// @DnDArgument : "expr" "-walk_spd"
 			/// @DnDArgument : "var" "hsp"
 			hsp = -walk_spd;
-	
+		
 			/// @DnDAction : YoYo Games.Collisions.If_Object_At
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 32DF6D68
@@ -94,7 +94,7 @@ function check_forfelixjr() {
 			/// @DnDArgument : "x_relative" "1"
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "object" "o_ladder"
-			/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+			/// @DnDSaveInfo : "object" "o_ladder"
 			var l32DF6D68_0 = instance_place(x + 0, y + 0, o_ladder);
 			if ((l32DF6D68_0 > 0))
 			{
@@ -110,7 +110,7 @@ function check_forfelixjr() {
 				personal_gravity = 0;
 			}
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
 		/// @DnDHash : 228C2778
@@ -124,7 +124,7 @@ function check_forfelixjr() {
 			/// @DnDArgument : "expr" "walk_spd"
 			/// @DnDArgument : "var" "hsp"
 			hsp = walk_spd;
-	
+		
 			/// @DnDAction : YoYo Games.Collisions.If_Object_At
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 3A0E104E
@@ -133,7 +133,7 @@ function check_forfelixjr() {
 			/// @DnDArgument : "y" "70"
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "object" "o_ladder"
-			/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+			/// @DnDSaveInfo : "object" "o_ladder"
 			var l3A0E104E_0 = instance_place(x + 0, y + 70, o_ladder);
 			if ((l3A0E104E_0 > 0))
 			{
@@ -150,6 +150,4 @@ function check_forfelixjr() {
 			}
 		}
 	}
-
-
 }
