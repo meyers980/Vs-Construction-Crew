@@ -1,9 +1,9 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 3CFB1E74
-///@DnDInput : 0
-///@DnDArgument : "funcName" "create_4ladders"
-function create_4ladders() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 3CFB1E74
+/// @DnDArgument : "funcName" "create_4ladders"
+function create_4ladders() 
+{
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1
 	/// @DnDHash : 1CA8620F
@@ -32,7 +32,7 @@ function create_4ladders() {
 	/// @DnDArgument : "ypos" "128"
 	/// @DnDArgument : "objectid" "o_ladder"
 	/// @DnDArgument : "layer" ""Materials_Back""
-	/// @DnDSaveInfo : "objectid" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+	/// @DnDSaveInfo : "objectid" "o_ladder"
 	instance_create_layer(xbuild, 128, "Materials_Back", o_ladder);
 
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
@@ -64,7 +64,7 @@ function create_4ladders() {
 	/// @DnDArgument : "ypos" "208"
 	/// @DnDArgument : "objectid" "o_ladder"
 	/// @DnDArgument : "layer" ""Materials_Back""
-	/// @DnDSaveInfo : "objectid" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+	/// @DnDSaveInfo : "objectid" "o_ladder"
 	instance_create_layer(xbuild, 208, "Materials_Back", o_ladder);
 
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
@@ -95,7 +95,7 @@ function create_4ladders() {
 	/// @DnDArgument : "ypos" "288"
 	/// @DnDArgument : "objectid" "o_ladder"
 	/// @DnDArgument : "layer" ""Materials_Back""
-	/// @DnDSaveInfo : "objectid" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+	/// @DnDSaveInfo : "objectid" "o_ladder"
 	instance_create_layer(xbuild, 288, "Materials_Back", o_ladder);
 
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
@@ -122,12 +122,11 @@ function create_4ladders() {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 6FABD6E9
+	/// @DnDParent : 3CFB1E74
 	/// @DnDArgument : "xpos" "xbuild"
 	/// @DnDArgument : "ypos" "368"
 	/// @DnDArgument : "objectid" "o_ladder"
 	/// @DnDArgument : "layer" ""Materials_Back""
-	/// @DnDSaveInfo : "objectid" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+	/// @DnDSaveInfo : "objectid" "o_ladder"
 	instance_create_layer(xbuild, 368, "Materials_Back", o_ladder);
-
-
 }
