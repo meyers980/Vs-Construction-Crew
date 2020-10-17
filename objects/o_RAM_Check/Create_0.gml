@@ -40,10 +40,10 @@ ini_open("settings.ini");
 /// @DnDVersion : 1
 /// @DnDHash : 6C96E8DC
 /// @DnDArgument : "var" "savescores"
-/// @DnDArgument : "section" ""settings""
-/// @DnDArgument : "key" ""savescores""
+/// @DnDArgument : "section" ""Settings""
+/// @DnDArgument : "key" ""Savescores""
 /// @DnDArgument : "default" ""false""
-savescores = ini_read_string("settings", "savescores", "false");
+savescores = ini_read_string("Settings", "Savescores", "false");
 
 /// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1
