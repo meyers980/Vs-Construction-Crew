@@ -107,13 +107,38 @@ function get_playerrespawn()
 			global.srscore = variable_instance_exists(id, "__dnd_score") ? __dnd_score : 0;
 			}
 		
-			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 2F495EE1
+			/// @DnDHash : 424BB5C1
 			/// @DnDParent : 22DB0BD4
-			/// @DnDArgument : "room" "r_enterscore"
-			/// @DnDSaveInfo : "room" "r_enterscore"
-			room_goto(r_enterscore);
+			/// @DnDArgument : "var" "global.srscore"
+			/// @DnDArgument : "op" "2"
+			/// @DnDArgument : "value" "highscore_value(10)"
+			if(global.srscore > highscore_value(10))
+			{
+				/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+				/// @DnDVersion : 1
+				/// @DnDHash : 2F495EE1
+				/// @DnDParent : 424BB5C1
+				/// @DnDArgument : "room" "r_enterscore"
+				/// @DnDSaveInfo : "room" "r_enterscore"
+				room_goto(r_enterscore);
+			}
+		
+			/// @DnDAction : YoYo Games.Common.Else
+			/// @DnDVersion : 1
+			/// @DnDHash : 2C3BADFB
+			/// @DnDParent : 22DB0BD4
+			else
+			{
+				/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+				/// @DnDVersion : 1
+				/// @DnDHash : 5A01EEF6
+				/// @DnDParent : 2C3BADFB
+				/// @DnDArgument : "room" "r_scoredisplay"
+				/// @DnDSaveInfo : "room" "r_scoredisplay"
+				room_goto(r_scoredisplay);
+			}
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Else
@@ -231,13 +256,38 @@ function get_playerrespawn()
 			/// @DnDArgument : "value" "-2"
 			if(srlives + jrlives <= -2)
 			{
-				/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 29860EAE
+				/// @DnDHash : 652F8F5B
 				/// @DnDParent : 14924BAD
-				/// @DnDArgument : "room" "r_enterscore"
-				/// @DnDSaveInfo : "room" "r_enterscore"
-				room_goto(r_enterscore);
+				/// @DnDArgument : "var" "global.srscore + global.jrscore"
+				/// @DnDArgument : "op" "2"
+				/// @DnDArgument : "value" "highscore_value(10)"
+				if(global.srscore + global.jrscore > highscore_value(10))
+				{
+					/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+					/// @DnDVersion : 1
+					/// @DnDHash : 29860EAE
+					/// @DnDParent : 652F8F5B
+					/// @DnDArgument : "room" "r_enterscore"
+					/// @DnDSaveInfo : "room" "r_enterscore"
+					room_goto(r_enterscore);
+				}
+			
+				/// @DnDAction : YoYo Games.Common.Else
+				/// @DnDVersion : 1
+				/// @DnDHash : 65736E96
+				/// @DnDParent : 14924BAD
+				else
+				{
+					/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+					/// @DnDVersion : 1
+					/// @DnDHash : 1C51BEC8
+					/// @DnDParent : 65736E96
+					/// @DnDArgument : "room" "r_scoredisplay"
+					/// @DnDSaveInfo : "room" "r_scoredisplay"
+					room_goto(r_scoredisplay);
+				}
 			}
 		}
 	}
