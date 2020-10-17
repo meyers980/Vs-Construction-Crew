@@ -6,8 +6,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "s_hammer_dead",
-    "path": "sprites/s_hammer_dead/s_hammer_dead.yy",
+    "name": "s_hammer_idle",
+    "path": "sprites/s_hammer_idle/s_hammer_idle.yy",
   },
   "persistent": false,
   "parentObjectId": {
