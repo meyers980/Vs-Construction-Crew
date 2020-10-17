@@ -1,3 +1,6 @@
+1.2
+Lots of bugs fixed, mostly visual or collision glitches.
+
 1.1
 Players can bump eachother off. Various sounds added. Some small bugs fixed.
 
