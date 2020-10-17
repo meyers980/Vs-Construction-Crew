@@ -23,8 +23,8 @@ switch(l4F71837B_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 077765FE
 		/// @DnDParent : 33A949B4
-		/// @DnDArgument : "var" "direction"
-		direction = 0;
+		/// @DnDArgument : "var" "directionchange"
+		directionchange = 0;
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -38,8 +38,8 @@ switch(l4F71837B_0)
 		/// @DnDHash : 0A796917
 		/// @DnDParent : 1F6E9351
 		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "var" "direction"
-		direction = 1;
+		/// @DnDArgument : "var" "directionchange"
+		directionchange = 1;
 		break;
 }
 

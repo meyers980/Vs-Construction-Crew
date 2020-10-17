@@ -132,9 +132,9 @@ function get_hammer_input()
 		/// @DnDVersion : 1
 		/// @DnDHash : 049075A7
 		/// @DnDParent : 3212EB05
-		/// @DnDArgument : "var" "direction"
+		/// @DnDArgument : "var" "directionchange"
 		/// @DnDArgument : "value" "1"
-		if(direction == 1)
+		if(directionchange == 1)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
