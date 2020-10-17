@@ -38,9 +38,9 @@ function create_2doors()
 		/// @DnDParent : 10335DD2
 		/// @DnDArgument : "assignee" "ybuild"
 		/// @DnDArgument : "assignee_temp" "1"
-		/// @DnDArgument : "var" "o_material_creator.y_build_coords"
+		/// @DnDArgument : "var" "y_build_coords"
 		/// @DnDArgument : "index" "y_list_item"
-		var ybuild = ds_list_find_value(o_material_creator.y_build_coords, y_list_item);
+		var ybuild = ds_list_find_value(y_build_coords, y_list_item);
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
