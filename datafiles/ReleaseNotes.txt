@@ -1,3 +1,6 @@
+1.3
+Bonus stages added every third level
+
 1.2
 Lots of bugs fixed, mostly visual or collision glitches.
 

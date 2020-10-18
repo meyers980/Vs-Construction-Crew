@@ -9,6 +9,19 @@ with(other) {
 __dnd_score += 100;
 }
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 3172503B
+/// @DnDArgument : "soundid" "sfx_dollar"
+/// @DnDSaveInfo : "soundid" "sfx_dollar"
+audio_play_sound(sfx_dollar, 0, 0);
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 2556BD44
+/// @DnDApplyTo : shadow_dollar
+with(shadow_dollar) instance_destroy();
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 1B0D551A

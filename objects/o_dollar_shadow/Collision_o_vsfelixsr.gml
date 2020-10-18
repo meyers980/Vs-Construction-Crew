@@ -18,9 +18,9 @@ audio_play_sound(sfx_dollar, 0, 0);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 2F3795BF
-/// @DnDApplyTo : shadow_dollar
-with(shadow_dollar) instance_destroy();
+/// @DnDHash : 609CAD8C
+/// @DnDApplyTo : creator
+with(creator) instance_destroy();
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

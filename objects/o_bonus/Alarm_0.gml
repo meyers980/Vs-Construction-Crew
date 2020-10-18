@@ -10,6 +10,14 @@ with(o_dollar) instance_destroy();
 /// @DnDArgument : "expr" "alarm[2]<1"
 if(alarm[2]<1)
 {
+	/// @DnDAction : YoYo Games.Audio.Stop_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 340F4694
+	/// @DnDParent : 065DDEC9
+	/// @DnDArgument : "soundid" "bgm_bonus"
+	/// @DnDSaveInfo : "soundid" "bgm_bonus"
+	audio_stop_sound(bgm_bonus);
+
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 601BA11C
