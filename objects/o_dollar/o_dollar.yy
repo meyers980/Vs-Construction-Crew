@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_vsfelixsr","path":"objects/o_vsfelixsr/o_vsfelixsr.yy",},"parent":{"name":"o_dollar","path":"objects/o_dollar/o_dollar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_vsfelixjr","path":"objects/o_vsfelixjr/o_vsfelixjr.yy",},"parent":{"name":"o_dollar","path":"objects/o_dollar/o_dollar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

@@ -20,6 +20,10 @@
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_bonus","path":"objects/o_bonus/o_bonus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":6,"value":"48, 80, 112, 144, 176, 208, 240, 272, 304, 336, 368, 400, 432, 464","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[

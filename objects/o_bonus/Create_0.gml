@@ -119,3 +119,10 @@ instance_create_layer(xbuild3, 288, "Instances", o_ladder);
 /// @DnDArgument : "objectid" "o_ladder"
 /// @DnDSaveInfo : "objectid" "o_ladder"
 instance_create_layer(xbuild4, 368, "Instances", o_ladder);
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 34C483CF
+/// @DnDArgument : "steps" "1200"
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 1200);
