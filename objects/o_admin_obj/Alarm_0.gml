@@ -37,6 +37,17 @@ if(l5D53F47D_0)
 		x = 128;
 		y = 448;
 		}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 02C51554
+		/// @DnDApplyTo : {o_vsfelixsr}
+		/// @DnDParent : 0FE55B89
+		/// @DnDArgument : "var" "collection"
+		with(o_vsfelixsr) {
+		collection = 0;
+		
+		}
 	}
 }
 
@@ -70,6 +81,17 @@ if(l427CE5D8_0)
 		with(o_vsfelixjr) {
 		x = 896;
 		y = 448;
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 03E16163
+		/// @DnDApplyTo : {o_vsfelixjr}
+		/// @DnDParent : 1BA8B905
+		/// @DnDArgument : "var" "collection"
+		with(o_vsfelixjr) {
+		collection = 0;
+		
 		}
 	}
 }
