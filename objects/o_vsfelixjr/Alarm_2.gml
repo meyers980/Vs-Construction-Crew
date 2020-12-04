@@ -6,7 +6,7 @@
 /// @DnDArgument : "target" "ladder"
 /// @DnDArgument : "target_temp" "1"
 /// @DnDArgument : "object" "o_ladder"
-/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+/// @DnDSaveInfo : "object" "o_ladder"
 var l6122EFB8_0 = instance_place(x + 0, y + 0, o_ladder);
 var ladder = l6122EFB8_0;
 if ((l6122EFB8_0 > 0))
@@ -16,7 +16,7 @@ if ((l6122EFB8_0 > 0))
 	/// @DnDHash : 67F392F3
 	/// @DnDParent : 6122EFB8
 	/// @DnDArgument : "soundid" "sfx_storeladder"
-	/// @DnDSaveInfo : "soundid" "0408d3de-c8eb-4095-aff6-a39c8eb05870"
+	/// @DnDSaveInfo : "soundid" "sfx_storeladder"
 	audio_play_sound(sfx_storeladder, 0, 0);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
@@ -35,7 +35,7 @@ if ((l6122EFB8_0 > 0))
 	/// @DnDArgument : "target" "ladder"
 	/// @DnDArgument : "target_temp" "1"
 	/// @DnDArgument : "object" "o_ladder"
-	/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+	/// @DnDSaveInfo : "object" "o_ladder"
 	var l012F7DD6_0 = instance_place(1280 - x, y + 0, o_ladder);
 	var ladder = l012F7DD6_0;
 	if ((l012F7DD6_0 > 0))
@@ -80,7 +80,7 @@ else
 		/// @DnDHash : 1184CF40
 		/// @DnDParent : 7A317755
 		/// @DnDArgument : "soundid" "sfx_deployladder"
-		/// @DnDSaveInfo : "soundid" "ebfb1fe8-4097-4121-b2b2-d4054ff4ed99"
+		/// @DnDSaveInfo : "soundid" "sfx_deployladder"
 		audio_play_sound(sfx_deployladder, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -92,7 +92,7 @@ else
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "o_ladder"
 		/// @DnDArgument : "layer" ""Materials_Back""
-		/// @DnDSaveInfo : "objectid" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+		/// @DnDSaveInfo : "objectid" "o_ladder"
 		instance_create_layer(x + 0, y + -80, "Materials_Back", o_ladder);
 	
 		/// @DnDAction : YoYo Games.Common.Variable

@@ -6,7 +6,7 @@
 /// @DnDArgument : "var" "shadow"
 /// @DnDArgument : "objectid" "o_craneshadow"
 /// @DnDArgument : "layer" ""Instances_Back""
-/// @DnDSaveInfo : "objectid" "80a90512-8dca-4f12-8895-7f694ce1e7e4"
+/// @DnDSaveInfo : "objectid" "o_craneshadow"
 shadow = instance_create_layer(1280 - x, y + 0, "Instances_Back", o_craneshadow);
 
 /// @DnDAction : YoYo Games.Common.Apply_To

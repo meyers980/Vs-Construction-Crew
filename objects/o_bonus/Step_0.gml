@@ -11,7 +11,6 @@ if(alarm[1]>0)
 	/// @DnDArgument : "var" "dollarcount"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "object" "o_dollar"
-	/// @DnDSaveInfo : "object" "o_dollar"
 	var dollarcount = instance_number(o_dollar);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -47,7 +46,6 @@ if(alarm[1]>0)
 		/// @DnDParent : 5040158F
 		/// @DnDArgument : "soundid" "sfx_perfectbonus"
 		/// @DnDArgument : "not" "1"
-		/// @DnDSaveInfo : "soundid" "sfx_perfectbonus"
 		var l39B1D54A_0 = sfx_perfectbonus;
 		if (!audio_is_playing(l39B1D54A_0))
 		{
@@ -56,7 +54,6 @@ if(alarm[1]>0)
 			/// @DnDHash : 4AA0B72E
 			/// @DnDParent : 39B1D54A
 			/// @DnDArgument : "soundid" "sfx_perfectbonus"
-			/// @DnDSaveInfo : "soundid" "sfx_perfectbonus"
 			audio_play_sound(sfx_perfectbonus, 0, 0);
 		}
 	}

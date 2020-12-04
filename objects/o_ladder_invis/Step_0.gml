@@ -5,7 +5,7 @@
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "o_vsfelixsr"
 /// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "object" "956d67b5-dfe6-40b2-98f2-59d46c3dddcb"
+/// @DnDSaveInfo : "object" "o_vsfelixsr"
 var l5641CF8D_0 = instance_place(x + 0, y + 0, o_vsfelixsr);
 if (!(l5641CF8D_0 > 0))
 {
@@ -17,7 +17,7 @@ if (!(l5641CF8D_0 > 0))
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "o_vsfelixjr"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "object" "ad074cf7-6294-4952-ae41-4f1d70e1a22e"
+	/// @DnDSaveInfo : "object" "o_vsfelixjr"
 	var l378BF41D_0 = instance_place(x + 0, y + 0, o_vsfelixjr);
 	if (!(l378BF41D_0 > 0))
 	{

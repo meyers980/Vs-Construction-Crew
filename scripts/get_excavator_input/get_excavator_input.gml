@@ -1,9 +1,9 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 013B85C1
-///@DnDInput : 0
-///@DnDArgument : "funcName" "get_excavator_input"
-function get_excavator_input() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 013B85C1
+/// @DnDArgument : "funcName" "get_excavator_input"
+function get_excavator_input() 
+{
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5E19FFB0
@@ -27,10 +27,10 @@ function get_excavator_input() {
 			/// @DnDHash : 7419E4D6
 			/// @DnDParent : 5E939DF8
 			/// @DnDArgument : "script" "check_forfelixsr_excavator"
-			/// @DnDSaveInfo : "script" "e513da26-af35-482d-b0ae-59c90599a0e0"
+			/// @DnDSaveInfo : "script" "check_forfelixsr_excavator"
 			script_execute(check_forfelixsr_excavator);
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
 		/// @DnDHash : 1312106F
@@ -42,7 +42,7 @@ function get_excavator_input() {
 			/// @DnDHash : 1FAF5381
 			/// @DnDParent : 1312106F
 			/// @DnDArgument : "script" "check_forfelixjr_excavator"
-			/// @DnDSaveInfo : "script" "d0412349-ce7d-4a37-baca-8a2a61784cf4"
+			/// @DnDSaveInfo : "script" "check_forfelixjr_excavator"
 			script_execute(check_forfelixjr_excavator);
 		}
 	}
@@ -58,7 +58,7 @@ function get_excavator_input() {
 		/// @DnDHash : 3D282D2F
 		/// @DnDParent : 2D83D343
 		/// @DnDArgument : "obj" "o_vsfelixjr"
-		/// @DnDSaveInfo : "obj" "ad074cf7-6294-4952-ae41-4f1d70e1a22e"
+		/// @DnDSaveInfo : "obj" "o_vsfelixjr"
 		var l3D282D2F_0 = false;
 		l3D282D2F_0 = instance_exists(o_vsfelixjr);
 		if(l3D282D2F_0)
@@ -77,10 +77,10 @@ function get_excavator_input() {
 				/// @DnDHash : 4B8B622E
 				/// @DnDParent : 5DEF44DF
 				/// @DnDArgument : "script" "check_forfelixjr_excavator"
-				/// @DnDSaveInfo : "script" "d0412349-ce7d-4a37-baca-8a2a61784cf4"
+				/// @DnDSaveInfo : "script" "check_forfelixjr_excavator"
 				script_execute(check_forfelixjr_excavator);
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.Else
 			/// @DnDVersion : 1
 			/// @DnDHash : 140D3A64
@@ -92,11 +92,11 @@ function get_excavator_input() {
 				/// @DnDHash : 67174B93
 				/// @DnDParent : 140D3A64
 				/// @DnDArgument : "script" "check_forfelixsr_excavator"
-				/// @DnDSaveInfo : "script" "e513da26-af35-482d-b0ae-59c90599a0e0"
+				/// @DnDSaveInfo : "script" "check_forfelixsr_excavator"
 				script_execute(check_forfelixsr_excavator);
 			}
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
 		/// @DnDHash : 3FD22A41
@@ -108,10 +108,8 @@ function get_excavator_input() {
 			/// @DnDHash : 48038BD6
 			/// @DnDParent : 3FD22A41
 			/// @DnDArgument : "script" "check_forfelixsr_excavator"
-			/// @DnDSaveInfo : "script" "e513da26-af35-482d-b0ae-59c90599a0e0"
+			/// @DnDSaveInfo : "script" "check_forfelixsr_excavator"
 			script_execute(check_forfelixsr_excavator);
 		}
 	}
-
-
 }

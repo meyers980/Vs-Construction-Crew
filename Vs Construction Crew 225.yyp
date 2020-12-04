@@ -196,13 +196,13 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"r_ram","path":"rooms/r_ram/r_ram.yy",},
-    {"name":"r_coin","path":"rooms/r_coin/r_coin.yy",},
-    {"name":"room1","path":"rooms/room1/room1.yy",},
-    {"name":"r_enterscore","path":"rooms/r_enterscore/r_enterscore.yy",},
-    {"name":"r_scoredisplay","path":"rooms/r_scoredisplay/r_scoredisplay.yy",},
-    {"name":"r_bonus","path":"rooms/r_bonus/r_bonus.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"r_ram","path":"rooms/r_ram/r_ram.yy",},},
+    {"roomId":{"name":"r_coin","path":"rooms/r_coin/r_coin.yy",},},
+    {"roomId":{"name":"room1","path":"rooms/room1/room1.yy",},},
+    {"roomId":{"name":"r_enterscore","path":"rooms/r_enterscore/r_enterscore.yy",},},
+    {"roomId":{"name":"r_scoredisplay","path":"rooms/r_scoredisplay/r_scoredisplay.yy",},},
+    {"roomId":{"name":"r_bonus","path":"rooms/r_bonus/r_bonus.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -225,7 +225,7 @@
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"ReleaseNotes.txt","resourceType":"GMIncludedFile",},
@@ -233,9 +233,9 @@
     {"CopyToMask":153157610357391598,"filePath":"datafiles","resourceVersion":"1.0","name":"settings.ini","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.0.529",
+    "IDEVersion": "2.3.1.536",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "Vs Construction Crew 225",
   "tags": [],
   "resourceType": "GMProject",

@@ -1,9 +1,9 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 4824A8BE
-///@DnDInput : 0
-///@DnDArgument : "funcName" "check_state"
-function check_state() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 4824A8BE
+/// @DnDArgument : "funcName" "check_state"
+function check_state() 
+{
 	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
 	/// @DnDHash : 7D316B2C
@@ -34,7 +34,7 @@ function check_state() {
 				/// @DnDArgument : "var" "state"
 				state = ps.IDLE;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 30ADE764
@@ -51,7 +51,7 @@ function check_state() {
 				/// @DnDArgument : "var" "state"
 				state = ps.WALK;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 1CC27E26
@@ -81,7 +81,7 @@ function check_state() {
 				}
 			}
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
 		/// @DnDHash : 7EE2BD04
@@ -104,7 +104,7 @@ function check_state() {
 				/// @DnDArgument : "var" "state"
 				state = ps.CLIMBDOWN;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 34726488
@@ -120,7 +120,7 @@ function check_state() {
 				/// @DnDArgument : "x_relative" "1"
 				/// @DnDArgument : "y_relative" "1"
 				/// @DnDArgument : "object" "o_ladder"
-				/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+				/// @DnDSaveInfo : "object" "o_ladder"
 				var l615CB6B2_0 = instance_place(x + 0, y + 0, o_ladder);
 				if ((l615CB6B2_0 > 0))
 				{
@@ -132,7 +132,7 @@ function check_state() {
 					/// @DnDArgument : "var" "state"
 					state = ps.CLIMBUP;
 				}
-		
+			
 				/// @DnDAction : YoYo Games.Common.Else
 				/// @DnDVersion : 1
 				/// @DnDHash : 24D52DE1
@@ -151,7 +151,7 @@ function check_state() {
 					vsp = 0;
 				}
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.Else
 			/// @DnDVersion : 1
 			/// @DnDHash : 2C09C82F
@@ -172,17 +172,4 @@ function check_state() {
 			}
 		}
 	}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0C91A836
-	/// @DnDArgument : "var" "state"
-	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" "ps.BUILD"
-	if(!(state == ps.BUILD))
-	{
-
-	}
-
-
 }

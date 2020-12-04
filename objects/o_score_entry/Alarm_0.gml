@@ -2,5 +2,5 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3D707773
 /// @DnDArgument : "room" "r_scoredisplay"
-/// @DnDSaveInfo : "room" "1073cd73-1f5e-4417-aa61-f59732f3b85f"
+/// @DnDSaveInfo : "room" "r_scoredisplay"
 room_goto(r_scoredisplay);

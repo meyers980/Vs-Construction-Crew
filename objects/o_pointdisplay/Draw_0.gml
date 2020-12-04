@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 114FA6BC
 /// @DnDArgument : "font" "score_font"
-/// @DnDSaveInfo : "font" "1207fcf6-f838-4008-9bff-d90820151f18"
+/// @DnDSaveInfo : "font" "score_font"
 draw_set_font(score_font);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
@@ -33,7 +33,7 @@ draw_text(x + 0, y + 0,  + string(points));
 /// @DnDVersion : 1
 /// @DnDHash : 3EFC5F1C
 /// @DnDArgument : "font" "arcade_font"
-/// @DnDSaveInfo : "font" "b733bf9a-b116-4277-ba62-477690deef8b"
+/// @DnDSaveInfo : "font" "arcade_font"
 draw_set_font(arcade_font);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color

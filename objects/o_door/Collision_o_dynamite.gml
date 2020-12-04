@@ -2,5 +2,5 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 66585B2A
 /// @DnDArgument : "script" "check_state_door"
-/// @DnDSaveInfo : "script" "15c9c2f1-575d-412d-8697-59bed3fe9bb6"
+/// @DnDSaveInfo : "script" "check_state_door"
 script_execute(check_state_door);

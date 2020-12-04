@@ -18,6 +18,6 @@ if(x == 298)
 	/// @DnDHash : 1175A382
 	/// @DnDParent : 24534AF8
 	/// @DnDArgument : "room" "r_scoredisplay"
-	/// @DnDSaveInfo : "room" "1073cd73-1f5e-4417-aa61-f59732f3b85f"
+	/// @DnDSaveInfo : "room" "r_scoredisplay"
 	room_goto(r_scoredisplay);
 }

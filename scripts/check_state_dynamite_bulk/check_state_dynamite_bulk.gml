@@ -1,9 +1,9 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 7611FB76
-///@DnDInput : 0
-///@DnDArgument : "funcName" "check_state_dynamite_bulk"
-function check_state_dynamite_bulk() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 7611FB76
+/// @DnDArgument : "funcName" "check_state_dynamite_bulk"
+function check_state_dynamite_bulk() 
+{
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 09B6A6D7
@@ -27,7 +27,7 @@ function check_state_dynamite_bulk() {
 			/// @DnDArgument : "var" "state"
 			state = es.IDLE;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 4C3C1731
@@ -44,7 +44,7 @@ function check_state_dynamite_bulk() {
 			/// @DnDArgument : "var" "state"
 			state = es.WALK;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 1DE99D75
@@ -97,7 +97,7 @@ function check_state_dynamite_bulk() {
 			/// @DnDArgument : "var" "state"
 			state = es.CLIMBDOWN;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 79DD4317
@@ -113,7 +113,7 @@ function check_state_dynamite_bulk() {
 			/// @DnDArgument : "x_relative" "1"
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "object" "o_ladder"
-			/// @DnDSaveInfo : "object" "dfd14274-9fed-4ff6-a013-7d61290f4552"
+			/// @DnDSaveInfo : "object" "o_ladder"
 			var l7A565CC5_0 = instance_place(x + 0, y + 0, o_ladder);
 			if ((l7A565CC5_0 > 0))
 			{
@@ -125,7 +125,7 @@ function check_state_dynamite_bulk() {
 				/// @DnDArgument : "var" "state"
 				state = es.CLIMBUP;
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.Else
 			/// @DnDVersion : 1
 			/// @DnDHash : 72F504C0
@@ -144,7 +144,7 @@ function check_state_dynamite_bulk() {
 				vsp = 0;
 			}
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
 		/// @DnDHash : 3FAB659B
@@ -164,6 +164,4 @@ function check_state_dynamite_bulk() {
 			personal_gravity = 0.3;
 		}
 	}
-
-
 }

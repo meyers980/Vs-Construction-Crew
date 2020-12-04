@@ -1,9 +1,9 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 0F0DCBBC
-///@DnDInput : 0
-///@DnDArgument : "funcName" "check_facing"
-function check_facing() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 0F0DCBBC
+/// @DnDArgument : "funcName" "check_facing"
+function check_facing() 
+{
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 09695650
@@ -28,7 +28,7 @@ function check_facing() {
 			/// @DnDArgument : "var" "facing"
 			facing = 1;
 		}
-
+	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
 		/// @DnDHash : 3786D06A
@@ -44,6 +44,4 @@ function check_facing() {
 			facing = -1;
 		}
 	}
-
-
 }

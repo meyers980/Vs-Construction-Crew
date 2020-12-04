@@ -6,7 +6,7 @@
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "o_vsfelixsrhadow"
 /// @DnDArgument : "layer" ""Instances_Back""
-/// @DnDSaveInfo : "objectid" "5b74a28f-9f5a-4dd3-a0cc-8ad3f666a759"
+/// @DnDSaveInfo : "objectid" "o_vsfelixsrhadow"
 instance_create_layer(x + 1280, y + 0, "Instances_Back", o_vsfelixsrhadow);
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives

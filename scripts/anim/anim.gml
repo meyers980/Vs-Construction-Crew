@@ -31,7 +31,6 @@ function anim()
 			/// @DnDHash : 2197709E
 			/// @DnDParent : 1BCF1A67
 			/// @DnDArgument : "script" "check_facing"
-			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 			break;
 	
@@ -54,7 +53,6 @@ function anim()
 			/// @DnDHash : 2F4BDE28
 			/// @DnDParent : 163CC969
 			/// @DnDArgument : "script" "check_facing"
-			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 			break;
 	

@@ -5,5 +5,5 @@
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "o_ladder_shadow"
 /// @DnDArgument : "layer" ""Materials_Back""
-/// @DnDSaveInfo : "objectid" "7e2affb0-f06a-4dbd-8969-88222628e1fd"
+/// @DnDSaveInfo : "objectid" "o_ladder_shadow"
 instance_create_layer(1280 - x, y + 0, "Materials_Back", o_ladder_shadow);

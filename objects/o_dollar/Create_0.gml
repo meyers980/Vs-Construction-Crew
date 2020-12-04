@@ -6,7 +6,6 @@
 /// @DnDArgument : "var" "shadow_dollar"
 /// @DnDArgument : "objectid" "o_dollar_shadow"
 /// @DnDArgument : "layer" ""Materials_Back""
-/// @DnDSaveInfo : "objectid" "o_dollar_shadow"
 shadow_dollar = instance_create_layer(1280 - x, y + 0, "Materials_Back", o_dollar_shadow);
 
 /// @DnDAction : YoYo Games.Common.Variable

@@ -1,9 +1,9 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 5D162B31
-///@DnDInput : 0
-///@DnDArgument : "funcName" "get_climbinput"
-function get_climbinput() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 5D162B31
+/// @DnDArgument : "funcName" "get_climbinput"
+function get_climbinput() 
+{
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 	/// @DnDVersion : 1
 	/// @DnDHash : 583F0DDF
@@ -54,6 +54,4 @@ function get_climbinput() {
 		personal_gravity = 0;
 		state = ps.CLIMBDOWN;
 	}
-
-
 }

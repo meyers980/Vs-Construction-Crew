@@ -13,5 +13,4 @@ audio_stop_all();
 /// @DnDVersion : 1
 /// @DnDHash : 40CC8C9E
 /// @DnDArgument : "soundid" "sfx_timeup"
-/// @DnDSaveInfo : "soundid" "sfx_timeup"
 audio_play_sound(sfx_timeup, 0, 0);

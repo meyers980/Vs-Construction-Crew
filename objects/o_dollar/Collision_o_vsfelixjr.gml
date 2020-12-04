@@ -13,7 +13,6 @@ __dnd_score += 100;
 /// @DnDVersion : 1
 /// @DnDHash : 3172503B
 /// @DnDArgument : "soundid" "sfx_dollar"
-/// @DnDSaveInfo : "soundid" "sfx_dollar"
 audio_play_sound(sfx_dollar, 0, 0);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance

@@ -1,18 +1,18 @@
-///@DnDAction : YoYo Games.Common.Function
-///@DnDVersion : 1
-///@DnDHash : 0F0DCBBC
-///@DnDInput : 0
-///@DnDArgument : "funcName" "check_collision"
-function check_collision() {
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 0F187D0D
+/// @DnDArgument : "funcName" "check_collision"
+function check_collision() 
+{
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 545483BD
-	/// @DnDParent : 0F0DCBBC
+	/// @DnDParent : 0F187D0D
 	/// @DnDArgument : "x" "hsp"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "o_solid"
-	/// @DnDSaveInfo : "object" "3ed30be6-3826-4450-8bca-dab7a517d6b3"
+	/// @DnDSaveInfo : "object" "o_solid"
 	var l545483BD_0 = instance_place(x + hsp, y + 0, o_solid);
 	if ((l545483BD_0 > 0))
 	{
@@ -23,7 +23,7 @@ function check_collision() {
 		/// @DnDArgument : "var" "collide"
 		/// @DnDArgument : "value" "false"
 		var collide = false;
-
+	
 		/// @DnDAction : YoYo Games.Loops.While_Loop
 		/// @DnDVersion : 1
 		/// @DnDHash : 10FF167C
@@ -40,7 +40,7 @@ function check_collision() {
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "object" "o_solid"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "object" "3ed30be6-3826-4450-8bca-dab7a517d6b3"
+			/// @DnDSaveInfo : "object" "o_solid"
 			var l6C59EC97_0 = instance_place(x + sign(hsp), y + 0, o_solid);
 			if (!(l6C59EC97_0 > 0))
 			{
@@ -53,7 +53,7 @@ function check_collision() {
 				/// @DnDArgument : "var" "x"
 				x += sign(hsp);
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.Else
 			/// @DnDVersion : 1
 			/// @DnDHash : 4AA8A091
@@ -67,7 +67,7 @@ function check_collision() {
 				/// @DnDArgument : "expr" "true"
 				/// @DnDArgument : "var" "collide"
 				collide = true;
-		
+			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 1A300A34
@@ -81,7 +81,7 @@ function check_collision() {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 39481007
-	/// @DnDParent : 0F0DCBBC
+	/// @DnDParent : 0F187D0D
 	/// @DnDArgument : "expr" "hsp"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "x"
@@ -90,12 +90,12 @@ function check_collision() {
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 616CB852
-	/// @DnDParent : 0F0DCBBC
+	/// @DnDParent : 0F187D0D
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "vsp"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "o_solid"
-	/// @DnDSaveInfo : "object" "3ed30be6-3826-4450-8bca-dab7a517d6b3"
+	/// @DnDSaveInfo : "object" "o_solid"
 	var l616CB852_0 = instance_place(x + 0, y + vsp, o_solid);
 	if ((l616CB852_0 > 0))
 	{
@@ -106,7 +106,7 @@ function check_collision() {
 		/// @DnDArgument : "var" "collide"
 		/// @DnDArgument : "value" "false"
 		var collide = false;
-
+	
 		/// @DnDAction : YoYo Games.Loops.While_Loop
 		/// @DnDVersion : 1
 		/// @DnDHash : 56D74898
@@ -123,7 +123,7 @@ function check_collision() {
 			/// @DnDArgument : "y_relative" "1"
 			/// @DnDArgument : "object" "o_solid"
 			/// @DnDArgument : "not" "1"
-			/// @DnDSaveInfo : "object" "3ed30be6-3826-4450-8bca-dab7a517d6b3"
+			/// @DnDSaveInfo : "object" "o_solid"
 			var l28D4B5F5_0 = instance_place(x + 0, y + sign(vsp), o_solid);
 			if (!(l28D4B5F5_0 > 0))
 			{
@@ -136,7 +136,7 @@ function check_collision() {
 				/// @DnDArgument : "var" "y"
 				y += sign(vsp);
 			}
-	
+		
 			/// @DnDAction : YoYo Games.Common.Else
 			/// @DnDVersion : 1
 			/// @DnDHash : 6A022317
@@ -150,7 +150,7 @@ function check_collision() {
 				/// @DnDArgument : "expr" "true"
 				/// @DnDArgument : "var" "collide"
 				collide = true;
-		
+			
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 30425851
@@ -164,10 +164,9 @@ function check_collision() {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 78600D9F
+	/// @DnDParent : 0F187D0D
 	/// @DnDArgument : "expr" "vsp"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "y"
 	y += vsp;
-
-
 }

@@ -7,7 +7,7 @@
 /// @DnDArgument : "target" "createpoint"
 /// @DnDArgument : "target_temp" "1"
 /// @DnDArgument : "object" "o_createpoint"
-/// @DnDSaveInfo : "object" "cc856849-a255-4167-b590-e7c99730c810"
+/// @DnDSaveInfo : "object" "o_createpoint"
 var l5F50DFE6_0 = instance_place(x + 0, y + -10, o_createpoint);
 var createpoint = l5F50DFE6_0;
 if ((l5F50DFE6_0 > 0))

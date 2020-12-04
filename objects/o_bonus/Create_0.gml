@@ -3,7 +3,6 @@
 /// @DnDHash : 7A5D27EF
 /// @DnDArgument : "soundid" "bgm_bonus"
 /// @DnDArgument : "loop" "1"
-/// @DnDSaveInfo : "soundid" "bgm_bonus"
 audio_play_sound(bgm_bonus, 0, 1);
 
 /// @DnDAction : YoYo Games.Common.Variable
@@ -53,7 +52,6 @@ repeat(global.level)
 	/// @DnDArgument : "xpos" "xbuild"
 	/// @DnDArgument : "ypos" "ybuild"
 	/// @DnDArgument : "objectid" "o_dollar"
-	/// @DnDSaveInfo : "objectid" "o_dollar"
 	instance_create_layer(xbuild, ybuild, "Instances", o_dollar);
 }
 
@@ -104,7 +102,6 @@ xbuild4 = array_get(x_spawn, x_list_item4);
 /// @DnDArgument : "xpos" "xbuild1"
 /// @DnDArgument : "ypos" "128"
 /// @DnDArgument : "objectid" "o_ladder"
-/// @DnDSaveInfo : "objectid" "o_ladder"
 instance_create_layer(xbuild1, 128, "Instances", o_ladder);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -113,7 +110,6 @@ instance_create_layer(xbuild1, 128, "Instances", o_ladder);
 /// @DnDArgument : "xpos" "xbuild2"
 /// @DnDArgument : "ypos" "208"
 /// @DnDArgument : "objectid" "o_ladder"
-/// @DnDSaveInfo : "objectid" "o_ladder"
 instance_create_layer(xbuild2, 208, "Instances", o_ladder);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -122,7 +118,6 @@ instance_create_layer(xbuild2, 208, "Instances", o_ladder);
 /// @DnDArgument : "xpos" "xbuild3"
 /// @DnDArgument : "ypos" "288"
 /// @DnDArgument : "objectid" "o_ladder"
-/// @DnDSaveInfo : "objectid" "o_ladder"
 instance_create_layer(xbuild3, 288, "Instances", o_ladder);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -131,7 +126,6 @@ instance_create_layer(xbuild3, 288, "Instances", o_ladder);
 /// @DnDArgument : "xpos" "xbuild4"
 /// @DnDArgument : "ypos" "368"
 /// @DnDArgument : "objectid" "o_ladder"
-/// @DnDSaveInfo : "objectid" "o_ladder"
 instance_create_layer(xbuild4, 368, "Instances", o_ladder);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm

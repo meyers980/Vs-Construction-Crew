@@ -6,4 +6,4 @@
 /// @DnDArgument : "xscale" "facing"
 /// @DnDArgument : "sprite" "sprite_index"
 /// @DnDArgument : "frame" "image_index"
-draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, facing, 1, 0, $FFFFFFFF & $ffffff, ($FFFFFFFF >> 24) / $ff);
+draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, facing, 1, 0, $FFFFFF & $ffffff, 1);

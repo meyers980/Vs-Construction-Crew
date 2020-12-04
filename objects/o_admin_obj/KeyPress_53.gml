@@ -25,7 +25,7 @@ if(global.coins < 2)
 	/// @DnDHash : 7BC11B27
 	/// @DnDParent : 51E27D04
 	/// @DnDArgument : "soundid" "sfx_1coin"
-	/// @DnDSaveInfo : "soundid" "1bec3962-e098-4f8b-bcef-840430dc7d41"
+	/// @DnDSaveInfo : "soundid" "sfx_1coin"
 	audio_play_sound(sfx_1coin, 0, 0);
 }
 
@@ -45,6 +45,6 @@ else
 	/// @DnDHash : 783ED637
 	/// @DnDParent : 556700DC
 	/// @DnDArgument : "soundid" "sfx_2coin"
-	/// @DnDSaveInfo : "soundid" "b8fbf359-ea69-41dc-a03e-6c60189de87a"
+	/// @DnDSaveInfo : "soundid" "sfx_2coin"
 	audio_play_sound(sfx_2coin, 0, 0);
 }

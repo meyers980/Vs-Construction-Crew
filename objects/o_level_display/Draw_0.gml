@@ -9,7 +9,7 @@ draw_set_valign(fa_top);
 /// @DnDVersion : 1
 /// @DnDHash : 39770273
 /// @DnDArgument : "font" "level_font"
-/// @DnDSaveInfo : "font" "53dd5a4e-e28a-4521-abf9-17b1629b835c"
+/// @DnDSaveInfo : "font" "level_font"
 draw_set_font(level_font);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
@@ -73,5 +73,5 @@ draw_set_valign(fa_top);
 /// @DnDVersion : 1
 /// @DnDHash : 3B265C62
 /// @DnDArgument : "font" "arcade_font"
-/// @DnDSaveInfo : "font" "b733bf9a-b116-4277-ba62-477690deef8b"
+/// @DnDSaveInfo : "font" "arcade_font"
 draw_set_font(arcade_font);
