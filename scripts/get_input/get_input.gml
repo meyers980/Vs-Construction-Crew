@@ -56,6 +56,7 @@ function get_input()
 		/// @DnDArgument : "x_relative" "1"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "object" "o_ladder"
+		/// @DnDSaveInfo : "object" "o_ladder"
 		var l32BB1FA3_0 = instance_place(x + 0, y + 0, o_ladder);
 		if ((l32BB1FA3_0 > 0))
 		{
@@ -89,6 +90,7 @@ function get_input()
 		/// @DnDArgument : "y" "45"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "object" "o_ladder"
+		/// @DnDSaveInfo : "object" "o_ladder"
 		var l0803930C_0 = instance_place(x + 0, y + 45, o_ladder);
 		if ((l0803930C_0 > 0))
 		{
@@ -126,6 +128,7 @@ function get_input()
 			/// @DnDHash : 4A06598E
 			/// @DnDParent : 75A604BD
 			/// @DnDArgument : "soundid" "sfx_swing"
+			/// @DnDSaveInfo : "soundid" "sfx_swing"
 			audio_play_sound(sfx_swing, 0, 0);
 		
 			/// @DnDAction : YoYo Games.Common.Variable

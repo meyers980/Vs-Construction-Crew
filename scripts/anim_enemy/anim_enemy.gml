@@ -31,6 +31,7 @@ function anim_enemy()
 			/// @DnDHash : 2197709E
 			/// @DnDParent : 1BCF1A67
 			/// @DnDArgument : "script" "check_facing"
+			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 			break;
 	
@@ -53,6 +54,7 @@ function anim_enemy()
 			/// @DnDHash : 2F4BDE28
 			/// @DnDParent : 163CC969
 			/// @DnDArgument : "script" "check_facing"
+			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 			break;
 	
@@ -135,6 +137,7 @@ function anim_enemy()
 			/// @DnDHash : 700ED055
 			/// @DnDParent : 77263F95
 			/// @DnDArgument : "script" "check_facing"
+			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 			break;
 	
@@ -157,6 +160,7 @@ function anim_enemy()
 			/// @DnDHash : 055D87FE
 			/// @DnDParent : 210624AE
 			/// @DnDArgument : "script" "check_facing"
+			/// @DnDSaveInfo : "script" "check_facing"
 			script_execute(check_facing);
 			break;
 	
